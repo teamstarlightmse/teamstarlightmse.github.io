@@ -573,18 +573,6 @@
     },
     "a->token",
     {
-        "card_name": "Copy",
-        "number": 1,
-        "shape": "token",
-        "set": "Hunzikure TS"
-    },
-    {
-        "card_name": "MICROCUBE DATA",
-        "number": 2,
-        "shape": "token",
-        "set": "Hunzikure TS"
-    },
-    {
         "card_name": "Robot",
         "number": 17,
         "shape": "token",
@@ -603,12 +591,6 @@
         "set": "Hunzikure TS"
     },
     {
-        "card_name": "Replicausal Legion",
-        "number": 4,
-        "shape": "token",
-        "set": "Hunzikure TS"
-    },
-    {
         "card_name": "Soldier",
         "number": 5,
         "shape": "token",
@@ -617,12 +599,6 @@
     {
         "card_name": "Spirit",
         "number": 6,
-        "shape": "token",
-        "set": "Hunzikure TS"
-    },
-    {
-        "card_name": "Replicausal Banshee",
-        "number": 7,
         "shape": "token",
         "set": "Hunzikure TS"
     },
@@ -639,20 +615,8 @@
         "set": "Hunzikure TS"
     },
     {
-        "card_name": "Replicausal Leecher",
-        "number": 10,
-        "shape": "token",
-        "set": "Hunzikure TS"
-    },
-    {
         "card_name": "Fist",
         "number": 11,
-        "shape": "token",
-        "set": "Hunzikure TS"
-    },
-    {
-        "card_name": "Replicausal Rampager",
-        "number": 12,
         "shape": "token",
         "set": "Hunzikure TS"
     },
@@ -669,16 +633,16 @@
         "set": "Hunzikure TS"
     },
     {
-        "card_name": "Replicausal Grafter",
-        "number": 15,
-        "shape": "token",
-        "set": "Hunzikure TS"
-    },
-    {
         "card_name": "Wurm",
         "number": 16,
         "shape": "token",
         "set": "Hunzikure TS"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"

@@ -1,4 +1,17 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+MICROCUBE DATA removed.
+Copy removed.
+Replicausal Legion removed.
+Replicausal Banshee removed.
+Replicausal Leecher removed.
+Replicausal Rampager removed.
+Replicausal Grafter removed.
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
