@@ -1,10 +1,16 @@
 ﻿{
+    "name": "Hunzikure",
+    "formats": "microsets",
+    "trimmed": "y",
+    "image_type": "png",
+    "draft_structure": "none",
+    "unpreviewed": "card back",
     "cards": [
         {
             "card_name": "Rooftop Raider",
             "color": "W",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Soldier",
+            "type": "Creature \u2014 Robot Soldier",
             "number": 17,
             "color_identity": "W",
             "cost": "{2}{W}",
@@ -17,14 +23,13 @@
             "loyalty": "",
             "artist": "ioan dumitrescu",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Kernel Hopper",
             "color": "W",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Scout",
+            "type": "Creature \u2014 Robot Scout",
             "number": 10,
             "color_identity": "W",
             "cost": "{1}{W}",
@@ -37,14 +42,13 @@
             "loyalty": "",
             "artist": "Monmon",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Training-Sim Custodian",
             "color": "W",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Warrior",
+            "type": "Creature \u2014 Robot Warrior",
             "number": 20,
             "color_identity": "W",
             "cost": "{2}{W}",
@@ -59,7 +63,7 @@
             "alias": "",
             "card_name2": "Hologram Blades",
             "color2": "W",
-            "type2": "Instant \u2013 Adventure",
+            "type2": "Instant \u2014 Adventure",
             "cost2": "{1}{W}",
             "rules_text2": "Put two +1/+1 counters on target creature. [i](Then exile this card. You may cast the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -68,14 +72,13 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Stun Distractor",
             "color": "W",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Soldier",
+            "type": "Creature \u2014 Robot Soldier",
             "number": 18,
             "color_identity": "W",
             "cost": "{1}{W}",
@@ -88,8 +91,7 @@
             "loyalty": "",
             "artist": "Xiaoyu Wang",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Allnet Diagnostician",
@@ -108,8 +110,7 @@
             "loyalty": "",
             "artist": "luye liangshanzhonggong",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Extraction Mission",
@@ -128,14 +129,13 @@
             "loyalty": "",
             "artist": "Igor Grin",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Luminous Pietist",
             "color": "W",
             "rarity": "rare",
-            "type": "Creature \u2013 Human Ranger",
+            "type": "Creature \u2014 Human Ranger",
             "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
@@ -148,18 +148,17 @@
             "loyalty": "",
             "artist": "Benedick Bana",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Phalanx",
             "color": "W",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Soldier",
+            "type": "Creature \u2014 Robot Soldier",
             "number": 16,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "{T}: Another target creature gets +1/+1 until end of turn. Activate only during your turn.\nExhaust \u2013 {4}{W}{W}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "{T}: Another target creature gets +1/+1 until end of turn. Activate only during your turn.\nExhaust \u2014 {4}{W}{W}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -168,14 +167,13 @@
             "loyalty": "",
             "artist": "Josh Davis",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Quill, Skyline Enforcer",
             "color": "W",
             "rarity": "rare",
-            "type": "Legendary Creature \u2013 Soldier",
+            "type": "Legendary Creature \u2014 Soldier",
             "number": 13,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
@@ -190,7 +188,7 @@
             "alias": "",
             "card_name2": "Calling Card",
             "color2": "W",
-            "type2": "Instant \u2013 Adventure",
+            "type2": "Instant \u2014 Adventure",
             "cost2": "{1}{W}",
             "rules_text2": "Exile target nonland permanent. Its controller creates a 2/2 white Bird creature token with flying. [i](Then exile this card. You may cast the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -199,8 +197,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Takedown",
@@ -210,7 +207,7 @@
             "number": 19,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Choose one \u2013 \n\u2022 Exile target creature with power 4 or greater.\n\u2022 Exile target noncreature, nonland permanent.\n\u2022 Exile target card from a graveyard. You gain 4 life.",
+            "rules_text": "Choose one \u2014 \n\u2022 Exile target creature with power 4 or greater.\n\u2022 Exile target noncreature, nonland permanent.\n\u2022 Exile target card from a graveyard. You gain 4 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -219,8 +216,7 @@
             "loyalty": "",
             "artist": "Benedicl Bana",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "In The Barrel",
@@ -239,14 +235,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Outlander Hermit",
             "color": "W",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Ninja",
+            "type": "Creature \u2014 Robot Ninja",
             "number": 12,
             "color_identity": "W",
             "cost": "{2}{W}",
@@ -259,14 +254,13 @@
             "loyalty": "",
             "artist": "esuthio",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Quill's Crystalmorph",
             "color": "W",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Ninja",
+            "type": "Creature \u2014 Robot Ninja",
             "number": 14,
             "color_identity": "W",
             "cost": "{3}{W}",
@@ -279,8 +273,7 @@
             "loyalty": "",
             "artist": "Joaquim Barata",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Gilded Paragon",
@@ -299,14 +292,13 @@
             "loyalty": "",
             "artist": "Benedick Bana",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Recursive Security Patch",
             "color": "W",
             "rarity": "rare",
-            "type": "Enchantment \u2013 Aura",
+            "type": "Enchantment \u2014 Aura",
             "number": 15,
             "color_identity": "W",
             "cost": "{W}",
@@ -319,14 +311,13 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Holomasker",
             "color": "U",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Ninja",
+            "type": "Creature \u2014 Robot Ninja",
             "number": 24,
             "color_identity": "U",
             "cost": "{3}{U}",
@@ -339,14 +330,13 @@
             "loyalty": "",
             "artist": "Alex Negrea",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Two-Way Data Broker",
             "color": "U",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Wizard",
+            "type": "Creature \u2014 Robot Wizard",
             "number": 31,
             "color_identity": "U",
             "cost": "{2}{U}",
@@ -361,7 +351,7 @@
             "alias": "",
             "card_name2": "Tap Into The Allnet",
             "color2": "U",
-            "type2": "Instant \u2013 Adventure",
+            "type2": "Instant \u2014 Adventure",
             "cost2": "{U}",
             "rules_text2": "Tap target creature and put a stun counter on it. [i](Then exile this card. You may cast the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -370,14 +360,13 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Signal Scarper",
             "color": "U",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Ninja",
+            "type": "Creature \u2014 Robot Ninja",
             "number": 29,
             "color_identity": "U",
             "cost": "{2}{U}",
@@ -390,14 +379,13 @@
             "loyalty": "",
             "artist": "Farajeka Setawan",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Suppressor Type-00uroboros",
             "color": "U",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Snake",
+            "type": "Creature \u2014 Robot Snake",
             "number": 30,
             "color_identity": "U",
             "cost": "{3}{U}{U}{U}",
@@ -410,8 +398,7 @@
             "loyalty": "",
             "artist": "theDURRRRIAN",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Cascading Errors",
@@ -430,8 +417,7 @@
             "loyalty": "",
             "artist": "Scott Uminga",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Allnet Courier",
@@ -450,14 +436,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Exogene Memory",
             "color": "U",
             "rarity": "rare",
-            "type": "Enchantment \u2013 Aura",
+            "type": "Enchantment \u2014 Aura",
             "number": 23,
             "color_identity": "U",
             "cost": "{U}",
@@ -470,18 +455,17 @@
             "loyalty": "",
             "artist": "CHIIIIIKIT",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Banshee",
             "color": "U",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Spirit",
+            "type": "Creature \u2014 Robot Spirit",
             "number": 28,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Whenever you cast a noncreature spell or activate a ninjutsu ability, this creature gets +1/+1 until end of turn.\nExhaust \u2013 {4}{U}{U}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "Whenever you cast a noncreature spell or activate a ninjutsu ability, this creature gets +1/+1 until end of turn.\nExhaust \u2014 {4}{U}{U}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -490,14 +474,13 @@
             "loyalty": "",
             "artist": "gas1 (\u30ac\u30b9\u58f1)",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Repli-Corps Resplicer",
             "color": "U",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Illusion Wizard",
+            "type": "Creature \u2014 Robot Illusion Wizard",
             "number": 27,
             "color_identity": "U",
             "cost": "{3}{U}",
@@ -510,8 +493,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Recursive Ambiguation",
@@ -530,8 +512,7 @@
             "loyalty": "",
             "artist": "Scott Uminga",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Perfect Parry",
@@ -550,8 +531,7 @@
             "loyalty": "",
             "artist": "Benedick Bana",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Wipe From Memory",
@@ -570,8 +550,7 @@
             "loyalty": "",
             "artist": "sanchzart",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Unauthorized Entry",
@@ -590,14 +569,13 @@
             "loyalty": "",
             "artist": "Stu Harrington",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Ghost Rat",
             "color": "B",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Ninja",
+            "type": "Creature \u2014 Robot Ninja",
             "number": 35,
             "color_identity": "B",
             "cost": "{1}{B}",
@@ -610,14 +588,13 @@
             "loyalty": "",
             "artist": "takayuki satou",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Tough Bastard",
             "color": "B",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Warrior",
+            "type": "Creature \u2014 Robot Warrior",
             "number": 41,
             "color_identity": "B",
             "cost": "{3}{B}",
@@ -632,7 +609,7 @@
             "alias": "",
             "card_name2": "Heartless Rend",
             "color2": "B",
-            "type2": "Instant \u2013 Adventure",
+            "type2": "Instant \u2014 Adventure",
             "cost2": "{1}{B}{B}",
             "rules_text2": "Destroy target creature. [i](Then exile this card. You may play the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -641,14 +618,13 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Repli-Corps Reject",
             "color": "B",
             "rarity": "rare",
-            "type": "Creature \u2013 Soldier",
+            "type": "Creature \u2014 Soldier",
             "number": 38,
             "color_identity": "B",
             "cost": "{2}{B}",
@@ -661,18 +637,17 @@
             "loyalty": "",
             "artist": "David Paget",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Leecher",
             "color": "B",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Insect",
+            "type": "Creature \u2014 Robot Insect",
             "number": 39,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.\nExhaust \u2013 {4}{B}{B}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.\nExhaust \u2014 {4}{B}{B}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -681,8 +656,7 @@
             "loyalty": "",
             "artist": "Paulo Ricardo Ribeiro",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Witching Hour Ambush",
@@ -701,14 +675,13 @@
             "loyalty": "",
             "artist": "gas1 (\u30ac\u30b9\u58f1)",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Scrap Trancedentalist",
             "color": "B",
             "rarity": "rare",
-            "type": "Creature \u2013 RobotMonk",
+            "type": "Creature \u2014 RobotMonk",
             "number": 40,
             "color_identity": "B",
             "cost": "{2}{B}",
@@ -721,14 +694,13 @@
             "loyalty": "",
             "artist": "Yuanda Yu",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "108 Rebirths",
             "color": "B",
             "rarity": "rare",
-            "type": "Legendary Creature \u2013 Zombi",
+            "type": "Legendary Creature \u2014 Zombi",
             "number": 32,
             "color_identity": "B",
             "cost": "{3}{B}",
@@ -743,7 +715,7 @@
             "alias": "",
             "card_name2": "Reconstitute",
             "color2": "B",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{3}{B}{B}",
             "rules_text2": "Return target creature card from your graveyard to the battlefield. [i](Then exile this card. You may play the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -752,8 +724,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "The Fireman Smiles",
@@ -772,8 +743,7 @@
             "loyalty": "",
             "artist": "Benefick Bana",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Recursive Data Torrent",
@@ -792,14 +762,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Many-Eyed Patrol",
             "color": "B",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Detective",
+            "type": "Creature \u2014 Robot Detective",
             "number": 36,
             "color_identity": "B",
             "cost": "{1}{B}",
@@ -812,8 +781,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Crackdown Warrant",
@@ -832,14 +800,13 @@
             "loyalty": "",
             "artist": "gnacio Bazan-Lazcano",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Allnet Nightraider",
             "color": "R",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Warrior",
+            "type": "Creature \u2014 Robot Warrior",
             "number": 45,
             "color_identity": "R",
             "cost": "{1}{R}",
@@ -852,14 +819,13 @@
             "loyalty": "",
             "artist": "Rhinoting",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Pummeler Hisaki",
             "color": "R",
             "rarity": "rare",
-            "type": "Legendary Creature \u2013 Robot Warrior",
+            "type": "Legendary Creature \u2014 Robot Warrior",
             "number": 50,
             "color_identity": "R",
             "cost": "{3}{R}",
@@ -874,7 +840,7 @@
             "alias": "",
             "card_name2": "1,000 Blows",
             "color2": "R",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{2}{R}{R}",
             "rules_text2": "1,000 Blows deals 3 damage to each creature. Excess damage is dealt to those creatures' controllers. [i](Then exile this card. You may cast the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -883,8 +849,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Clobbler",
@@ -903,14 +868,13 @@
             "loyalty": "",
             "artist": "Atey Ghailan",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Exogene Grafting",
             "color": "R",
             "rarity": "rare",
-            "type": "Enchantment \u2013 Aura",
+            "type": "Enchantment \u2014 Aura",
             "number": 47,
             "color_identity": "R",
             "cost": "{1}{R}",
@@ -923,14 +887,13 @@
             "loyalty": "",
             "artist": "Dynline",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Vaultcracker",
             "color": "R",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Ninja",
+            "type": "Creature \u2014 Robot Ninja",
             "number": 55,
             "color_identity": "R",
             "cost": "{3}{R}",
@@ -943,8 +906,7 @@
             "loyalty": "",
             "artist": "Vlad Marica",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Network Impinger",
@@ -963,8 +925,7 @@
             "loyalty": "",
             "artist": "Benedick Bana",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Rampager",
@@ -974,7 +935,7 @@
             "number": 52,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Attacking creatures you control get +1/+0.\nExhaust \u2013 {4}{R}{R}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "Attacking creatures you control get +1/+0.\nExhaust \u2014 {4}{R}{R}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -983,8 +944,7 @@
             "loyalty": "",
             "artist": "Kevin Glint",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Scrapheap Upstart",
@@ -1003,8 +963,7 @@
             "loyalty": "",
             "artist": "gas1 (\u30ac\u30b9\u58f1)",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Grassroots Defenses",
@@ -1023,8 +982,7 @@
             "loyalty": "",
             "artist": "gas1 (\u30ac\u30b9\u58f1)",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Recursive Logic Bomb",
@@ -1043,8 +1001,7 @@
             "loyalty": "",
             "artist": "Scott Uminga",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Urban Cratering",
@@ -1063,14 +1020,13 @@
             "loyalty": "",
             "artist": "gas1 (\u30ac\u30b9\u58f1)",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Yaki Station Heavy",
             "color": "R",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Scout",
+            "type": "Creature \u2014 Robot Scout",
             "number": 56,
             "color_identity": "R",
             "cost": "{2}{R}",
@@ -1083,14 +1039,13 @@
             "loyalty": "",
             "artist": "Tan di",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Allnet Archer",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Archer",
+            "type": "Creature \u2014 Robot Archer",
             "number": 57,
             "color_identity": "G",
             "cost": "{1}{G}",
@@ -1103,14 +1058,13 @@
             "loyalty": "",
             "artist": "geng kun",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Chimeratech Omnivore",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Wurm",
+            "type": "Creature \u2014 Wurm",
             "number": 61,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
@@ -1123,8 +1077,7 @@
             "loyalty": "",
             "artist": "\u4e0d\u60f3\u5f53\u753b\u5bb6\u7684 LEO",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "RAM Clouder",
@@ -1145,7 +1098,7 @@
             "alias": "",
             "card_name2": "Growing Dread",
             "color2": "G",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{6}{G}{G}",
             "rules_text2": "Create a 0/0 green Plant creature token with \u201cThis token gets +1/+1 for each permanent you control.\u201d [i](Then exile this card. You may play the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -1154,14 +1107,13 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Bearer of Ancient Lore",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Warrior",
+            "type": "Creature \u2014 Robot Warrior",
             "number": 59,
             "color_identity": "G",
             "cost": "{3}{G}",
@@ -1176,7 +1128,7 @@
             "alias": "",
             "card_name2": "Masters Advice",
             "color2": "G",
-            "type2": "Instant \u2013 Adventure",
+            "type2": "Instant \u2014 Adventure",
             "cost2": "{1}{G}",
             "rules_text2": "Target creature gets +3/+3 until end of turn. [i](Then exile this card. You may play the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -1185,8 +1137,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Recursive Rescaling",
@@ -1205,14 +1156,13 @@
             "loyalty": "",
             "artist": "Scott Uminga",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Isolator",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Horror Ninja",
+            "type": "Creature \u2014 Horror Ninja",
             "number": 64,
             "color_identity": "G",
             "cost": "{5}{G}",
@@ -1225,18 +1175,17 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Grafter",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Druid",
+            "type": "Creature \u2014 Robot Druid",
             "number": 67,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "At the start of combat on your turn, put a +1/+1 counter on target creature you control.\nExhaust \u2013 {4}{G}{G}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "At the start of combat on your turn, put a +1/+1 counter on target creature you control.\nExhaust \u2014 {4}{G}{G}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -1245,8 +1194,7 @@
             "loyalty": "",
             "artist": "Jakub Bazyluk",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Heritage Reclamation",
@@ -1256,7 +1204,7 @@
             "number": 63,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Choose one \u2013 \n\u2022 Destroy target artifact.\n\u2022 Destroy target enchantment.\n\u2022 Exile target card from a graveyard. Draw a card.",
+            "rules_text": "Choose one \u2014 \n\u2022 Destroy target artifact.\n\u2022 Destroy target enchantment.\n\u2022 Exile target card from a graveyard. Draw a card.",
             "flavor_text": "[i]\u201cWe are Humanity's children.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -1265,14 +1213,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Biografted Heavy",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Horror Warrior",
+            "type": "Creature \u2014 Horror Warrior",
             "number": 60,
             "color_identity": "G",
             "cost": "{2}{G}",
@@ -1285,14 +1232,13 @@
             "loyalty": "",
             "artist": "Fotis Tsantilas",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Sanitation Sneak",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Rogue",
+            "type": "Creature \u2014 Robot Rogue",
             "number": 68,
             "color_identity": "G",
             "cost": "{1}{G}",
@@ -1305,14 +1251,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Exogene Extrusion",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Horror",
+            "type": "Creature \u2014 Horror",
             "number": 62,
             "color_identity": "G",
             "cost": "{1}{G}",
@@ -1325,14 +1270,13 @@
             "loyalty": "",
             "artist": "PEPEPEPP",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Antivirus Commander",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2013 Robot Knight",
+            "type": "Creature \u2014 Robot Knight",
             "number": 58,
             "color_identity": "G",
             "cost": "{1}{G}",
@@ -1345,8 +1289,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Wreckingyard Sweeper",
@@ -1365,8 +1308,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Doomsday Dreadnought",
@@ -1385,8 +1327,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Rampler",
@@ -1405,8 +1346,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Mana Prism",
@@ -1425,8 +1365,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Milllith",
@@ -1445,8 +1384,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Universal Solver",
@@ -1467,7 +1405,7 @@
             "alias": "",
             "card_name2": "Explosive Breakout",
             "color2": "",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{7}",
             "rules_text2": "This spell costs {3} less if it targets a permanent with mana value 3 or less.\nDestroy target nonland permanent. [i](Then exile this card. You may cast the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -1476,14 +1414,13 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Automatic Second",
             "color": "",
             "rarity": "rare",
-            "type": "Creature \u2013 Warrior",
+            "type": "Creature \u2014 Warrior",
             "number": 1,
             "color_identity": "C",
             "cost": "{3}",
@@ -1496,8 +1433,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Moonlit Maze",
@@ -1518,7 +1454,7 @@
             "alias": "",
             "card_name2": "Repartition",
             "color2": "W",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{W}{W}",
             "rules_text2": "Exile target creature. Return it to the battlefield tapped at the beginning of the end step of the next turn. [i](Then exile this card. You may play the land later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -1527,8 +1463,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Allnet Service Hub",
@@ -1549,7 +1484,7 @@
             "alias": "",
             "card_name2": "Pull Request",
             "color2": "U",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{2}{U}{U}",
             "rules_text2": "Create a token that's a copy of target creature. [i](Then exile this card. You may play the land later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -1558,8 +1493,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Undernet Distributory",
@@ -1580,7 +1514,7 @@
             "alias": "",
             "card_name2": "Break and Enter",
             "color2": "B",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{1}{B}{B}",
             "rules_text2": "Target player mills two cards. Return a creature card from your graveyard to your hand. [i](Then exile this card. You may play the land later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -1589,8 +1523,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Corrupt Kernel",
@@ -1609,8 +1542,7 @@
             "loyalty": "",
             "artist": "Stephan Martiniere",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Paradoxxer",
@@ -1629,8 +1561,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "MICROCUBE DATA",
@@ -1649,8 +1580,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Cycle-Adventure-Land-R",
@@ -1671,7 +1601,7 @@
             "alias": "",
             "card_name2": "Make Some Noise",
             "color2": "R",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{1}{R}{R}",
             "rules_text2": "Create a 1/1 red Rogue creature token with menace and haste. [i](Then exile this card. You may play the land later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -1680,8 +1610,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Cycle-Adventure-Land-G",
@@ -1702,7 +1631,7 @@
             "alias": "",
             "card_name2": "Man the Sentry",
             "color2": "G",
-            "type2": "Sorcery \u2013 Adventure",
+            "type2": "Sorcery \u2014 Adventure",
             "cost2": "{2}{G}{G}",
             "rules_text2": "Create a 3/3 white Soldier creature token with reach. You gain 4 life. [i](Then exile this card. You may play the land later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
@@ -1711,8 +1640,7 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Ninjadocks",
@@ -1731,8 +1659,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Reflecting Pool",
@@ -1751,14 +1678,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Spirit",
             "color": "W",
             "rarity": "common",
-            "type": "Token Creature \u2013 Spirit",
+            "type": "Token Creature \u2014 Spirit",
             "number": 6,
             "color_identity": "W",
             "cost": "",
@@ -1771,14 +1697,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Robot",
             "color": "",
             "rarity": "common",
-            "type": "Token Artifact Creature \u2013 Robot",
+            "type": "Token Artifact Creature \u2014 Robot",
             "number": 17,
             "color_identity": "C",
             "cost": "",
@@ -1791,14 +1716,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Bird",
             "color": "W",
             "rarity": "common",
-            "type": "Token Creature \u2013 Bird",
+            "type": "Token Creature \u2014 Bird",
             "number": 3,
             "color_identity": "W",
             "cost": "",
@@ -1811,14 +1735,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Tentacle",
             "color": "U",
             "rarity": "common",
-            "type": "Token Creature \u2013 Tentacle",
+            "type": "Token Creature \u2014 Tentacle",
             "number": 8,
             "color_identity": "U",
             "cost": "",
@@ -1831,14 +1754,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Soldier",
             "color": "W",
             "rarity": "common",
-            "type": "Token Creature \u2013 Soldier",
+            "type": "Token Creature \u2014 Soldier",
             "number": 5,
             "color_identity": "W",
             "cost": "",
@@ -1851,8 +1773,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Copy",
@@ -1871,14 +1792,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Plant",
             "color": "G",
             "rarity": "common",
-            "type": "Token Creature \u2013 Plant",
+            "type": "Token Creature \u2014 Plant",
             "number": 14,
             "color_identity": "G",
             "cost": "",
@@ -1891,14 +1811,13 @@
             "loyalty": "",
             "artist": "Nivanh Chanthara",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Rogue",
             "color": "R",
             "rarity": "common",
-            "type": "Token Creature \u2013 Rogue",
+            "type": "Token Creature \u2014 Rogue",
             "number": 13,
             "color_identity": "R",
             "cost": "",
@@ -1911,14 +1830,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Wurm",
             "color": "G",
             "rarity": "common",
-            "type": "Token Creature \u2013 Wurm",
+            "type": "Token Creature \u2014 Wurm",
             "number": 16,
             "color_identity": "G",
             "cost": "",
@@ -1931,14 +1849,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Fist",
             "color": "R",
             "rarity": "common",
-            "type": "Token Creature \u2013 Fist",
+            "type": "Token Creature \u2014 Fist",
             "number": 11,
             "color_identity": "R",
             "cost": "",
@@ -1951,14 +1868,13 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Horror",
             "color": "B",
             "rarity": "common",
-            "type": "Token Creature \u2013 Horror",
+            "type": "Token Creature \u2014 Horror",
             "number": 9,
             "color_identity": "B",
             "cost": "",
@@ -1971,8 +1887,7 @@
             "loyalty": "",
             "artist": "Esuthio",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Legion",
@@ -1991,8 +1906,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Banshee",
@@ -2011,8 +1925,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Leecher",
@@ -2031,8 +1944,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Rampager",
@@ -2051,8 +1963,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         },
         {
             "card_name": "Replicausal Grafter",
@@ -2071,8 +1982,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": "",
-            "image_type": "png"
+            "notes": ""
         }
-    ]
+    ],
+    "version": 1
 }
