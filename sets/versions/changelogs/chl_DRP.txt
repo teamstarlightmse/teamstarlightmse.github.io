@@ -1,4 +1,96 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Sublime Watcher added.
+Datastrate Architect added.
+Prophetic Prism added.
+
+Allnet Courier removed.
+Rampler removed.
+Mana Prism removed.
+
+Kernel Hopper
+rules_text: When this creature enters, exile target creature not named Kernel Hopper, then return it to the battlefield.
+You may cast this spell from any zone other than your library as long as a permanent you control left the battlefield this turn. => When Kernel Hopper enters, exile target creature not named Kernel Hopper, then return it to the battlefield.
+You may cast Kernel Hopper from any zone other than your library as long as a permanent you control left the battlefield this turn.
+
+Allnet Diagnostician
+type: Creature => Creature — Robot Doctor
+
+Replicausal Phalanx
+
+Quill, Skyline Enforcer
+
+In The Barrel
+
+Gilded Paragon
+type: Creature => Creature — Robot Knight
+
+Recursive Security Patch
+
+Exogene Memory
+
+Replicausal Banshee
+
+Repli-Corps Resplicer
+
+Recursive Ambiguation
+
+Replicausal Leecher
+
+Scrap Trancedentalist
+type: Creature — RobotMonk => Creature — Robot Monk
+
+Recursive Data Torrent
+
+Many-Eyed Patrol
+
+Exogene Grafting
+
+Replicausal Rampager
+type: Creature => Creature — Robot Warrior
+
+Scrapheap Upstart
+type: Creature => Creature — Robot Imp
+
+Recursive Logic Bomb
+
+RAM Clouder
+
+Bearer of Ancient Lore
+type: Creature — Robot Warrior => Creature — Robot Monk
+
+Recursive Rescaling
+
+Isolator
+pt:  => 6/4
+
+Replicausal Grafter
+
+Sanitation Sneak
+
+Exogene Extrusion
+
+Antivirus Commander
+
+Wreckingyard Sweeper
+type: Creature => Creature — Robot Rogue
+
+Doomsday Dreadnought
+type: Creature => Creature — Dreadnought
+
+Universal Solver
+type: Creature => Artifact Creature — Construct
+
+Automatic Second
+type: Creature — Warrior => Creature — Robot Warrior
+
+Copy
+type: Token => Token Creature
+rules_text: [i]This token can be used as a copy of something else.[/i] => 
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
