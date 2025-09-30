@@ -1,4 +1,50 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Schedule-1 Printer added.
+
+Milllith removed.
+MICROCUBE DATA removed.
+
+Wipe From Memory
+
+Tough Bastard
+
+Scrap Trancedentalist
+
+Recursive Data Torrent
+
+Many-Eyed Patrol
+
+Allnet Nightraider
+
+Network Impinger
+
+Replicausal Rampager
+
+Scrapheap Upstart
+
+Recursive Logic Bomb
+
+RAM Clouder
+
+Bearer of Ancient Lore
+
+Recursive Rescaling
+
+Isolator
+
+Biografted Heavy
+rules_text: Reach
+Whenever this creature deals combat damage to a player, put a +1/+1 counter on it.
+If this creature with one or more +1/+1 counters on it would be returned to its owner's hand to activate a ninjutsu ability of a creature card, that creature enters with that many additional +1/+1 counters. => Reach
+Whenever this creature deals combat damage to a player, put a +1/+1 counter on it.
+If this creature is returned to your hand to activate a ninjutsu ability while it has one or more +1/+1 counters on it, that attacking creature enters with that many +1/+1 counters on it.
+
+Prophetic Prism
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Rooftop Raider added.

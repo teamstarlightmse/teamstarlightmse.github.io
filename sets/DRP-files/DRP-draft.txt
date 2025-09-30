@@ -665,19 +665,19 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "69",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/69_Prophetic Prism.png"
+				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/68_Prophetic Prism.png"
 			}
 		},
 		{
-			"name": "Milllith",
+			"name": "Schedule-1 Printer",
 			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "68",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/68_Milllith.png"
+				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/69_Schedule-1 Printer.png"
 			}
 		},
 		{
@@ -748,16 +748,6 @@
 			"collector_number": "77",
 			"image_uris": {
 				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/77_Paradoxxer.png"
-			}
-		},
-		{
-			"name": "MICROCUBE DATA",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "2",
-			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/2_MICROCUBE DATA.png"
 			}
 		},
 		{
@@ -1030,7 +1020,7 @@
 	1 Doomsday Dreadnought
 	1 Datastrate Architect
 	1 Prophetic Prism
-	1 Milllith
+	1 Schedule-1 Printer
 	1 Universal Solver
 	1 Automatic Second
 	1 Moonlit Maze

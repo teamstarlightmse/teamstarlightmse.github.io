@@ -451,13 +451,13 @@
         "set": "DRP"
     },
     {
-        "card_name": "Milllith",
+        "card_name": "Prophetic Prism",
         "number": 68,
         "shape": "normal",
         "set": "DRP"
     },
     {
-        "card_name": "Prophetic Prism",
+        "card_name": "Schedule-1 Printer",
         "number": 69,
         "shape": "normal",
         "set": "DRP"
@@ -579,12 +579,6 @@
         "set": "DRP"
     },
     {
-        "card_name": "MICROCUBE DATA",
-        "number": 2,
-        "shape": "token",
-        "set": "DRP"
-    },
-    {
         "card_name": "Robot",
         "number": 17,
         "shape": "token",
@@ -679,6 +673,9 @@
         "number": 16,
         "shape": "token",
         "set": "DRP"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"
