@@ -1,4 +1,102 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Rooftop Raider added.
+Kernel Hopper added.
+Stun Distractor added.
+Allnet Diagnostician added.
+Extraction Mission added.
+Luminous Pietist added.
+Replicausal Phalanx added.
+Quill, Skyline Enforcer added.
+Takedown added.
+In The Barrel added.
+Outlander Hermit added.
+Quill's Crystalmorph added.
+Gilded Paragon added.
+Recursive Security Patch added.
+Holomasker added.
+Two-Way Data Broker added.
+Signal Scarper added.
+Suppressor Type-00uroboros added.
+Cascading Errors added.
+Sublime Watcher added.
+Exogene Memory added.
+Replicausal Banshee added.
+Repli-Corps Resplicer added.
+Recursive Ambiguation added.
+Perfect Parry added.
+Wipe From Memory added.
+Unauthorized Entry added.
+Ghost Rat added.
+Tough Bastard added.
+Repli-Corps Reject added.
+Replicausal Leecher added.
+Witching Hour Ambush added.
+Scrap Trancedentalist added.
+108 Rebirths added.
+The Fireman Smiles added.
+Recursive Data Torrent added.
+Many-Eyed Patrol added.
+Crackdown Warrant added.
+Allnet Nightraider added.
+Pummeler Hisaki added.
+Clobbler added.
+Exogene Grafting added.
+Vaultcracker added.
+Network Impinger added.
+Replicausal Rampager added.
+Scrapheap Upstart added.
+Grassroots Defenses added.
+Recursive Logic Bomb added.
+Urban Cratering added.
+Yaki Station Heavy added.
+Allnet Archer added.
+Chimeratech Omnivore added.
+RAM Clouder added.
+Recursive Rescaling added.
+Replicausal Grafter added.
+Biografted Heavy added.
+Sanitation Sneak added.
+Exogene Extrusion added.
+Antivirus Commander added.
+Wreckingyard Sweeper added.
+Doomsday Dreadnought added.
+Datastrate Architect added.
+Prophetic Prism added.
+Milllith added.
+Universal Solver added.
+Automatic Second added.
+Moonlit Maze added.
+Allnet Service Hub added.
+Undernet Distributory added.
+Corrupt Kernel added.
+Paradoxxer added.
+MICROCUBE DATA added.
+Cycle-Adventure-Land-R added.
+Cycle-Adventure-Land-G added.
+Ninjadocks added.
+Reflecting Pool added.
+Spirit added.
+Robot added.
+Bird added.
+Tentacle added.
+Soldier added.
+Copy added.
+Plant added.
+Rogue added.
+Wurm added.
+Fist added.
+Horror added.
+Replicausal Legion added.
+Replicausal Banshee added.
+Replicausal Leecher added.
+Replicausal Rampager added.
+Replicausal Grafter added.
+
+
+
+VERSION 3 CHANGELOG
 ====================
 
 
