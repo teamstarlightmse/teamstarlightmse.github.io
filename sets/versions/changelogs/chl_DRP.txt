@@ -1,4 +1,110 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+
+Rooftop Raider removed.
+Kernel Hopper removed.
+Stun Distractor removed.
+Allnet Diagnostician removed.
+Extraction Mission removed.
+Luminous Pietist removed.
+Replicausal Phalanx removed.
+Quill, Skyline Enforcer removed.
+Takedown removed.
+In The Barrel removed.
+Outlander Hermit removed.
+Quill's Crystalmorph removed.
+Gilded Paragon removed.
+Recursive Security Patch removed.
+Holomasker removed.
+Two-Way Data Broker removed.
+Signal Scarper removed.
+Suppressor Type-00uroboros removed.
+Cascading Errors removed.
+Sublime Watcher removed.
+Exogene Memory removed.
+Replicausal Banshee removed.
+Repli-Corps Resplicer removed.
+Recursive Ambiguation removed.
+Perfect Parry removed.
+Wipe From Memory removed.
+Unauthorized Entry removed.
+Ghost Rat removed.
+Tough Bastard removed.
+Repli-Corps Reject removed.
+Replicausal Leecher removed.
+Witching Hour Ambush removed.
+Scrap Trancedentalist removed.
+108 Rebirths removed.
+The Fireman Smiles removed.
+Recursive Data Torrent removed.
+Many-Eyed Patrol removed.
+Crackdown Warrant removed.
+Allnet Nightraider removed.
+Pummeler Hisaki removed.
+Clobbler removed.
+Exogene Grafting removed.
+Vaultcracker removed.
+Network Impinger removed.
+Replicausal Rampager removed.
+Scrapheap Upstart removed.
+Grassroots Defenses removed.
+Recursive Logic Bomb removed.
+Urban Cratering removed.
+Yaki Station Heavy removed.
+Allnet Archer removed.
+Chimeratech Omnivore removed.
+RAM Clouder removed.
+Recursive Rescaling removed.
+Replicausal Grafter removed.
+Biografted Heavy removed.
+Sanitation Sneak removed.
+Exogene Extrusion removed.
+Antivirus Commander removed.
+Wreckingyard Sweeper removed.
+Doomsday Dreadnought removed.
+Datastrate Architect removed.
+Prophetic Prism removed.
+Milllith removed.
+Universal Solver removed.
+Automatic Second removed.
+Moonlit Maze removed.
+Allnet Service Hub removed.
+Undernet Distributory removed.
+Corrupt Kernel removed.
+Paradoxxer removed.
+MICROCUBE DATA removed.
+Cycle-Adventure-Land-R removed.
+Cycle-Adventure-Land-G removed.
+Ninjadocks removed.
+Reflecting Pool removed.
+Spirit removed.
+Robot removed.
+Bird removed.
+Tentacle removed.
+Soldier removed.
+Copy removed.
+Plant removed.
+Rogue removed.
+Wurm removed.
+Fist removed.
+Horror removed.
+Replicausal Legion removed.
+Replicausal Banshee removed.
+Replicausal Leecher removed.
+Replicausal Rampager removed.
+Replicausal Grafter removed.
+
+Training-Sim Custodian
+
+Bearer of Ancient Lore
+
+Isolator
+
+Heritage Reclamation
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Sublime Watcher added.
