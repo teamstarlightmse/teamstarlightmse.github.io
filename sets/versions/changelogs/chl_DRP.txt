@@ -1,4 +1,59 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Stun Distractor
+
+Allnet Diagnostician
+
+Luminous Pietist
+
+Cascading Errors
+rules_text: Flash
+When Cascading Errors enters, exile target nonland permanent or spell. Its owner may cast it. It costs {X} more to cast, where X is the number of error counters on Cascading Errors.
+Tap an untapped creature you control: Put an error counter on Cascading Errors => Flash
+When this enchantment enters, exile target nonland permanent or spell. Its owner may cast it. It costs {X} more to cast, where X is the number of error counters on this enchantment.
+Tap an untapped creature you control: Put an error counter on this enchantment.
+
+Sublime Watcher
+
+Repli-Corps Resplicer
+
+The Fireman Smiles
+
+Recursive Data Torrent
+
+Crackdown Warrant
+
+Replicausal Rampager
+
+Recursive Logic Bomb
+
+Wreckingyard Sweeper
+
+Doomsday Dreadnought
+
+Datastrate Architect
+type: Creature — Robot Artificre => Creature — Robot Artificer
+
+Replicausal Legion
+type: Token Creature => Token Creature — Robot Soldier
+
+Replicausal Banshee
+type: Token Creature => Token Creature — Robot Spirit
+
+Replicausal Leecher
+type: Token Creature => Token Creature — Robot Insect
+
+Replicausal Rampager
+type: Token Creature => Token Creature — Robot Warrior
+
+Replicausal Grafter
+type: Token Creature => Token Creature — Robot Druid
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Schedule-1 Printer added.

@@ -654,7 +654,7 @@
 			"name": "Datastrate Architect",
 			"rarity": "special",
 			"mana_cost": "{5}",
-			"type": "Creature — Robot Artificre",
+			"type": "Creature — Robot Artificer",
 			"collector_number": "2",
 			"image_uris": {
 				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/2_Datastrate Architect.png"
@@ -904,7 +904,7 @@
 			"name": "Replicausal Legion",
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
-			"type": "Token Creature",
+			"type": "Token Creature — Robot Soldier",
 			"collector_number": "4",
 			"image_uris": {
 				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/4_Replicausal Legion.png"
@@ -914,7 +914,7 @@
 			"name": "Replicausal Banshee",
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
-			"type": "Token Creature",
+			"type": "Token Creature — Robot Spirit",
 			"collector_number": "7",
 			"image_uris": {
 				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/7_Replicausal Banshee.png"
@@ -924,7 +924,7 @@
 			"name": "Replicausal Leecher",
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
-			"type": "Token Creature",
+			"type": "Token Creature — Robot Insect",
 			"collector_number": "10",
 			"image_uris": {
 				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/10_Replicausal Leecher.png"
@@ -934,7 +934,7 @@
 			"name": "Replicausal Rampager",
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
-			"type": "Token Creature",
+			"type": "Token Creature — Robot Warrior",
 			"collector_number": "12",
 			"image_uris": {
 				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/12_Replicausal Rampager.png"
@@ -944,7 +944,7 @@
 			"name": "Replicausal Grafter",
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
-			"type": "Token Creature",
+			"type": "Token Creature — Robot Druid",
 			"collector_number": "15",
 			"image_uris": {
 				"en": "https://teamstarlightmse.github.io/sets/DRP-files/img/15_Replicausal Grafter.png"
