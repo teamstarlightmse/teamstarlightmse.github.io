@@ -1,4 +1,84 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Scrap Transcendentalist added.
+Between-Lanes added.
+Exogene Reconstructor added.
+RU13 classic flier added.
+RU14 cool card added.
+RU15 flashman added.
+RU16 lag switch added.
+Exogene Macrophage added.
+RR14 big destruction added.
+RR15 cracker (hacking term) added.
+Double Time added.
+RG15 Data Scavenger added.
+RG16 cool bite added.
+
+Scrap Trancedentalist removed.
+Ninjadocks removed.
+
+Kernel Hopper
+rules_text: When Kernel Hopper enters, exile target creature not named Kernel Hopper, then return it to the battlefield.
+You may cast Kernel Hopper from any zone other than your library as long as a permanent you control left the battlefield this turn. => When Kernel Hopper enters, exile target creature not named Kernel Hopper. Return it to the battlefield under its owner's control at the beginning of your end step.
+You may cast Kernel Hopper from your graveyard or exile as long as a permanent you control left the battlefield this turn.
+
+Luminous Pietist
+type: Creature — Human Ranger => Creature — Robot Monk
+
+Exogene Memory
+rules_text: Enchant creature
+When Exogene Memory enters, you get a gene counter.
+Whenever enchanted creature deals combat damage to a player, draw a card.
+If you would draw a card while your library has no cards in it, instead put a +1/+1 counter on enchanted creature for each gene counter you have..
+You may cast this spell from your graveyard. It costs {1} more to cast for each gene counter you have. => Enchant creature
+When Exogene Memory enters, you get a gene counter.
+Whenever enchanted creature deals combat damage to a player, draw a card.
+If you would draw a card while your library has no cards in it, instead put a +1/+1 counter on enchanted creature for each gene counter you have.
+You may cast this spell from your graveyard. It costs {1} more to cast for each gene counter you have.
+
+Recursive Ambiguation
+rules_text: Target nonland permanent's owner puts it on the top or bottom of their library.
+{2}{U}: Return Recursive Ambiguation and one other noncreature, nonland card from your graveyard on the bottom of your library in a random order. => Target nonland permanent's owner puts it on the top or bottom of their library.
+{2}{U}: Put Recursive Ambiguation and one other noncreature, nonland card from your graveyard on the bottom of your library in a random order.
+
+Wipe From Memory
+
+Unauthorized Entry
+rules_text: Return target creature card from your graveyard to your hand.
+You may pay {1}{B} and return an unblocked attacking creature you control to its owner's hand as you cast this spell. If you do, return that card to the battlefield instead. => Return target creature card from your graveyard to your hand. Add {B}. Spend this mana only to activate abilities of cards in your hand.
+
+Tough Bastard
+rules_text: If this creature would be dealt damage or destroyed, you may instead pay {1}{B}. => {1}{B}: This creature gains indestructible until end of turn. Tap it.
+
+The Fireman Smiles
+
+Many-Eyed Patrol
+
+Crackdown Warrant
+rules_text: Choose a number. Look at target player's hand and choose a nonland card from it whose power or toughness is the chosen number. That player discards that card. => Choose a number. Look at target player's hand and choose a nonland card from it whose power, toughness, or mana value is the chosen number. That player discards that card.
+
+Network Impinger
+type: Creature => Creature — Robot Rogue
+
+Bearer of Ancient Lore
+
+Recursive Rescaling
+
+Isolator
+
+Moonlit Maze
+
+Allnet Service Hub
+
+Undernet Distributory
+
+Grand Colosseum
+
+Printmat Refectory
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Paradoxical Core added.
