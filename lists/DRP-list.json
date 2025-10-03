@@ -6,7 +6,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Cascading Errors",
+        "card_name": "Archive Trawl",
         "number": 21,
         "shape": "normal",
         "set": "DRP"
@@ -36,7 +36,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Exogene Memory",
+        "card_name": "Cascading Errors",
         "number": 22,
         "shape": "normal",
         "set": "DRP"
@@ -48,7 +48,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Clobbler",
+        "card_name": "Bring In the Big Guns",
         "number": 51,
         "shape": "normal",
         "set": "DRP"
@@ -66,7 +66,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Holomasker",
+        "card_name": "Exogene Memory",
         "number": 23,
         "shape": "normal",
         "set": "DRP"
@@ -78,7 +78,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Double Time",
+        "card_name": "Clobbler",
         "number": 52,
         "shape": "normal",
         "set": "DRP"
@@ -96,7 +96,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Perfect Parry",
+        "card_name": "Holomasker",
         "number": 24,
         "shape": "normal",
         "set": "DRP"
@@ -108,7 +108,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Exogene Grafting",
+        "card_name": "Double Time",
         "number": 53,
         "shape": "normal",
         "set": "DRP"
@@ -126,7 +126,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Recursive Ambiguation",
+        "card_name": "Lag Switch",
         "number": 25,
         "shape": "normal",
         "set": "DRP"
@@ -138,7 +138,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Grassroots Defenses",
+        "card_name": "Exogene Grafting",
         "number": 54,
         "shape": "normal",
         "set": "DRP"
@@ -156,7 +156,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Repli-Corps Resplicer",
+        "card_name": "Motion Carver",
         "number": 26,
         "shape": "normal",
         "set": "DRP"
@@ -168,15 +168,15 @@
         "set": "DRP"
     },
     {
-        "card_name": "Network Impinger",
+        "card_name": "Grassroots Defenses",
         "number": 55,
         "shape": "normal",
         "set": "DRP"
     },
     {
-        "card_name": "Exogene Extrusion",
+        "card_name": "Data Scavenger",
         "number": 70,
-        "shape": "normal",
+        "shape": "adventure",
         "set": "DRP"
     },
     {
@@ -186,7 +186,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Replicausal Banshee",
+        "card_name": "Perfect Parry",
         "number": 27,
         "shape": "normal",
         "set": "DRP"
@@ -198,13 +198,13 @@
         "set": "DRP"
     },
     {
-        "card_name": "Pummeler Hisaki",
+        "card_name": "Network Impinger",
         "number": 56,
-        "shape": "adventure",
+        "shape": "normal",
         "set": "DRP"
     },
     {
-        "card_name": "Heritage Reclamation",
+        "card_name": "Defrag",
         "number": 71,
         "shape": "normal",
         "set": "DRP"
@@ -216,7 +216,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "RU13 classic flier",
+        "card_name": "Recursive Ambiguation",
         "number": 28,
         "shape": "normal",
         "set": "DRP"
@@ -228,13 +228,13 @@
         "set": "DRP"
     },
     {
-        "card_name": "Recursive Logic Bomb",
+        "card_name": "Pummeler Hisaki",
         "number": 57,
-        "shape": "normal",
+        "shape": "adventure",
         "set": "DRP"
     },
     {
-        "card_name": "Isolator",
+        "card_name": "Exogene Extrusion",
         "number": 72,
         "shape": "normal",
         "set": "DRP"
@@ -246,7 +246,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "RU14 cool card",
+        "card_name": "Repli-Corps Resplicer",
         "number": 29,
         "shape": "normal",
         "set": "DRP"
@@ -258,15 +258,15 @@
         "set": "DRP"
     },
     {
-        "card_name": "Replicausal Rampager",
+        "card_name": "Recursive Logic Bomb",
         "number": 58,
         "shape": "normal",
         "set": "DRP"
     },
     {
-        "card_name": "RAM Clouder",
+        "card_name": "Heritage Reclamation",
         "number": 73,
-        "shape": "adventure",
+        "shape": "normal",
         "set": "DRP"
     },
     {
@@ -276,7 +276,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "RU15 flashman",
+        "card_name": "Replicausal Banshee",
         "number": 30,
         "shape": "normal",
         "set": "DRP"
@@ -288,13 +288,13 @@
         "set": "DRP"
     },
     {
-        "card_name": "RR14 big destruction",
+        "card_name": "Replicausal Rampager",
         "number": 59,
         "shape": "normal",
         "set": "DRP"
     },
     {
-        "card_name": "Recursive Rescaling",
+        "card_name": "Isolator",
         "number": 74,
         "shape": "normal",
         "set": "DRP"
@@ -306,7 +306,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "RU16 lag switch",
+        "card_name": "Signal Scarper",
         "number": 31,
         "shape": "normal",
         "set": "DRP"
@@ -318,15 +318,15 @@
         "set": "DRP"
     },
     {
-        "card_name": "RR15 cracker (hacking term)",
+        "card_name": "Savvy Cracker",
         "number": 60,
         "shape": "adventure",
         "set": "DRP"
     },
     {
-        "card_name": "Replicausal Grafter",
+        "card_name": "RAM Clouder",
         "number": 75,
-        "shape": "normal",
+        "shape": "adventure",
         "set": "DRP"
     },
     {
@@ -336,7 +336,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "Signal Scarper",
+        "card_name": "Strix Operative",
         "number": 32,
         "shape": "normal",
         "set": "DRP"
@@ -354,9 +354,9 @@
         "set": "DRP"
     },
     {
-        "card_name": "RG15 Data Scavenger",
+        "card_name": "Recursive Rescaling",
         "number": 76,
-        "shape": "adventure",
+        "shape": "normal",
         "set": "DRP"
     },
     {
@@ -384,7 +384,7 @@
         "set": "DRP"
     },
     {
-        "card_name": "RG16 cool bite",
+        "card_name": "Replicausal Grafter",
         "number": 77,
         "shape": "normal",
         "set": "DRP"

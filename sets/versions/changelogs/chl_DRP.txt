@@ -1,4 +1,32 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Strix Operative added.
+Archive Trawl added.
+Motion Carver added.
+Lag Switch added.
+Bring In the Big Guns added.
+Savvy Cracker added.
+Data Scavenger added.
+Defrag added.
+
+RU13 classic flier removed.
+RU14 cool card removed.
+RU15 flashman removed.
+RU16 lag switch removed.
+RR14 big destruction removed.
+RR15 cracker (hacking term) removed.
+RG15 Data Scavenger removed.
+RG16 cool bite removed.
+
+Reflecting Pool
+
+Exogene Reconstructor
+
+Double Time
+
+
+VERSION 9 CHANGELOG
 ====================
 
 
