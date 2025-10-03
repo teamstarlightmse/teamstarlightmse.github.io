@@ -1,4 +1,32 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+
+
+Spirit
+
+Robot
+
+Bird
+
+Tentacle
+
+Soldier
+
+Copy
+
+Plant
+
+Rogue
+
+Wurm
+
+Fist
+
+Horror
+
+
+VERSION 8 CHANGELOG
 ====================
 
 Scrap Transcendentalist added.

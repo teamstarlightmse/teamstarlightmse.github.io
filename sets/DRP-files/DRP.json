@@ -1678,7 +1678,7 @@
             "loyalty": "",
             "artist": "Tim Denby",
             "alias": "",
-            "notes": ""
+            "notes": "!related Allnet Diagnostician; Replicausal Banshee"
         },
         {
             "card_name": "Robot",
@@ -1697,7 +1697,7 @@
             "loyalty": "",
             "artist": "Nivanh Chanthara",
             "alias": "",
-            "notes": ""
+            "notes": "!related Quill's Crystalmorph; Two-Way Data Broker; Grassroots Defenses; Exogene Extrusion"
         },
         {
             "card_name": "Bird",
@@ -1716,7 +1716,7 @@
             "loyalty": "",
             "artist": "Robert Chew",
             "alias": "",
-            "notes": ""
+            "notes": "!related Quill, Skyline Enforcer"
         },
         {
             "card_name": "Tentacle",
@@ -1735,7 +1735,7 @@
             "loyalty": "",
             "artist": "Andrey Sarafanov",
             "alias": "",
-            "notes": ""
+            "notes": "!related Suppressor Type-00uroboros"
         },
         {
             "card_name": "Soldier",
@@ -1754,7 +1754,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": ""
+            "notes": "!related Printmat Refectory"
         },
         {
             "card_name": "Copy",
@@ -1773,7 +1773,7 @@
             "loyalty": "",
             "artist": "Esuthio",
             "alias": "",
-            "notes": ""
+            "notes": "!related Repli-Corps Resplicer; Double Time; Allnet Service Hub"
         },
         {
             "card_name": "Plant",
@@ -1792,7 +1792,7 @@
             "loyalty": "",
             "artist": "Nivanh Chanthara",
             "alias": "",
-            "notes": ""
+            "notes": "!related RAM Clouder"
         },
         {
             "card_name": "Rogue",
@@ -1811,7 +1811,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": ""
+            "notes": "!related Grand Colosseum"
         },
         {
             "card_name": "Wurm",
@@ -1830,7 +1830,7 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
-            "notes": ""
+            "notes": "!related Chimeratech Omnivore"
         },
         {
             "card_name": "Fist",
@@ -1849,7 +1849,7 @@
             "loyalty": "",
             "artist": "gas1 (\u30ac\u30b9\u58f1)",
             "alias": "",
-            "notes": ""
+            "notes": "!related Pummeler Hisaki"
         },
         {
             "card_name": "Horror",
@@ -1868,7 +1868,7 @@
             "loyalty": "",
             "artist": "Esuthio",
             "alias": "",
-            "notes": ""
+            "notes": "!related Corrupt Kernel"
         },
         {
             "card_name": "Exogene Reconstructor",
@@ -2102,5 +2102,5 @@
             "notes": ""
         }
     ],
-    "version": 8
+    "version": 9
 }
