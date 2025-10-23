@@ -523,19 +523,22 @@
         "set": "HNZ"
     },
     {
-        "card_name": "Schedule-1 Printer",
+        "card_name": "Prophetic Prism",
         "number": 86,
         "shape": "normal",
         "set": "HNZ"
     },
     {
-        "card_name": "Universal Solver",
+        "card_name": "Schedule-1 Printer",
         "number": 87,
-        "shape": "adventure",
+        "shape": "normal",
         "set": "HNZ"
     },
     {
-        "card_name": "e"
+        "card_name": "Universal Solver",
+        "number": 88,
+        "shape": "adventure",
+        "set": "HNZ"
     },
     {
         "card_name": "e"
@@ -558,31 +561,31 @@
     "a->land",
     {
         "card_name": "Moonlit Maze",
-        "number": 92,
+        "number": 93,
         "shape": "adventure",
         "set": "HNZ"
     },
     {
         "card_name": "Allnet Service Hub",
-        "number": 88,
+        "number": 89,
         "shape": "adventure",
         "set": "HNZ"
     },
     {
         "card_name": "Undernet Distributory",
-        "number": 95,
+        "number": 96,
         "shape": "adventure",
         "set": "HNZ"
     },
     {
         "card_name": "Grand Colosseum",
-        "number": 91,
+        "number": 92,
         "shape": "adventure",
         "set": "HNZ"
     },
     {
         "card_name": "Printmat Refectory",
-        "number": 94,
+        "number": 95,
         "shape": "adventure",
         "set": "HNZ"
     },
@@ -603,19 +606,19 @@
     },
     {
         "card_name": "Between-Lanes",
-        "number": 89,
-        "shape": "normal",
-        "set": "HNZ"
-    },
-    {
-        "card_name": "Corrupt Kernel",
         "number": 90,
         "shape": "normal",
         "set": "HNZ"
     },
     {
+        "card_name": "Corrupt Kernel",
+        "number": 91,
+        "shape": "normal",
+        "set": "HNZ"
+    },
+    {
         "card_name": "Paradoxical Core",
-        "number": 93,
+        "number": 94,
         "shape": "normal",
         "set": "HNZ"
     },
@@ -646,13 +649,13 @@
     },
     {
         "card_name": "Robot",
-        "number": 11,
+        "number": 12,
         "shape": "token",
         "set": "HNZ"
     },
     {
         "card_name": "Reflecting Pool",
-        "number": 12,
+        "number": 13,
         "shape": "token",
         "set": "HNZ"
     },
@@ -675,43 +678,46 @@
         "set": "HNZ"
     },
     {
-        "card_name": "Tentacle",
+        "card_name": "Illusion",
         "number": 5,
         "shape": "token",
         "set": "HNZ"
     },
     {
-        "card_name": "Horror",
+        "card_name": "Tentacle",
         "number": 6,
         "shape": "token",
         "set": "HNZ"
     },
     {
-        "card_name": "Fist",
+        "card_name": "Horror",
         "number": 7,
         "shape": "token",
         "set": "HNZ"
     },
     {
-        "card_name": "Rogue",
+        "card_name": "Fist",
         "number": 8,
         "shape": "token",
         "set": "HNZ"
     },
     {
-        "card_name": "Plant",
+        "card_name": "Rogue",
         "number": 9,
         "shape": "token",
         "set": "HNZ"
     },
     {
-        "card_name": "Wurm",
+        "card_name": "Plant",
         "number": 10,
         "shape": "token",
         "set": "HNZ"
     },
     {
-        "card_name": "e"
+        "card_name": "Wurm",
+        "number": 11,
+        "shape": "token",
+        "set": "HNZ"
     },
     {
         "card_name": "e"

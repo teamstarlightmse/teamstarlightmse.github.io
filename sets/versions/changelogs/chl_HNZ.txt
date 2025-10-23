@@ -1,4 +1,241 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Prophetic Prism added.
+Illusion added.
+
+
+Rooftop Raider
+
+Kernel Hopper
+
+Training-Sim Custodian
+
+Stun Distractor
+
+Allnet Diagnostician
+
+Extraction Mission
+
+Luminous Pietist
+
+Replicausal Phalanx
+rules_text: {T}: Another target creature gets +1/+1 until end of turn. Activate only during your turn.
+Exhaust — {4}{W}{W}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. => {T}: Another target creature gets +1/+1 until end of turn. Activate only during your turn.
+Exhaust — {4}{W}{W}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]
+
+Quill, Skyline Enforcer
+
+Destroy Evil
+
+In The Barrel
+
+Outlander Hermit
+
+Quill's Crystalmorph
+
+Gilded Paragon
+
+Recursive Security Patch
+
+Holomasker
+
+Two-Way Data Broker
+
+Signal Scarper
+
+Suppressor Type-00uroboros
+
+Cascading Errors
+
+Sublime Watcher
+
+Exogene Memory
+
+Replicausal Banshee
+rules_text: Whenever you cast a noncreature spell or activate a ninjutsu ability, this creature gets +1/+1 until end of turn.
+Exhaust — {4}{U}{U}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. => Whenever you cast a noncreature spell or activate a ninjutsu ability, this creature gets +1/+1 until end of turn.
+Exhaust — {4}{U}{U}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]
+
+Repli-Corps Resplicer
+
+Recursive Ambiguation
+
+Perfect Parry
+
+Wipe From Memory
+
+Unauthorized Entry
+
+Ghost Rat
+
+Tough Bastard
+
+Repli-Corps Reject
+
+Replicausal Leecher
+rules_text: Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.
+Exhaust — {4}{B}{B}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. => Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.
+Exhaust — {4}{B}{B}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]
+
+Witching Hour Ambush
+
+Scrap Transcendentalist
+
+108 Rebirths
+
+A Pleasure To Burn
+
+Recursive Data Torrent
+
+Many-Eyed Patrol
+
+Crackdown Warrant
+
+Allnet Nightraider
+
+Pummeler Hisaki
+
+Clobber
+
+Exogene Grafting
+
+Vaultcracker
+
+Network Impinger
+
+Replicausal Rampager
+rules_text: Attacking creatures you control get +1/+0.
+Exhaust — {4}{R}{R}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. => Attacking creatures you control get +1/+0.
+Exhaust — {4}{R}{R}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]
+
+Scrapheap Upstart
+
+Grassroots Defenses
+
+Recursive Logic Bomb
+
+Urban Cratering
+
+Yaki Station Heavy
+
+Allnet Archer
+
+Chimeratech Omnivore
+
+RAM Clouder
+
+Bearer of Ancient Lore
+
+Recursive Rescaling
+
+Isolator
+
+Replicausal Grafter
+rules_text: At the beginning of combat on your turn, you may pay {1}. If you do, put a +1/+1 counter on target creature you control.
+Exhaust — {4}{G}{G}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. => At the beginning of combat on your turn, you may pay {1}. If you do, put a +1/+1 counter on target creature you control.
+Exhaust — {4}{G}{G}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]
+
+Heritage Reclamation
+
+Biografted Heavy
+
+Sanitation Sneak
+
+Exogene Extrusion
+
+Antivirus Commander
+
+Wreckingyard Sweeper
+
+Doomsday Dreadnought
+
+Datastrate Architect
+
+Schedule-1 Printer
+
+Universal Solver
+
+Automatic Second
+
+Moonlit Maze
+
+Allnet Service Hub
+
+Undernet Distributory
+
+Corrupt Kernel
+
+Paradoxical Core
+
+Grand Colosseum
+
+Printmat Refectory
+
+Between-Lanes
+
+Reflecting Pool
+
+Spirit
+
+Robot
+
+Bird
+
+Tentacle
+
+Soldier
+
+Copy
+
+Plant
+
+Rogue
+
+Wurm
+
+Fist
+
+Horror
+
+Exogene Reconstructor
+
+Strix Operative
+
+Archive Trawl
+
+Motion Carver
+
+Lag Switch
+
+Exogene Macrophage
+
+Bring In the Big Guns
+
+Savvy Cracker
+
+Double Time
+
+Data Scavenger
+
+Defrag
+
+Shitpost
+
+Lightning Fantastic
+
+Progenitor, The Body Electric
+
+Trash Industry
+
+Skulking Dissolver
+
+Unrelenting Platoon
+
+Aftermarket Light Frame
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

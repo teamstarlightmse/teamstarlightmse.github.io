@@ -1,15 +1,15 @@
 ﻿{
     "name": "Hunzikure",
-    "formats": "microsets",
-    "trimmed": "y",
+    "formats": "",
+    "trimmed": "n",
     "image_type": "png",
-    "draft_structure": "none",
+    "draft_structure": "cube",
     "unpreviewed": "card back",
     "cards": [
         {
             "card_name": "Rooftop Raider",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Soldier",
             "number": 19,
             "color_identity": "W",
@@ -28,7 +28,7 @@
         {
             "card_name": "Kernel Hopper",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Scout",
             "number": 12,
             "color_identity": "W",
@@ -47,7 +47,7 @@
         {
             "card_name": "Training-Sim Custodian",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Warrior",
             "number": 21,
             "color_identity": "W",
@@ -77,7 +77,7 @@
         {
             "card_name": "Stun Distractor",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Soldier",
             "number": 20,
             "color_identity": "W",
@@ -96,7 +96,7 @@
         {
             "card_name": "Allnet Diagnostician",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Doctor",
             "number": 6,
             "color_identity": "W",
@@ -115,7 +115,7 @@
         {
             "card_name": "Extraction Mission",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 9,
             "color_identity": "W",
@@ -134,7 +134,7 @@
         {
             "card_name": "Luminous Pietist",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Monk",
             "number": 13,
             "color_identity": "W",
@@ -153,12 +153,12 @@
         {
             "card_name": "Replicausal Phalanx",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Soldier",
             "number": 18,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "{T}: Another target creature gets +1/+1 until end of turn. Activate only during your turn.\nExhaust \u2014 {4}{W}{W}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "{T}: Another target creature gets +1/+1 until end of turn. Activate only during your turn.\nExhaust \u2014 {4}{W}{W}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -172,7 +172,7 @@
         {
             "card_name": "Quill, Skyline Enforcer",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Legendary Creature \u2014 Soldier",
             "number": 15,
             "color_identity": "W",
@@ -202,7 +202,7 @@
         {
             "card_name": "Destroy Evil",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 7,
             "color_identity": "W",
@@ -221,7 +221,7 @@
         {
             "card_name": "In The Barrel",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment",
             "number": 11,
             "color_identity": "W",
@@ -240,7 +240,7 @@
         {
             "card_name": "Outlander Hermit",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ninja",
             "number": 14,
             "color_identity": "W",
@@ -259,7 +259,7 @@
         {
             "card_name": "Quill's Crystalmorph",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ninja",
             "number": 16,
             "color_identity": "W",
@@ -278,7 +278,7 @@
         {
             "card_name": "Gilded Paragon",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Knight",
             "number": 10,
             "color_identity": "W",
@@ -297,7 +297,7 @@
         {
             "card_name": "Recursive Security Patch",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment \u2014 Aura",
             "number": 17,
             "color_identity": "W",
@@ -316,7 +316,7 @@
         {
             "card_name": "Holomasker",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ninja",
             "number": 25,
             "color_identity": "U",
@@ -335,7 +335,7 @@
         {
             "card_name": "Two-Way Data Broker",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Wizard",
             "number": 37,
             "color_identity": "U",
@@ -365,7 +365,7 @@
         {
             "card_name": "Signal Scarper",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ninja",
             "number": 33,
             "color_identity": "U",
@@ -384,7 +384,7 @@
         {
             "card_name": "Suppressor Type-00uroboros",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Snake",
             "number": 36,
             "color_identity": "U",
@@ -403,7 +403,7 @@
         {
             "card_name": "Cascading Errors",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment",
             "number": 23,
             "color_identity": "U",
@@ -422,7 +422,7 @@
         {
             "card_name": "Sublime Watcher",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot",
             "number": 35,
             "color_identity": "U",
@@ -441,7 +441,7 @@
         {
             "card_name": "Exogene Memory",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment \u2014 Aura",
             "number": 24,
             "color_identity": "U",
@@ -460,12 +460,12 @@
         {
             "card_name": "Replicausal Banshee",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Spirit",
             "number": 31,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Whenever you cast a noncreature spell or activate a ninjutsu ability, this creature gets +1/+1 until end of turn.\nExhaust \u2014 {4}{U}{U}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "Whenever you cast a noncreature spell or activate a ninjutsu ability, this creature gets +1/+1 until end of turn.\nExhaust \u2014 {4}{U}{U}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -479,7 +479,7 @@
         {
             "card_name": "Repli-Corps Resplicer",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Illusion Wizard",
             "number": 30,
             "color_identity": "U",
@@ -498,7 +498,7 @@
         {
             "card_name": "Recursive Ambiguation",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 29,
             "color_identity": "U",
@@ -517,7 +517,7 @@
         {
             "card_name": "Perfect Parry",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 28,
             "color_identity": "U",
@@ -536,7 +536,7 @@
         {
             "card_name": "Wipe From Memory",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 52,
             "color_identity": "B",
@@ -555,7 +555,7 @@
         {
             "card_name": "Unauthorized Entry",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 51,
             "color_identity": "B",
@@ -574,7 +574,7 @@
         {
             "card_name": "Ghost Rat",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ninja",
             "number": 41,
             "color_identity": "B",
@@ -593,7 +593,7 @@
         {
             "card_name": "Tough Bastard",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Warrior",
             "number": 49,
             "color_identity": "B",
@@ -623,7 +623,7 @@
         {
             "card_name": "Repli-Corps Reject",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Soldier",
             "number": 45,
             "color_identity": "B",
@@ -642,12 +642,12 @@
         {
             "card_name": "Replicausal Leecher",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Insect",
             "number": 46,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.\nExhaust \u2014 {4}{B}{B}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.\nExhaust \u2014 {4}{B}{B}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -661,7 +661,7 @@
         {
             "card_name": "Witching Hour Ambush",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment",
             "number": 53,
             "color_identity": "B",
@@ -680,7 +680,7 @@
         {
             "card_name": "Scrap Transcendentalist",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Monk",
             "number": 47,
             "color_identity": "B",
@@ -699,7 +699,7 @@
         {
             "card_name": "108 Rebirths",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Legendary Creature \u2014 Zombie",
             "number": 38,
             "color_identity": "B",
@@ -729,7 +729,7 @@
         {
             "card_name": "A Pleasure To Burn",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Sorcery",
             "number": 43,
             "color_identity": "B",
@@ -748,7 +748,7 @@
         {
             "card_name": "Recursive Data Torrent",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Sorcery",
             "number": 44,
             "color_identity": "B",
@@ -767,7 +767,7 @@
         {
             "card_name": "Many-Eyed Patrol",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Detective",
             "number": 42,
             "color_identity": "B",
@@ -786,7 +786,7 @@
         {
             "card_name": "Crackdown Warrant",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Sorcery",
             "number": 39,
             "color_identity": "B",
@@ -805,7 +805,7 @@
         {
             "card_name": "Allnet Nightraider",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Warrior",
             "number": 55,
             "color_identity": "R",
@@ -824,7 +824,7 @@
         {
             "card_name": "Pummeler Hisaki",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Legendary Creature \u2014 Robot Warrior",
             "number": 62,
             "color_identity": "R",
@@ -854,7 +854,7 @@
         {
             "card_name": "Clobber",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 57,
             "color_identity": "R",
@@ -873,7 +873,7 @@
         {
             "card_name": "Exogene Grafting",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment",
             "number": 59,
             "color_identity": "R",
@@ -892,7 +892,7 @@
         {
             "card_name": "Vaultcracker",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ninja",
             "number": 68,
             "color_identity": "R",
@@ -911,7 +911,7 @@
         {
             "card_name": "Network Impinger",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Rogue",
             "number": 61,
             "color_identity": "R",
@@ -930,12 +930,12 @@
         {
             "card_name": "Replicausal Rampager",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Warrior",
             "number": 64,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Attacking creatures you control get +1/+0.\nExhaust \u2014 {4}{R}{R}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "Attacking creatures you control get +1/+0.\nExhaust \u2014 {4}{R}{R}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -949,7 +949,7 @@
         {
             "card_name": "Scrapheap Upstart",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Imp",
             "number": 66,
             "color_identity": "R",
@@ -968,7 +968,7 @@
         {
             "card_name": "Grassroots Defenses",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment",
             "number": 60,
             "color_identity": "R",
@@ -987,7 +987,7 @@
         {
             "card_name": "Recursive Logic Bomb",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 63,
             "color_identity": "R",
@@ -1006,7 +1006,7 @@
         {
             "card_name": "Urban Cratering",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment",
             "number": 67,
             "color_identity": "R",
@@ -1025,7 +1025,7 @@
         {
             "card_name": "Yaki Station Heavy",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Scout",
             "number": 69,
             "color_identity": "R",
@@ -1044,7 +1044,7 @@
         {
             "card_name": "Allnet Archer",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Archer",
             "number": 70,
             "color_identity": "G",
@@ -1063,7 +1063,7 @@
         {
             "card_name": "Chimeratech Omnivore",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Wurm",
             "number": 74,
             "color_identity": "G",
@@ -1082,7 +1082,7 @@
         {
             "card_name": "RAM Clouder",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature",
             "number": 81,
             "color_identity": "G",
@@ -1112,7 +1112,7 @@
         {
             "card_name": "Bearer of Ancient Lore",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Monk",
             "number": 72,
             "color_identity": "G",
@@ -1142,7 +1142,7 @@
         {
             "card_name": "Recursive Rescaling",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 82,
             "color_identity": "G",
@@ -1161,7 +1161,7 @@
         {
             "card_name": "Isolator",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Horror Ninja",
             "number": 79,
             "color_identity": "G",
@@ -1180,12 +1180,12 @@
         {
             "card_name": "Replicausal Grafter",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Druid",
             "number": 83,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "At the beginning of combat on your turn, you may pay {1}. If you do, put a +1/+1 counter on target creature you control.\nExhaust \u2014 {4}{G}{G}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery.",
+            "rules_text": "At the beginning of combat on your turn, you may pay {1}. If you do, put a +1/+1 counter on target creature you control.\nExhaust \u2014 {4}{G}{G}: If this creature isn't a token, create two tokens that are copies of it. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -1199,7 +1199,7 @@
         {
             "card_name": "Heritage Reclamation",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 78,
             "color_identity": "G",
@@ -1218,7 +1218,7 @@
         {
             "card_name": "Biografted Heavy",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Horror Warrior",
             "number": 73,
             "color_identity": "G",
@@ -1232,12 +1232,12 @@
             "loyalty": "",
             "artist": "Fotis Tsantilas",
             "alias": "",
-            "notes": "Feather \u2014 10/23: Buffed Heavy to get a counter on enter or combat damage"
+            "notes": ""
         },
         {
             "card_name": "Sanitation Sneak",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Rogue",
             "number": 84,
             "color_identity": "G",
@@ -1256,7 +1256,7 @@
         {
             "card_name": "Exogene Extrusion",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Horror",
             "number": 77,
             "color_identity": "G",
@@ -1275,7 +1275,7 @@
         {
             "card_name": "Antivirus Commander",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ninja",
             "number": 71,
             "color_identity": "G",
@@ -1294,7 +1294,7 @@
         {
             "card_name": "Wreckingyard Sweeper",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Rogue",
             "number": 5,
             "color_identity": "C",
@@ -1313,7 +1313,7 @@
         {
             "card_name": "Doomsday Dreadnought",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Dreadnought",
             "number": 3,
             "color_identity": "C",
@@ -1332,7 +1332,7 @@
         {
             "card_name": "Datastrate Architect",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Artificer",
             "number": 2,
             "color_identity": "C",
@@ -1351,9 +1351,9 @@
         {
             "card_name": "Schedule-1 Printer",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Artifact",
-            "number": 86,
+            "number": 87,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Whenever you attack, create a 1/1 Robot artifact creature token that's tapped and attacking.",
@@ -1370,9 +1370,9 @@
         {
             "card_name": "Universal Solver",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 87,
+            "number": 88,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "This creature enters with a +1/+1 counter on it if it was cast from your hand.",
@@ -1400,7 +1400,7 @@
         {
             "card_name": "Automatic Second",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Warrior",
             "number": 1,
             "color_identity": "C",
@@ -1419,9 +1419,9 @@
         {
             "card_name": "Moonlit Maze",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Land",
-            "number": 92,
+            "number": 93,
             "color_identity": "W",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {W}.",
@@ -1449,9 +1449,9 @@
         {
             "card_name": "Allnet Service Hub",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Land",
-            "number": 88,
+            "number": 89,
             "color_identity": "U",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {U}.",
@@ -1479,9 +1479,9 @@
         {
             "card_name": "Undernet Distributory",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Land",
-            "number": 95,
+            "number": 96,
             "color_identity": "B",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {B}.",
@@ -1509,9 +1509,9 @@
         {
             "card_name": "Corrupt Kernel",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Land",
-            "number": 90,
+            "number": 91,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}, Sacrifice a nonland permanent: Put a corruption counter on this land. Then if there are three or more corruption counters on this land, sacrifice it and create a 4/4 tapped black Horror creature token.",
@@ -1528,9 +1528,9 @@
         {
             "card_name": "Paradoxical Core",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Land",
-            "number": 93,
+            "number": 94,
             "color_identity": "C",
             "cost": "",
             "rules_text": "Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this land.\n{T}: Add {C}.\n{2}: Until end of turn, this land becomes a 0/0 Horror creature with menace. It's still a land.",
@@ -1547,9 +1547,9 @@
         {
             "card_name": "Grand Colosseum",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Land",
-            "number": 91,
+            "number": 92,
             "color_identity": "R",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {R}.",
@@ -1577,9 +1577,9 @@
         {
             "card_name": "Printmat Refectory",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Land",
-            "number": 94,
+            "number": 95,
             "color_identity": "G",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {G}.",
@@ -1607,9 +1607,9 @@
         {
             "card_name": "Between-Lanes",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Land",
-            "number": 89,
+            "number": 90,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. This mana can't be spent to cast spells from your hand.",
@@ -1626,9 +1626,9 @@
         {
             "card_name": "Reflecting Pool",
             "color": "",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Land",
-            "number": 12,
+            "number": 13,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add one mana of any type that a land you control could produce.",
@@ -1645,7 +1645,7 @@
         {
             "card_name": "Spirit",
             "color": "W",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Spirit",
             "number": 4,
             "color_identity": "W",
@@ -1659,14 +1659,14 @@
             "loyalty": "",
             "artist": "Tim Denby",
             "alias": "",
-            "notes": "!related Allnet Diagnostician; Replicausal Banshee"
+            "notes": "!related Allnet Diagnostician"
         },
         {
             "card_name": "Robot",
             "color": "",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Artifact Creature \u2014 Robot",
-            "number": 11,
+            "number": 12,
             "color_identity": "C",
             "cost": "",
             "rules_text": "",
@@ -1683,7 +1683,7 @@
         {
             "card_name": "Bird",
             "color": "W",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Bird",
             "number": 2,
             "color_identity": "W",
@@ -1702,9 +1702,9 @@
         {
             "card_name": "Tentacle",
             "color": "U",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Tentacle",
-            "number": 5,
+            "number": 6,
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
@@ -1721,7 +1721,7 @@
         {
             "card_name": "Soldier",
             "color": "W",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Soldier",
             "number": 3,
             "color_identity": "W",
@@ -1740,7 +1740,7 @@
         {
             "card_name": "Copy",
             "color": "",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature",
             "number": 1,
             "color_identity": "C",
@@ -1759,9 +1759,9 @@
         {
             "card_name": "Plant",
             "color": "G",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Plant",
-            "number": 9,
+            "number": 10,
             "color_identity": "G",
             "cost": "",
             "rules_text": "This token gets +1/+1 for each permanent you control.",
@@ -1778,9 +1778,9 @@
         {
             "card_name": "Rogue",
             "color": "R",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Rogue",
-            "number": 8,
+            "number": 9,
             "color_identity": "R",
             "cost": "",
             "rules_text": "Haste, menace",
@@ -1797,9 +1797,9 @@
         {
             "card_name": "Wurm",
             "color": "G",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Wurm",
-            "number": 10,
+            "number": 11,
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
@@ -1809,16 +1809,16 @@
             "shape": "token",
             "set": "HNZ",
             "loyalty": "",
-            "artist": "",
+            "artist": "Benedick Bana",
             "alias": "",
             "notes": "!related Chimeratech Omnivore"
         },
         {
             "card_name": "Fist",
             "color": "R",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Fist",
-            "number": 7,
+            "number": 8,
             "color_identity": "R",
             "cost": "",
             "rules_text": "Haste",
@@ -1835,9 +1835,9 @@
         {
             "card_name": "Horror",
             "color": "B",
-            "rarity": "common",
+            "rarity": "cube",
             "type": "Token Creature \u2014 Horror",
-            "number": 6,
+            "number": 7,
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
@@ -1854,7 +1854,7 @@
         {
             "card_name": "Exogene Reconstructor",
             "color": "W",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Artifact",
             "number": 8,
             "color_identity": "W",
@@ -1873,7 +1873,7 @@
         {
             "card_name": "Strix Operative",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Rogue",
             "number": 34,
             "color_identity": "U",
@@ -1892,7 +1892,7 @@
         {
             "card_name": "Archive Trawl",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 22,
             "color_identity": "U",
@@ -1911,7 +1911,7 @@
         {
             "card_name": "Motion Carver",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Warrior",
             "number": 27,
             "color_identity": "U",
@@ -1930,7 +1930,7 @@
         {
             "card_name": "Lag Switch",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment \u2014 Aura",
             "number": 26,
             "color_identity": "U",
@@ -1949,7 +1949,7 @@
         {
             "card_name": "Exogene Macrophage",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Horror",
             "number": 40,
             "color_identity": "B",
@@ -1968,7 +1968,7 @@
         {
             "card_name": "Bring In the Big Guns",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 56,
             "color_identity": "R",
@@ -1987,7 +1987,7 @@
         {
             "card_name": "Savvy Cracker",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Rogue",
             "number": 65,
             "color_identity": "R",
@@ -2017,7 +2017,7 @@
         {
             "card_name": "Double Time",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Sorcery",
             "number": 58,
             "color_identity": "R",
@@ -2036,7 +2036,7 @@
         {
             "card_name": "Data Scavenger",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ranger",
             "number": 75,
             "color_identity": "G",
@@ -2066,7 +2066,7 @@
         {
             "card_name": "Defrag",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 76,
             "color_identity": "G",
@@ -2085,7 +2085,7 @@
         {
             "card_name": "Shitpost",
             "color": "U",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Instant",
             "number": 32,
             "color_identity": "U",
@@ -2104,7 +2104,7 @@
         {
             "card_name": "Lightning Fantastic",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Ninja Wizard",
             "number": 80,
             "color_identity": "G",
@@ -2123,7 +2123,7 @@
         {
             "card_name": "Progenitor, The Body Electric",
             "color": "",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Legendary Creature \u2014 Construct",
             "number": 4,
             "color_identity": "C",
@@ -2142,7 +2142,7 @@
         {
             "card_name": "Trash Industry",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Enchantment",
             "number": 50,
             "color_identity": "B",
@@ -2161,7 +2161,7 @@
         {
             "card_name": "Skulking Dissolver",
             "color": "B",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Rogue",
             "number": 48,
             "color_identity": "B",
@@ -2191,7 +2191,7 @@
         {
             "card_name": "Unrelenting Platoon",
             "color": "G",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Soldier",
             "number": 85,
             "color_identity": "G",
@@ -2203,14 +2203,14 @@
             "shape": "normal",
             "set": "HNZ",
             "loyalty": "",
-            "artist": "Ignacio Basan-Lazano",
+            "artist": "Ben Mauro",
             "alias": "",
             "notes": ""
         },
         {
             "card_name": "Aftermarket Light Frame",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "cube",
             "type": "Creature \u2014 Robot Rogue",
             "number": 54,
             "color_identity": "R",
@@ -2225,7 +2225,44 @@
             "artist": "esuthio",
             "alias": "",
             "notes": ""
+        },
+        {
+            "card_name": "Prophetic Prism",
+            "color": "",
+            "rarity": "cube",
+            "type": "Artifact",
+            "number": 86,
+            "color_identity": "C",
+            "cost": "{2}",
+            "rules_text": "When this artifact enters, draw a card.\n{1}, {T}: Add one mana of any color.",
+            "flavor_text": "[i]FT\nFT\nFT\nFT[/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "HNZ",
+            "loyalty": "",
+            "artist": "Vick3l",
+            "alias": "",
+            "notes": ""
+        },
+        {
+            "card_name": "Illusion",
+            "color": "U",
+            "rarity": "cube",
+            "type": "Token Creature \u2014 Illusion",
+            "number": 5,
+            "color_identity": "U",
+            "cost": "",
+            "rules_text": "",
+            "flavor_text": "[i][/i]",
+            "pt": "X/X",
+            "special_text": "",
+            "shape": "token",
+            "set": "HNZ",
+            "loyalty": "",
+            "artist": "Chris Malbon",
+            "alias": "",
+            "notes": "!related Exogene Memory"
         }
-    ],
-    "version": 1
+    ]
 }
