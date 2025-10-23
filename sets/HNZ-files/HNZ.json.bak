@@ -3,7 +3,7 @@
     "formats": "microsets",
     "trimmed": "y",
     "image_type": "png",
-    "draft_structure": "cube",
+    "draft_structure": "none",
     "unpreviewed": "card back",
     "cards": [
         {

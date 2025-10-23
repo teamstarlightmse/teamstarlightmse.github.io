@@ -1,0 +1,1075 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Rooftop Raider",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Robot Soldier",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/19_Rooftop Raider.png"
+			}
+		},
+		{
+			"name": "Kernel Hopper",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Robot Scout",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/12_Kernel Hopper.png"
+			}
+		},
+		{
+			"name": "Training-Sim Custodian",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Robot Warrior",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/21_Training-Sim Custodian.png"
+			}
+		},
+		{
+			"name": "Stun Distractor",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Robot Soldier",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/20_Stun Distractor.png"
+			}
+		},
+		{
+			"name": "Allnet Diagnostician",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Robot Doctor",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/6_Allnet Diagnostician.png"
+			}
+		},
+		{
+			"name": "Extraction Mission",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/9_Extraction Mission.png"
+			}
+		},
+		{
+			"name": "Luminous Pietist",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Robot Monk",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/13_Luminous Pietist.png"
+			}
+		},
+		{
+			"name": "Replicausal Phalanx",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Robot Soldier",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/18_Replicausal Phalanx.png"
+			}
+		},
+		{
+			"name": "Quill, Skyline Enforcer",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Soldier",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/15_Quill, Skyline Enforcer.png"
+			}
+		},
+		{
+			"name": "Destroy Evil",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/7_Destroy Evil.png"
+			}
+		},
+		{
+			"name": "In The Barrel",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/11_In The Barrel.png"
+			}
+		},
+		{
+			"name": "Outlander Hermit",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Robot Ninja",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/14_Outlander Hermit.png"
+			}
+		},
+		{
+			"name": "Quill's Crystalmorph",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Robot Ninja",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/16_Quill's Crystalmorph.png"
+			}
+		},
+		{
+			"name": "Gilded Paragon",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Robot Knight",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/10_Gilded Paragon.png"
+			}
+		},
+		{
+			"name": "Recursive Security Patch",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/17_Recursive Security Patch.png"
+			}
+		},
+		{
+			"name": "Holomasker",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Robot Ninja",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/25_Holomasker.png"
+			}
+		},
+		{
+			"name": "Two-Way Data Broker",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Robot Wizard",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/37_Two-Way Data Broker.png"
+			}
+		},
+		{
+			"name": "Signal Scarper",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Robot Ninja",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/33_Signal Scarper.png"
+			}
+		},
+		{
+			"name": "Suppressor Type-00uroboros",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}{U}",
+			"type": "Creature — Robot Snake",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/36_Suppressor Type-00uroboros.png"
+			}
+		},
+		{
+			"name": "Cascading Errors",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/23_Cascading Errors.png"
+			}
+		},
+		{
+			"name": "Sublime Watcher",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Robot",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/35_Sublime Watcher.png"
+			}
+		},
+		{
+			"name": "Exogene Memory",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/24_Exogene Memory.png"
+			}
+		},
+		{
+			"name": "Replicausal Banshee",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Robot Spirit",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/31_Replicausal Banshee.png"
+			}
+		},
+		{
+			"name": "Repli-Corps Resplicer",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Robot Illusion Wizard",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/30_Repli-Corps Resplicer.png"
+			}
+		},
+		{
+			"name": "Recursive Ambiguation",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/29_Recursive Ambiguation.png"
+			}
+		},
+		{
+			"name": "Perfect Parry",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/28_Perfect Parry.png"
+			}
+		},
+		{
+			"name": "Wipe From Memory",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/52_Wipe From Memory.png"
+			}
+		},
+		{
+			"name": "Unauthorized Entry",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/51_Unauthorized Entry.png"
+			}
+		},
+		{
+			"name": "Ghost Rat",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Robot Ninja",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/41_Ghost Rat.png"
+			}
+		},
+		{
+			"name": "Tough Bastard",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Robot Warrior",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/49_Tough Bastard.png"
+			}
+		},
+		{
+			"name": "Repli-Corps Reject",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Robot Soldier",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/45_Repli-Corps Reject.png"
+			}
+		},
+		{
+			"name": "Replicausal Leecher",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Robot Insect",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/46_Replicausal Leecher.png"
+			}
+		},
+		{
+			"name": "Witching Hour Ambush",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/53_Witching Hour Ambush.png"
+			}
+		},
+		{
+			"name": "Scrap Transcendentalist",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Robot Monk",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/47_Scrap Transcendentalist.png"
+			}
+		},
+		{
+			"name": "108 Rebirths",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Zombie",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/38_108 Rebirths.png"
+			}
+		},
+		{
+			"name": "A Pleasure To Burn",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/43_A Pleasure To Burn.png"
+			}
+		},
+		{
+			"name": "Recursive Data Torrent",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/44_Recursive Data Torrent.png"
+			}
+		},
+		{
+			"name": "Many-Eyed Patrol",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Robot Detective",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/42_Many-Eyed Patrol.png"
+			}
+		},
+		{
+			"name": "Crackdown Warrant",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/39_Crackdown Warrant.png"
+			}
+		},
+		{
+			"name": "Allnet Nightraider",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Robot Warrior",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/55_Allnet Nightraider.png"
+			}
+		},
+		{
+			"name": "Pummeler Hisaki",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Robot Warrior",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/62_Pummeler Hisaki.png"
+			}
+		},
+		{
+			"name": "Clobber",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/57_Clobber.png"
+			}
+		},
+		{
+			"name": "Exogene Grafting",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/59_Exogene Grafting.png"
+			}
+		},
+		{
+			"name": "Vaultcracker",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Robot Ninja",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/68_Vaultcracker.png"
+			}
+		},
+		{
+			"name": "Network Impinger",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Robot Rogue",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/61_Network Impinger.png"
+			}
+		},
+		{
+			"name": "Replicausal Rampager",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Robot Warrior",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/64_Replicausal Rampager.png"
+			}
+		},
+		{
+			"name": "Scrapheap Upstart",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Robot Imp",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/66_Scrapheap Upstart.png"
+			}
+		},
+		{
+			"name": "Grassroots Defenses",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/60_Grassroots Defenses.png"
+			}
+		},
+		{
+			"name": "Recursive Logic Bomb",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/63_Recursive Logic Bomb.png"
+			}
+		},
+		{
+			"name": "Urban Cratering",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Enchantment",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/67_Urban Cratering.png"
+			}
+		},
+		{
+			"name": "Yaki Station Heavy",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Robot Scout",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/69_Yaki Station Heavy.png"
+			}
+		},
+		{
+			"name": "Allnet Archer",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Robot Archer",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/70_Allnet Archer.png"
+			}
+		},
+		{
+			"name": "Chimeratech Omnivore",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Wurm",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/74_Chimeratech Omnivore.png"
+			}
+		},
+		{
+			"name": "RAM Clouder",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/81_RAM Clouder.png"
+			}
+		},
+		{
+			"name": "Bearer of Ancient Lore",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Robot Monk",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/72_Bearer of Ancient Lore.png"
+			}
+		},
+		{
+			"name": "Recursive Rescaling",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/82_Recursive Rescaling.png"
+			}
+		},
+		{
+			"name": "Isolator",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Horror Ninja",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/79_Isolator.png"
+			}
+		},
+		{
+			"name": "Replicausal Grafter",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Robot Druid",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/83_Replicausal Grafter.png"
+			}
+		},
+		{
+			"name": "Heritage Reclamation",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/78_Heritage Reclamation.png"
+			}
+		},
+		{
+			"name": "Biografted Heavy",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Horror Warrior",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/73_Biografted Heavy.png"
+			}
+		},
+		{
+			"name": "Sanitation Sneak",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Robot Rogue",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/84_Sanitation Sneak.png"
+			}
+		},
+		{
+			"name": "Exogene Extrusion",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Horror",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/77_Exogene Extrusion.png"
+			}
+		},
+		{
+			"name": "Antivirus Commander",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Robot Ninja",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/71_Antivirus Commander.png"
+			}
+		},
+		{
+			"name": "Wreckingyard Sweeper",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Creature — Robot Rogue",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/5_Wreckingyard Sweeper.png"
+			}
+		},
+		{
+			"name": "Doomsday Dreadnought",
+			"rarity": "rare",
+			"mana_cost": "{9}",
+			"type": "Creature — Dreadnought",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/3_Doomsday Dreadnought.png"
+			}
+		},
+		{
+			"name": "Datastrate Architect",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Creature — Robot Artificer",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/2_Datastrate Architect.png"
+			}
+		},
+		{
+			"name": "Schedule-1 Printer",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/86_Schedule-1 Printer.png"
+			}
+		},
+		{
+			"name": "Universal Solver",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/87_Universal Solver.png"
+			}
+		},
+		{
+			"name": "Automatic Second",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Creature — Robot Warrior",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/1_Automatic Second.png"
+			}
+		},
+		{
+			"name": "Moonlit Maze",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/92_Moonlit Maze.png"
+			}
+		},
+		{
+			"name": "Allnet Service Hub",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/88_Allnet Service Hub.png"
+			}
+		},
+		{
+			"name": "Undernet Distributory",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/95_Undernet Distributory.png"
+			}
+		},
+		{
+			"name": "Corrupt Kernel",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/90_Corrupt Kernel.png"
+			}
+		},
+		{
+			"name": "Paradoxical Core",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/93_Paradoxical Core.png"
+			}
+		},
+		{
+			"name": "Grand Colosseum",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/91_Grand Colosseum.png"
+			}
+		},
+		{
+			"name": "Printmat Refectory",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/94_Printmat Refectory.png"
+			}
+		},
+		{
+			"name": "Between-Lanes",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/89_Between-Lanes.png"
+			}
+		},
+		{
+			"name": "Reflecting Pool",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Land",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/12_Reflecting Pool.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/4_Spirit.png"
+			}
+		},
+		{
+			"name": "Robot",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Robot",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/11_Robot.png"
+			}
+		},
+		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/2_Bird.png"
+			}
+		},
+		{
+			"name": "Tentacle",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Tentacle",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/5_Tentacle.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/3_Soldier.png"
+			}
+		},
+		{
+			"name": "Copy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/1_Copy.png"
+			}
+		},
+		{
+			"name": "Plant",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Plant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/9_Plant.png"
+			}
+		},
+		{
+			"name": "Rogue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Rogue",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/8_Rogue.png"
+			}
+		},
+		{
+			"name": "Wurm",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Wurm",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/10_Wurm.png"
+			}
+		},
+		{
+			"name": "Fist",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Fist",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/7_Fist.png"
+			}
+		},
+		{
+			"name": "Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Horror",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/6_Horror.png"
+			}
+		},
+		{
+			"name": "Exogene Reconstructor",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/8_Exogene Reconstructor.png"
+			}
+		},
+		{
+			"name": "Strix Operative",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Robot Rogue",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/34_Strix Operative.png"
+			}
+		},
+		{
+			"name": "Archive Trawl",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/22_Archive Trawl.png"
+			}
+		},
+		{
+			"name": "Motion Carver",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Robot Warrior",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/27_Motion Carver.png"
+			}
+		},
+		{
+			"name": "Lag Switch",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/26_Lag Switch.png"
+			}
+		},
+		{
+			"name": "Exogene Macrophage",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Horror",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/40_Exogene Macrophage.png"
+			}
+		},
+		{
+			"name": "Bring In the Big Guns",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/56_Bring In the Big Guns.png"
+			}
+		},
+		{
+			"name": "Savvy Cracker",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Robot Rogue",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/65_Savvy Cracker.png"
+			}
+		},
+		{
+			"name": "Double Time",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/58_Double Time.png"
+			}
+		},
+		{
+			"name": "Data Scavenger",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Robot Ranger",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/75_Data Scavenger.png"
+			}
+		},
+		{
+			"name": "Defrag",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/76_Defrag.png"
+			}
+		},
+		{
+			"name": "Shitpost",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/32_Shitpost.png"
+			}
+		},
+		{
+			"name": "Lightning Fantastic",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Robot Ninja Wizard",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/80_Lightning Fantastic.png"
+			}
+		},
+		{
+			"name": "Progenitor, The Body Electric",
+			"rarity": "rare",
+			"mana_cost": "{8}",
+			"type": "Legendary Creature — Construct",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/4_Progenitor, The Body Electric.png"
+			}
+		},
+		{
+			"name": "Trash Industry",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/50_Trash Industry.png"
+			}
+		},
+		{
+			"name": "Skulking Dissolver",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Robot Rogue",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/48_Skulking Dissolver.png"
+			}
+		},
+		{
+			"name": "Unrelenting Platoon",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Robot Soldier",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/85_Unrelenting Platoon.png"
+			}
+		},
+		{
+			"name": "Aftermarket Light Frame",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Robot Rogue",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/54_Aftermarket Light Frame.png"
+			}
+		}
+	]
+
+[cube(15)]
