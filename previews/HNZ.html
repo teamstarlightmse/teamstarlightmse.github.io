@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/HNZ-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>HNZ visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/HNZ-files/logo.png" />
+	<img class="preload-hidden" src="/sets/HNZ-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="HNZ"><img src="/sets/HNZ-files/icon.png">Hunzikure</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/HNZ-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\HNZ-files\img\6_Allnet Diagnostician.png" id="6_Allnet Diagnostician" data-flag="@X" onclick="openSidebar('6_Allnet Diagnostician',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\22_Archive Trawl.png" id="22_Archive Trawl" data-flag="@X" onclick="openSidebar('22_Archive Trawl',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\38_108 Rebirths.png" id="38_108 Rebirths" data-flag="@X" onclick="openSidebar('38_108 Rebirths',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\54_Aftermarket Light Frame.png" id="54_Aftermarket Light Frame" data-flag="@X" onclick="openSidebar('54_Aftermarket Light Frame',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\70_Allnet Archer.png" id="70_Allnet Archer" data-flag="@X" onclick="openSidebar('70_Allnet Archer',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\7_Destroy Evil.png" id="7_Destroy Evil" data-flag="@X" onclick="openSidebar('7_Destroy Evil',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\23_Cascading Errors.png" id="23_Cascading Errors" data-flag="@X" onclick="openSidebar('23_Cascading Errors',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\39_Crackdown Warrant.png" id="39_Crackdown Warrant" data-flag="@X" onclick="openSidebar('39_Crackdown Warrant',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\55_Allnet Nightraider.png" id="55_Allnet Nightraider" data-flag="@X" onclick="openSidebar('55_Allnet Nightraider',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\71_Antivirus Commander.png" id="71_Antivirus Commander" data-flag="@X" onclick="openSidebar('71_Antivirus Commander',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\8_Exogene Reconstructor.png" id="8_Exogene Reconstructor" data-flag="@X" onclick="openSidebar('8_Exogene Reconstructor',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\24_Exogene Memory.png" id="24_Exogene Memory" data-flag="@X" onclick="openSidebar('24_Exogene Memory',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\40_Exogene Macrophage.png" id="40_Exogene Macrophage" data-flag="@X" onclick="openSidebar('40_Exogene Macrophage',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\56_Bring In the Big Guns.png" id="56_Bring In the Big Guns" data-flag="@X" onclick="openSidebar('56_Bring In the Big Guns',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\72_Bearer of Ancient Lore.png" id="72_Bearer of Ancient Lore" data-flag="@X" onclick="openSidebar('72_Bearer of Ancient Lore',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\9_Extraction Mission.png" id="9_Extraction Mission" data-flag="@X" onclick="openSidebar('9_Extraction Mission',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\25_Holomasker.png" id="25_Holomasker" data-flag="@X" onclick="openSidebar('25_Holomasker',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\41_Ghost Rat.png" id="41_Ghost Rat" data-flag="@X" onclick="openSidebar('41_Ghost Rat',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\57_Clobber.png" id="57_Clobber" data-flag="@X" onclick="openSidebar('57_Clobber',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\73_Biografted Heavy.png" id="73_Biografted Heavy" data-flag="@X" onclick="openSidebar('73_Biografted Heavy',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\10_Gilded Paragon.png" id="10_Gilded Paragon" data-flag="@X" onclick="openSidebar('10_Gilded Paragon',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\26_Lag Switch.png" id="26_Lag Switch" data-flag="@X" onclick="openSidebar('26_Lag Switch',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\42_Many-Eyed Patrol.png" id="42_Many-Eyed Patrol" data-flag="@X" onclick="openSidebar('42_Many-Eyed Patrol',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\58_Double Time.png" id="58_Double Time" data-flag="@X" onclick="openSidebar('58_Double Time',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\74_Chimeratech Omnivore.png" id="74_Chimeratech Omnivore" data-flag="@X" onclick="openSidebar('74_Chimeratech Omnivore',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\11_In The Barrel.png" id="11_In The Barrel" data-flag="@X" onclick="openSidebar('11_In The Barrel',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\27_Motion Carver.png" id="27_Motion Carver" data-flag="@X" onclick="openSidebar('27_Motion Carver',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\43_A Pleasure To Burn.png" id="43_A Pleasure To Burn" data-flag="@X" onclick="openSidebar('43_A Pleasure To Burn',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\59_Exogene Grafting.png" id="59_Exogene Grafting" data-flag="@X" onclick="openSidebar('59_Exogene Grafting',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\75_Data Scavenger.png" id="75_Data Scavenger" data-flag="@X" onclick="openSidebar('75_Data Scavenger',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\12_Kernel Hopper.png" id="12_Kernel Hopper" data-flag="@X" onclick="openSidebar('12_Kernel Hopper',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\28_Perfect Parry.png" id="28_Perfect Parry" data-flag="@X" onclick="openSidebar('28_Perfect Parry',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\44_Recursive Data Torrent.png" id="44_Recursive Data Torrent" data-flag="@X" onclick="openSidebar('44_Recursive Data Torrent',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\60_Grassroots Defenses.png" id="60_Grassroots Defenses" data-flag="@X" onclick="openSidebar('60_Grassroots Defenses',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\76_Defrag.png" id="76_Defrag" data-flag="@X" onclick="openSidebar('76_Defrag',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\13_Luminous Pietist.png" id="13_Luminous Pietist" data-flag="@X" onclick="openSidebar('13_Luminous Pietist',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\29_Recursive Ambiguation.png" id="29_Recursive Ambiguation" data-flag="@X" onclick="openSidebar('29_Recursive Ambiguation',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\45_Repli-Corps Reject.png" id="45_Repli-Corps Reject" data-flag="@X" onclick="openSidebar('45_Repli-Corps Reject',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\61_Network Impinger.png" id="61_Network Impinger" data-flag="@X" onclick="openSidebar('61_Network Impinger',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\77_Exogene Extrusion.png" id="77_Exogene Extrusion" data-flag="@X" onclick="openSidebar('77_Exogene Extrusion',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\14_Outlander Hermit.png" id="14_Outlander Hermit" data-flag="@X" onclick="openSidebar('14_Outlander Hermit',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\30_Repli-Corps Resplicer.png" id="30_Repli-Corps Resplicer" data-flag="@X" onclick="openSidebar('30_Repli-Corps Resplicer',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\46_Replicausal Leecher.png" id="46_Replicausal Leecher" data-flag="@X" onclick="openSidebar('46_Replicausal Leecher',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\62_Pummeler Hisaki.png" id="62_Pummeler Hisaki" data-flag="@X" onclick="openSidebar('62_Pummeler Hisaki',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\78_Heritage Reclamation.png" id="78_Heritage Reclamation" data-flag="@X" onclick="openSidebar('78_Heritage Reclamation',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\15_Quill, Skyline Enforcer.png" id="15_Quill, Skyline Enforcer" data-flag="@X" onclick="openSidebar('15_Quill, Skyline Enforcer',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\31_Replicausal Banshee.png" id="31_Replicausal Banshee" data-flag="@X" onclick="openSidebar('31_Replicausal Banshee',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\47_Scrap Transcendentalist.png" id="47_Scrap Transcendentalist" data-flag="@X" onclick="openSidebar('47_Scrap Transcendentalist',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\63_Recursive Logic Bomb.png" id="63_Recursive Logic Bomb" data-flag="@X" onclick="openSidebar('63_Recursive Logic Bomb',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\79_Isolator.png" id="79_Isolator" data-flag="@X" onclick="openSidebar('79_Isolator',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\16_Quill's Crystalmorph.png" id="16_Quills Crystalmorph" data-flag="@X" onclick="openSidebar('16_Quills Crystalmorph',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\32_Shitpost.png" id="32_Shitpost" data-flag="@X" onclick="openSidebar('32_Shitpost',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\48_Skulking Dissolver.png" id="48_Skulking Dissolver" data-flag="@X" onclick="openSidebar('48_Skulking Dissolver',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\64_Replicausal Rampager.png" id="64_Replicausal Rampager" data-flag="@X" onclick="openSidebar('64_Replicausal Rampager',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\80_Lightning Fantastic.png" id="80_Lightning Fantastic" data-flag="@X" onclick="openSidebar('80_Lightning Fantastic',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\17_Recursive Security Patch.png" id="17_Recursive Security Patch" data-flag="@X" onclick="openSidebar('17_Recursive Security Patch',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\33_Signal Scarper.png" id="33_Signal Scarper" data-flag="@X" onclick="openSidebar('33_Signal Scarper',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\49_Tough Bastard.png" id="49_Tough Bastard" data-flag="@X" onclick="openSidebar('49_Tough Bastard',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\65_Savvy Cracker.png" id="65_Savvy Cracker" data-flag="@X" onclick="openSidebar('65_Savvy Cracker',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\81_RAM Clouder.png" id="81_RAM Clouder" data-flag="@X" onclick="openSidebar('81_RAM Clouder',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\18_Replicausal Phalanx.png" id="18_Replicausal Phalanx" data-flag="@X" onclick="openSidebar('18_Replicausal Phalanx',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\34_Strix Operative.png" id="34_Strix Operative" data-flag="@X" onclick="openSidebar('34_Strix Operative',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\50_Trash Industry.png" id="50_Trash Industry" data-flag="@X" onclick="openSidebar('50_Trash Industry',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\66_Scrapheap Upstart.png" id="66_Scrapheap Upstart" data-flag="@X" onclick="openSidebar('66_Scrapheap Upstart',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\82_Recursive Rescaling.png" id="82_Recursive Rescaling" data-flag="@X" onclick="openSidebar('82_Recursive Rescaling',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\19_Rooftop Raider.png" id="19_Rooftop Raider" data-flag="@X" onclick="openSidebar('19_Rooftop Raider',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\35_Sublime Watcher.png" id="35_Sublime Watcher" data-flag="@X" onclick="openSidebar('35_Sublime Watcher',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\51_Unauthorized Entry.png" id="51_Unauthorized Entry" data-flag="@X" onclick="openSidebar('51_Unauthorized Entry',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\67_Urban Cratering.png" id="67_Urban Cratering" data-flag="@X" onclick="openSidebar('67_Urban Cratering',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\83_Replicausal Grafter.png" id="83_Replicausal Grafter" data-flag="@X" onclick="openSidebar('83_Replicausal Grafter',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\20_Stun Distractor.png" id="20_Stun Distractor" data-flag="@X" onclick="openSidebar('20_Stun Distractor',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\36_Suppressor Type-00uroboros.png" id="36_Suppressor Type-00uroboros" data-flag="@X" onclick="openSidebar('36_Suppressor Type-00uroboros',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\52_Wipe From Memory.png" id="52_Wipe From Memory" data-flag="@X" onclick="openSidebar('52_Wipe From Memory',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\68_Vaultcracker.png" id="68_Vaultcracker" data-flag="@X" onclick="openSidebar('68_Vaultcracker',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\84_Sanitation Sneak.png" id="84_Sanitation Sneak" data-flag="@X" onclick="openSidebar('84_Sanitation Sneak',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\21_Training-Sim Custodian.png" id="21_Training-Sim Custodian" data-flag="@X" onclick="openSidebar('21_Training-Sim Custodian',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\37_Two-Way Data Broker.png" id="37_Two-Way Data Broker" data-flag="@X" onclick="openSidebar('37_Two-Way Data Broker',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\53_Witching Hour Ambush.png" id="53_Witching Hour Ambush" data-flag="@X" onclick="openSidebar('53_Witching Hour Ambush',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\69_Yaki Station Heavy.png" id="69_Yaki Station Heavy" data-flag="@X" onclick="openSidebar('69_Yaki Station Heavy',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\85_Unrelenting Platoon.png" id="85_Unrelenting Platoon" data-flag="@X" onclick="openSidebar('85_Unrelenting Platoon',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\1_Automatic Second.png" id="1_Automatic Second" data-flag="@X" onclick="openSidebar('1_Automatic Second',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\2_Datastrate Architect.png" id="2_Datastrate Architect" data-flag="@X" onclick="openSidebar('2_Datastrate Architect',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\3_Doomsday Dreadnought.png" id="3_Doomsday Dreadnought" data-flag="@X" onclick="openSidebar('3_Doomsday Dreadnought',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\4_Progenitor, The Body Electric.png" id="4_Progenitor, The Body Electric" data-flag="@X" onclick="openSidebar('4_Progenitor, The Body Electric',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\5_Wreckingyard Sweeper.png" id="5_Wreckingyard Sweeper" data-flag="@X" onclick="openSidebar('5_Wreckingyard Sweeper',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\86_Schedule-1 Printer.png" id="86_Schedule-1 Printer" data-flag="@X" onclick="openSidebar('86_Schedule-1 Printer',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\87_Universal Solver.png" id="87_Universal Solver" data-flag="@X" onclick="openSidebar('87_Universal Solver',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\92_Moonlit Maze.png" id="92_Moonlit Maze" data-flag="@X" onclick="openSidebar('92_Moonlit Maze',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\88_Allnet Service Hub.png" id="88_Allnet Service Hub" data-flag="@X" onclick="openSidebar('88_Allnet Service Hub',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\95_Undernet Distributory.png" id="95_Undernet Distributory" data-flag="@X" onclick="openSidebar('95_Undernet Distributory',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\91_Grand Colosseum.png" id="91_Grand Colosseum" data-flag="@X" onclick="openSidebar('91_Grand Colosseum',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\94_Printmat Refectory.png" id="94_Printmat Refectory" data-flag="@X" onclick="openSidebar('94_Printmat Refectory',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\89_Between-Lanes.png" id="89_Between-Lanes" data-flag="@X" onclick="openSidebar('89_Between-Lanes',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\90_Corrupt Kernel.png" id="90_Corrupt Kernel" data-flag="@X" onclick="openSidebar('90_Corrupt Kernel',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\93_Paradoxical Core.png" id="93_Paradoxical Core" data-flag="@X" onclick="openSidebar('93_Paradoxical Core',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\1t_Copy.png" id="1t_Copy" data-flag="@X" onclick="openSidebar('1t_Copy',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\11t_Robot.png" id="11t_Robot" data-flag="@X" onclick="openSidebar('11t_Robot',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\12t_Reflecting Pool.png" id="12t_Reflecting Pool" data-flag="@X" onclick="openSidebar('12t_Reflecting Pool',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\2t_Bird.png" id="2t_Bird" data-flag="@X" onclick="openSidebar('2t_Bird',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\3t_Soldier.png" id="3t_Soldier" data-flag="@X" onclick="openSidebar('3t_Soldier',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\4t_Spirit.png" id="4t_Spirit" data-flag="@X" onclick="openSidebar('4t_Spirit',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\5t_Tentacle.png" id="5t_Tentacle" data-flag="@X" onclick="openSidebar('5t_Tentacle',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\6t_Horror.png" id="6t_Horror" data-flag="@X" onclick="openSidebar('6t_Horror',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\7t_Fist.png" id="7t_Fist" data-flag="@X" onclick="openSidebar('7t_Fist',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\8t_Rogue.png" id="8t_Rogue" data-flag="@X" onclick="openSidebar('8t_Rogue',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\9t_Plant.png" id="9t_Plant" data-flag="@X" onclick="openSidebar('9t_Plant',false)"></div>
+				<div class="container"><img alt="/sets\HNZ-files\img\10t_Wurm.png" id="10t_Wurm" data-flag="@X" onclick="openSidebar('10t_Wurm',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+			let random_card = card_list_arrayified[i];
+
+			const url = new URL('card', window.location.origin);
+			const params = {
+				set: random_card.set,
+				num: random_card.number,
+				name: random_card.card_name
+			}
+			for (const key in params) {
+				url.searchParams.append(key, params[key]);
+			}
+
+			window.location.href = url;
+		}
+	</script>
+</body>
+</html>
