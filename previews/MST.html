@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/MST-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>MST visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/MST-files/logo.png" />
+	<img class="preload-hidden" src="/sets/HNZ-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MST-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="MST"><img src="/sets/MST-files/icon.png">Rural Dwellings, In Seafoam Mist</a>
+	
+		<a class="set-bar inactive" href="HNZ"><img src="/sets/HNZ-files/icon.png">Hunzikure</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/MST-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\MST-files\img\12_Estuary Wretch.png" id="12_Estuary Wretch" data-flag="@X" onclick="openSidebar('12_Estuary Wretch',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\23_Auspicous Butterflox.png" id="23_Auspicous Butterflox" data-flag="@X" onclick="openSidebar('23_Auspicous Butterflox',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\47_Corruptive Kyubi.png" id="47_Corruptive Kyubi" data-flag="@X" onclick="openSidebar('47_Corruptive Kyubi',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\76_Kamatsu, Ningyo Champion.png" id="76_Kamatsu, Ningyo Champion" data-flag="@X" onclick="openSidebar('76_Kamatsu, Ningyo Champion',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\97_Parasitc Growth.png" id="97_Parasitc Growth" data-flag="@X" onclick="openSidebar('97_Parasitc Growth',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\14_Highest Peak Funeralist.png" id="14_Highest Peak Funeralist" data-flag="@X" onclick="openSidebar('14_Highest Peak Funeralist',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\29_Junko of the Puppet Theater.png" id="29_Junko of the Puppet Theater" data-flag="@X" onclick="openSidebar('29_Junko of the Puppet Theater',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\51_Her Dutiful Vessel.png" id="51_Her Dutiful Vessel" data-flag="@X" onclick="openSidebar('51_Her Dutiful Vessel',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\82_Peace Talks.png" id="82_Peace Talks" data-flag="@X" onclick="openSidebar('82_Peace Talks',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\101_Swamproots Rallier.png" id="101_Swamproots Rallier" data-flag="@X" onclick="openSidebar('101_Swamproots Rallier',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\16_Misato, Chief Prosecutor.png" id="16_Misato, Chief Prosecutor" data-flag="@X" onclick="openSidebar('16_Misato, Chief Prosecutor',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\30_Maskwright.png" id="30_Maskwright" data-flag="@X" onclick="openSidebar('30_Maskwright',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\54_Lost Sea-Taken.png" id="54_Lost Sea-Taken" data-flag="@X" onclick="openSidebar('54_Lost Sea-Taken',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\85_Spirited Scrollery.png" id="85_Spirited Scrollery" data-flag="@X" onclick="openSidebar('85_Spirited Scrollery',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\104_Tender of The True Flower.png" id="104_Tender of The True Flower" data-flag="@X" onclick="openSidebar('104_Tender of The True Flower',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\18_She Who Roils The Seas.png" id="18_She Who Roils The Seas" data-flag="@X" onclick="openSidebar('18_She Who Roils The Seas',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\35_Queen Mother Tomoko.png" id="35_Queen Mother Tomoko" data-flag="@X" onclick="openSidebar('35_Queen Mother Tomoko',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\60_Shikigami Nihilist.png" id="60_Shikigami Nihilist" data-flag="@X" onclick="openSidebar('60_Shikigami Nihilist',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\86_Turbulent Clanger.png" id="86_Turbulent Clanger" data-flag="@X" onclick="openSidebar('86_Turbulent Clanger',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\106_Tora Shapethirster.png" id="106_Tora Shapethirster" data-flag="@X" onclick="openSidebar('106_Tora Shapethirster',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\21_Wu.png" id="21_Wu" data-flag="@X" onclick="openSidebar('21_Wu',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\44_Tomoko's Majesty.png" id="44_Tomokos Majesty" data-flag="@X" onclick="openSidebar('44_Tomokos Majesty',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\66_Yokai Night Market.png" id="66_Yokai Night Market" data-flag="@X" onclick="openSidebar('66_Yokai Night Market',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\87_Weaver Of Winter Sun.png" id="87_Weaver Of Winter Sun" data-flag="@X" onclick="openSidebar('87_Weaver Of Winter Sun',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\110_Wanderers In Dream.png" id="110_Wanderers In Dream" data-flag="@X" onclick="openSidebar('110_Wanderers In Dream',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\1_Famine Architect.png" id="1_Famine Architect" data-flag="@X" onclick="openSidebar('1_Famine Architect',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\24_Bake-Kujira.png" id="24_Bake-Kujira" data-flag="@X" onclick="openSidebar('24_Bake-Kujira',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\49_Enmity's Shadow.png" id="49_Enmitys Shadow" data-flag="@X" onclick="openSidebar('49_Enmitys Shadow',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\70_Decimilipede.png" id="70_Decimilipede" data-flag="@X" onclick="openSidebar('70_Decimilipede',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\90_Brobdignagian Swat.png" id="90_Brobdignagian Swat" data-flag="@X" onclick="openSidebar('90_Brobdignagian Swat',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\5_Buyer's Market.png" id="5_Buyers Market" data-flag="@X" onclick="openSidebar('5_Buyers Market',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\25_Bored Soultaxer.png" id="25_Bored Soultaxer" data-flag="@X" onclick="openSidebar('25_Bored Soultaxer',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\50_Gashadokuro's Malice.png" id="50_Gashadokuros Malice" data-flag="@X" onclick="openSidebar('50_Gashadokuros Malice',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\72_Guardian Fetchling.png" id="72_Guardian Fetchling" data-flag="@X" onclick="openSidebar('72_Guardian Fetchling',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\93_Herb Sages.png" id="93_Herb Sages" data-flag="@X" onclick="openSidebar('93_Herb Sages',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\6_Cast To The Isopods.png" id="6_Cast To The Isopods" data-flag="@X" onclick="openSidebar('6_Cast To The Isopods',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\26_Bridal Couture.png" id="26_Bridal Couture" data-flag="@X" onclick="openSidebar('26_Bridal Couture',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\52_Indentured Prefect.png" id="52_Indentured Prefect" data-flag="@X" onclick="openSidebar('52_Indentured Prefect',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\73_Highest Peak Apostate.png" id="73_Highest Peak Apostate" data-flag="@X" onclick="openSidebar('73_Highest Peak Apostate',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\98_Patient Ascetic.png" id="98_Patient Ascetic" data-flag="@X" onclick="openSidebar('98_Patient Ascetic',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\7_Coastal Trade.png" id="7_Coastal Trade" data-flag="@X" onclick="openSidebar('7_Coastal Trade',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\27_Brined Innocents.png" id="27_Brined Innocents" data-flag="@X" onclick="openSidebar('27_Brined Innocents',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\55_Namazu Cutthroat.png" id="55_Namazu Cutthroat" data-flag="@X" onclick="openSidebar('55_Namazu Cutthroat',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\75_Join For A Dip.png" id="75_Join For A Dip" data-flag="@X" onclick="openSidebar('75_Join For A Dip',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\102_Tama, Reluctantly Helping.png" id="102_Tama, Reluctantly Helping" data-flag="@X" onclick="openSidebar('102_Tama, Reluctantly Helping',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\9_Dorotabo Drudge.png" id="9_Dorotabo Drudge" data-flag="@X" onclick="openSidebar('9_Dorotabo Drudge',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\28_Drown Out.png" id="28_Drown Out" data-flag="@X" onclick="openSidebar('28_Drown Out',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\61_Shrill Abductor.png" id="61_Shrill Abductor" data-flag="@X" onclick="openSidebar('61_Shrill Abductor',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\78_Marshal of the Night Parade.png" id="78_Marshal of the Night Parade" data-flag="@X" onclick="openSidebar('78_Marshal of the Night Parade',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\103_Tanuki Trufflesnout.png" id="103_Tanuki Trufflesnout" data-flag="@X" onclick="openSidebar('103_Tanuki Trufflesnout',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\10_Dragon Regalia.png" id="10_Dragon Regalia" data-flag="@X" onclick="openSidebar('10_Dragon Regalia',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\31_Midautumn Koi Viewing.png" id="31_Midautumn Koi Viewing" data-flag="@X" onclick="openSidebar('31_Midautumn Koi Viewing',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\64_Subtle Tailstroke.png" id="64_Subtle Tailstroke" data-flag="@X" onclick="openSidebar('64_Subtle Tailstroke',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\81_Outskirts Vigilante.png" id="81_Outskirts Vigilante" data-flag="@X" onclick="openSidebar('81_Outskirts Vigilante',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\105_Tora Mask.png" id="105_Tora Mask" data-flag="@X" onclick="openSidebar('105_Tora Mask',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\19_Splitskin Doll.png" id="19_Splitskin Doll" data-flag="@X" onclick="openSidebar('19_Splitskin Doll',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\39_Scrollroom Instructor.png" id="39_Scrollroom Instructor" data-flag="@X" onclick="openSidebar('39_Scrollroom Instructor',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\65_Worldsoul's Venom.png" id="65_Worldsouls Venom" data-flag="@X" onclick="openSidebar('65_Worldsouls Venom',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\83_Raze The Roof.png" id="83_Raze The Roof" data-flag="@X" onclick="openSidebar('83_Raze The Roof',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\109_Vulpine Auspice.png" id="109_Vulpine Auspice" data-flag="@X" onclick="openSidebar('109_Vulpine Auspice',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\2_Agglomerated Ghouls.png" id="2_Agglomerated Ghouls" data-flag="@X" onclick="openSidebar('2_Agglomerated Ghouls',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\32_Ningyo Recluse.png" id="32_Ningyo Recluse" data-flag="@X" onclick="openSidebar('32_Ningyo Recluse',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\45_Beckon Asea.png" id="45_Beckon Asea" data-flag="@X" onclick="openSidebar('45_Beckon Asea',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\67_Assault of Shadows.png" id="67_Assault of Shadows" data-flag="@X" onclick="openSidebar('67_Assault of Shadows',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\89_Beligerent Horo-sha.png" id="89_Beligerent Horo-sha" data-flag="@X" onclick="openSidebar('89_Beligerent Horo-sha',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\3_Ataraxic Angler.png" id="3_Ataraxic Angler" data-flag="@X" onclick="openSidebar('3_Ataraxic Angler',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\33_Pearl-Diving Kappa.png" id="33_Pearl-Diving Kappa" data-flag="@X" onclick="openSidebar('33_Pearl-Diving Kappa',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\46_Compound Fracture.png" id="46_Compound Fracture" data-flag="@X" onclick="openSidebar('46_Compound Fracture',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\68_Bad Influence.png" id="68_Bad Influence" data-flag="@X" onclick="openSidebar('68_Bad Influence',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\91_Feasting Jikininki.png" id="91_Feasting Jikininki" data-flag="@X" onclick="openSidebar('91_Feasting Jikininki',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\4_Belly of the Beast.png" id="4_Belly of the Beast" data-flag="@X" onclick="openSidebar('4_Belly of the Beast',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\34_Puppet-String Denial.png" id="34_Puppet-String Denial" data-flag="@X" onclick="openSidebar('34_Puppet-String Denial',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\48_Cousin of the Worldsoul.png" id="48_Cousin of the Worldsoul" data-flag="@X" onclick="openSidebar('48_Cousin of the Worldsoul',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\69_Claw Hammer.png" id="69_Claw Hammer" data-flag="@X" onclick="openSidebar('69_Claw Hammer',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\92_Gigantize.png" id="92_Gigantize" data-flag="@X" onclick="openSidebar('92_Gigantize',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\8_Courtyard Clowns.png" id="8_Courtyard Clowns" data-flag="@X" onclick="openSidebar('8_Courtyard Clowns',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\36_Rimewater Squall.png" id="36_Rimewater Squall" data-flag="@X" onclick="openSidebar('36_Rimewater Squall',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\53_Laughing Pathlighters.png" id="53_Laughing Pathlighters" data-flag="@X" onclick="openSidebar('53_Laughing Pathlighters',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\71_Fainting Tragedian.png" id="71_Fainting Tragedian" data-flag="@X" onclick="openSidebar('71_Fainting Tragedian',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\94_Kabuki For Your Life!.png" id="94_Kabuki For Your Life!" data-flag="@X" onclick="openSidebar('94_Kabuki For Your Life!',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\11_Enclose In Characters.png" id="11_Enclose In Characters" data-flag="@X" onclick="openSidebar('11_Enclose In Characters',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\37_River Racketeer.png" id="37_River Racketeer" data-flag="@X" onclick="openSidebar('37_River Racketeer',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\56_Namazu Trader.png" id="56_Namazu Trader" data-flag="@X" onclick="openSidebar('56_Namazu Trader',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\74_Highest Peak Forcemage.png" id="74_Highest Peak Forcemage" data-flag="@X" onclick="openSidebar('74_Highest Peak Forcemage',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\95_Make A Donation.png" id="95_Make A Donation" data-flag="@X" onclick="openSidebar('95_Make A Donation',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\13_Highest Peak Bladedancer.png" id="13_Highest Peak Bladedancer" data-flag="@X" onclick="openSidebar('13_Highest Peak Bladedancer',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\38_Scarce Tsuchinoko.png" id="38_Scarce Tsuchinoko" data-flag="@X" onclick="openSidebar('38_Scarce Tsuchinoko',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\57_Niggling Thought.png" id="57_Niggling Thought" data-flag="@X" onclick="openSidebar('57_Niggling Thought',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\77_Lavish Parade.png" id="77_Lavish Parade" data-flag="@X" onclick="openSidebar('77_Lavish Parade',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\96_Namazu Leeguide.png" id="96_Namazu Leeguide" data-flag="@X" onclick="openSidebar('96_Namazu Leeguide',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\15_Laughing Lanterns.png" id="15_Laughing Lanterns" data-flag="@X" onclick="openSidebar('15_Laughing Lanterns',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\40_Soul-Feeding Basker.png" id="40_Soul-Feeding Basker" data-flag="@X" onclick="openSidebar('40_Soul-Feeding Basker',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\58_Parade of the Dead.png" id="58_Parade of the Dead" data-flag="@X" onclick="openSidebar('58_Parade of the Dead',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\79_Monstrous Parley.png" id="79_Monstrous Parley" data-flag="@X" onclick="openSidebar('79_Monstrous Parley',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\99_Petulant Nurikabe.png" id="99_Petulant Nurikabe" data-flag="@X" onclick="openSidebar('99_Petulant Nurikabe',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\17_Needling Poet.png" id="17_Needling Poet" data-flag="@X" onclick="openSidebar('17_Needling Poet',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\41_Stand Your Ground.png" id="41_Stand Your Ground" data-flag="@X" onclick="openSidebar('41_Stand Your Ground',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\59_Scheming Shadebinder.png" id="59_Scheming Shadebinder" data-flag="@X" onclick="openSidebar('59_Scheming Shadebinder',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\80_Onamazu.png" id="80_Onamazu" data-flag="@X" onclick="openSidebar('80_Onamazu',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\100_Sea Palace Retainer.png" id="100_Sea Palace Retainer" data-flag="@X" onclick="openSidebar('100_Sea Palace Retainer',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\20_Tengu Bladework.png" id="20_Tengu Bladework" data-flag="@X" onclick="openSidebar('20_Tengu Bladework',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\42_Summons To The Sea Palace.png" id="42_Summons To The Sea Palace" data-flag="@X" onclick="openSidebar('42_Summons To The Sea Palace',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\62_Solemn Judgement.png" id="62_Solemn Judgement" data-flag="@X" onclick="openSidebar('62_Solemn Judgement',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\84_Shallows Survivor.png" id="84_Shallows Survivor" data-flag="@X" onclick="openSidebar('84_Shallows Survivor',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\107_Tree Of Pestilence.png" id="107_Tree Of Pestilence" data-flag="@X" onclick="openSidebar('107_Tree Of Pestilence',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\22_Yamamba Spinner.png" id="22_Yamamba Spinner" data-flag="@X" onclick="openSidebar('22_Yamamba Spinner',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\43_Surfaceside Enforcer.png" id="43_Surfaceside Enforcer" data-flag="@X" onclick="openSidebar('43_Surfaceside Enforcer',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\63_Stricken Visitor.png" id="63_Stricken Visitor" data-flag="@X" onclick="openSidebar('63_Stricken Visitor',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\88_Wee Headcarver.png" id="88_Wee Headcarver" data-flag="@X" onclick="openSidebar('88_Wee Headcarver',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\108_Visited Upon The Child.png" id="108_Visited Upon The Child" data-flag="@X" onclick="openSidebar('108_Visited Upon The Child',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\111_All Pass Under the Sea.png" id="111_All Pass Under the Sea" data-flag="@X" onclick="openSidebar('111_All Pass Under the Sea',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\114_Hisa, Between Land And Sea.png" id="114_Hisa, Between Land And Sea" data-flag="@X" onclick="openSidebar('114_Hisa, Between Land And Sea',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\120_The Yokai King.png" id="120_The Yokai King" data-flag="@X" onclick="openSidebar('120_The Yokai King',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\113_General Kameshiro of the Tengu.png" id="113_General Kameshiro of the Tengu" data-flag="@X" onclick="openSidebar('113_General Kameshiro of the Tengu',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\112_August Prince Jin.png" id="112_August Prince Jin" data-flag="@X" onclick="openSidebar('112_August Prince Jin',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\115_Mikayoshi and Toru.png" id="115_Mikayoshi and Toru" data-flag="@X" onclick="openSidebar('115_Mikayoshi and Toru',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\116_Procession Master.png" id="116_Procession Master" data-flag="@X" onclick="openSidebar('116_Procession Master',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\119_Whitelattice Warrior.png" id="119_Whitelattice Warrior" data-flag="@X" onclick="openSidebar('119_Whitelattice Warrior',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\118_Swordcraft Master.png" id="118_Swordcraft Master" data-flag="@X" onclick="openSidebar('118_Swordcraft Master',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\117_Sea Palace Beheader.png" id="117_Sea Palace Beheader" data-flag="@X" onclick="openSidebar('117_Sea Palace Beheader',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\MST-files\img\121_Blighted Inkwell.png" id="121_Blighted Inkwell" data-flag="@X" onclick="openSidebar('121_Blighted Inkwell',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\123_Ostentatious Centerpiece.png" id="123_Ostentatious Centerpiece" data-flag="@X" onclick="openSidebar('123_Ostentatious Centerpiece',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\122_Mitakusa Marvel.png" id="122_Mitakusa Marvel" data-flag="@X" onclick="openSidebar('122_Mitakusa Marvel',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\124_Prophetic Prism.png" id="124_Prophetic Prism" data-flag="@X" onclick="openSidebar('124_Prophetic Prism',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\125_Tolling Dial.png" id="125_Tolling Dial" data-flag="@X" onclick="openSidebar('125_Tolling Dial',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\126_Tomb Trawler.png" id="126_Tomb Trawler" data-flag="@X" onclick="openSidebar('126_Tomb Trawler',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img alt="/sets\MST-files\img\130_Highest Peak.png" id="130_Highest Peak" data-flag="@X" onclick="openSidebar('130_Highest Peak',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\131_Nizua Town.png" id="131_Nizua Town" data-flag="@X" onclick="openSidebar('131_Nizua Town',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\127_The Sea Palace.png" id="127_The Sea Palace" data-flag="@X" onclick="openSidebar('127_The Sea Palace',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\128_The City of Yokai.png" id="128_The City of Yokai" data-flag="@X" onclick="openSidebar('128_The City of Yokai',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\129_The Heavenly Palace.png" id="129_The Heavenly Palace" data-flag="@X" onclick="openSidebar('129_The Heavenly Palace',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\134_Thriving Heath.png" id="134_Thriving Heath" data-flag="@X" onclick="openSidebar('134_Thriving Heath',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\135_Thriving Isle.png" id="135_Thriving Isle" data-flag="@X" onclick="openSidebar('135_Thriving Isle',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\136_Thriving Moor.png" id="136_Thriving Moor" data-flag="@X" onclick="openSidebar('136_Thriving Moor',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\132_Thriving Bluff.png" id="132_Thriving Bluff" data-flag="@X" onclick="openSidebar('132_Thriving Bluff',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\133_Thriving Grove.png" id="133_Thriving Grove" data-flag="@X" onclick="openSidebar('133_Thriving Grove',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\137_Plains.png" id="137_Plains" data-flag="@X" onclick="openSidebar('137_Plains',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\141_Swamp.png" id="141_Swamp" data-flag="@X" onclick="openSidebar('141_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\143_Mountain.png" id="143_Mountain" data-flag="@X" onclick="openSidebar('143_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\146_Forest.png" id="146_Forest" data-flag="@X" onclick="openSidebar('146_Forest',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\139_Island.png" id="139_Island" data-flag="@X" onclick="openSidebar('139_Island',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\140_Island.png" id="140_Island" data-flag="@X" onclick="openSidebar('140_Island',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\145_Forest.png" id="145_Forest" data-flag="@X" onclick="openSidebar('145_Forest',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\142_Swamp.png" id="142_Swamp" data-flag="@X" onclick="openSidebar('142_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\144_Mountain.png" id="144_Mountain" data-flag="@X" onclick="openSidebar('144_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\138_Plains.png" id="138_Plains" data-flag="@X" onclick="openSidebar('138_Plains',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img alt="/sets\MST-files\img\10t_Book.png" id="10t_Book" data-flag="@X" onclick="openSidebar('10t_Book',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\11t_Ghost Lantern.png" id="11t_Ghost Lantern" data-flag="@X" onclick="openSidebar('11t_Ghost Lantern',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\12t_Toy.png" id="12t_Toy" data-flag="@X" onclick="openSidebar('12t_Toy',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\13t_Treasure.png" id="13t_Treasure" data-flag="@X" onclick="openSidebar('13t_Treasure',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\14t_Everywhere.png" id="14t_Everywhere" data-flag="@X" onclick="openSidebar('14t_Everywhere',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\1t_Glorious Anthem.png" id="1t_Glorious Anthem" data-flag="@X" onclick="openSidebar('1t_Glorious Anthem',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\2t_Fish.png" id="2t_Fish" data-flag="@X" onclick="openSidebar('2t_Fish',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\3t_Aura.png" id="3t_Aura" data-flag="@X" onclick="openSidebar('3t_Aura',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\4t_Nightmare.png" id="4t_Nightmare" data-flag="@X" onclick="openSidebar('4t_Nightmare',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\5t_Spirit.png" id="5t_Spirit" data-flag="@X" onclick="openSidebar('5t_Spirit',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\6t_Fist.png" id="6t_Fist" data-flag="@X" onclick="openSidebar('6t_Fist',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\7t_Insect.png" id="7t_Insect" data-flag="@X" onclick="openSidebar('7t_Insect',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\8t_Merfolk.png" id="8t_Merfolk" data-flag="@X" onclick="openSidebar('8t_Merfolk',false)"></div>
+				<div class="container"><img alt="/sets\MST-files\img\9t_Nightmare.png" id="9t_Nightmare" data-flag="@X" onclick="openSidebar('9t_Nightmare',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+			let random_card = card_list_arrayified[i];
+
+			const url = new URL('card', window.location.origin);
+			const params = {
+				set: random_card.set,
+				num: random_card.number,
+				name: random_card.card_name
+			}
+			for (const key in params) {
+				url.searchParams.append(key, params[key]);
+			}
+
+			window.location.href = url;
+		}
+	</script>
+</body>
+</html>

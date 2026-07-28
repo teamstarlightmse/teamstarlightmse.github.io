@@ -1,4 +1,4 @@
-[CustomCards]
+﻿[CustomCards]
 	[
 		{
 			"name": "Rooftop Raider",
@@ -1092,7 +1092,7 @@
 		}
 	]
 
-[cube(8)]
+[cube(15)]
 	1 Rooftop Raider
 	1 Kernel Hopper
 	1 Training-Sim Custodian
