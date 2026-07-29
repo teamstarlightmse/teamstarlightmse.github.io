@@ -1681,7 +1681,7 @@
 	4 Cast To The Isopods
 	4 Procession Master
 	4 Ostentatious Centerpiece
-[common(6)]
+[common(5)]
 	8 Summons To The Sea Palace
 	8 Scheming Shadebinder
 	8 Highest Peak Bladedancer
@@ -1741,337 +1741,73 @@
 	8 Surfaceside Enforcer
 	8 Stand Your Ground
 	8 Prophetic Prism
-[common | masterpiece(1)]
-	8 Summons To The Sea Palace
-	8 Scheming Shadebinder
-	8 Highest Peak Bladedancer
-	8 Stricken Visitor
-	8 Fainting Tragedian
-	8 Puppet-String Denial
-	8 Tree Of Pestilence
-	8 Soul-Feeding Basker
-	8 Beligerent Horo-sha
-	8 Sea Palace Retainer
-	8 Ningyo Recluse
-	8 Feasting Jikininki
-	8 Shallows Survivor
-	8 Yamamba Spinner
-	8 Beckon Asea
-	8 Bad Influence
-	8 Namazu Trader
-	8 Onamazu
-	8 Claw Hammer
-	8 Namazu Leeguide
-	8 Visited Upon The Child
-	8 Gigantize
-	8 Belly of the Beast
-	8 Rimewater Squall
-	8 Petulant Nurikabe
-	8 Monstrous Parley
-	8 Kabuki For Your Life!
-	8 Lavish Parade
-	8 Tomb Trawler
-	8 Thriving Isle
-	8 Thriving Moor
-	8 Thriving Grove
-	8 Thriving Bluff
-	8 Thriving Heath
-	8 Make A Donation
-	8 Mitakusa Marvel
-	8 Tolling Dial
-	8 Highest Peak Forcemage
-	8 Laughing Pathlighters
-	8 Solemn Judgement
-	8 Compound Fracture
-	8 Assault of Shadows
-	8 Niggling Thought
-	8 Wee Headcarver
-	8 Pearl-Diving Kappa
-	8 Laughing Lanterns
-	8 Cousin of the Worldsoul
-	8 Needling Poet
-	8 Courtyard Clowns
-	8 River Racketeer
-	8 Ataraxic Angler
-	8 Tengu Bladework
-	8 Enclose In Characters
-	8 Agglomerated Ghouls
-	8 Parade of the Dead
-	8 Scarce Tsuchinoko
-	8 Surfaceside Enforcer
-	8 Stand Your Ground
-	8 Prophetic Prism
-[foil(1)]
-	12 Summons To The Sea Palace
-	12 Scheming Shadebinder
-	6 Bored Soultaxer
-	6 Indentured Prefect
-	2 Weaver Of Winter Sun
-	2 Queen Mother Tomoko
-	12 Highest Peak Bladedancer
-	12 Stricken Visitor
-	6 Namazu Cutthroat
-	12 Fainting Tragedian
-	6 Highest Peak Apostate
-	12 Puppet-String Denial
-	12 Tree Of Pestilence
-	12 Soul-Feeding Basker
-	12 Beligerent Horo-sha
-	12 Sea Palace Retainer
-	12 Ningyo Recluse
-	12 Feasting Jikininki
-	12 Shallows Survivor
-	2 Kamatsu, Ningyo Champion
-	12 Yamamba Spinner
-	12 Beckon Asea
-	2 Highest Peak Funeralist
-	12 Bad Influence
-	6 Shrill Abductor
-	12 Namazu Trader
-	12 Onamazu
-	12 Claw Hammer
-	12 Namazu Leeguide
-	2 Hisa, Between Land And Sea
-	12 Visited Upon The Child
-	12 Gigantize
-	12 Belly of the Beast
-	12 Rimewater Squall
-	2 Corruptive Kyubi
-	12 Petulant Nurikabe
-	6 Patient Ascetic
-	6 Tanuki Trufflesnout
-	12 Monstrous Parley
-	6 Tama, Reluctantly Helping
-	12 Kabuki For Your Life!
-	12 Lavish Parade
-	2 The Yokai King
-	2 Peace Talks
-	6 Nizua Town
-	6 Highest Peak
-	12 Tomb Trawler
-	6 The Sea Palace
-	6 The City of Yokai
-	6 The Heavenly Palace
-	12 Thriving Isle
-	12 Thriving Moor
-	12 Thriving Grove
-	12 Thriving Bluff
-	12 Thriving Heath
-	12 Make A Donation
-	12 Mitakusa Marvel
-	12 Tolling Dial
-	6 Raze The Roof
-	6 Subtle Tailstroke
-	12 Highest Peak Forcemage
-	12 Laughing Pathlighters
-	12 Solemn Judgement
-	12 Compound Fracture
-	12 Assault of Shadows
-	12 Niggling Thought
-	12 Wee Headcarver
-	6 Bridal Couture
-	6 Sea Palace Beheader
-	6 Whitelattice Warrior
-	2 Wanderers In Dream
-	2 Misato, Chief Prosecutor
-	12 Pearl-Diving Kappa
-	12 Laughing Lanterns
-	12 Cousin of the Worldsoul
-	6 Swordcraft Master
-	6 Mikayoshi and Toru
-	2 Maskwright
-	2 Tender of The True Flower
-	2 Shikigami Nihilist
-	6 Blighted Inkwell
-	2 Junko of the Puppet Theater
-	6 Brined Innocents
-	6 Coastal Trade
-	2 Lost Sea-Taken
-	6 Guardian Fetchling
-	12 Needling Poet
-	12 Courtyard Clowns
-	6 Herb Sages
-	12 River Racketeer
-	6 Vulpine Auspice
-	2 Swamproots Rallier
-	2 Parasitc Growth
-	2 Tora Shapethirster
-	2 Spirited Scrollery
-	2 Turbulent Clanger
-	2 Her Dutiful Vessel
-	2 Auspicous Butterflox
-	2 Tomoko's Majesty
-	2 Yokai Night Market
-	2 Wu
-	2 Estuary Wretch
-	2 She Who Roils The Seas
-	6 Tora Mask
-	6 Brobdignagian Swat
-	6 Decimilipede
-	6 Marshal of the Night Parade
-	6 Join For A Dip
-	6 Outskirts Vigilante
-	6 Gashadokuro's Malice
-	6 Worldsoul's Venom
-	6 Enmity's Shadow
-	6 Drown Out
-	6 Bake-Kujira
-	6 Scrollroom Instructor
-	6 Midautumn Koi Viewing
-	6 Dragon Regalia
-	6 Splitskin Doll
-	6 Famine Architect
-	6 Dorotabo Drudge
-	6 Buyer's Market
-	6 Cast To The Isopods
-	12 Ataraxic Angler
-	12 Tengu Bladework
-	12 Enclose In Characters
-	12 Agglomerated Ghouls
-	12 Parade of the Dead
-	12 Scarce Tsuchinoko
-	12 Surfaceside Enforcer
-	12 Stand Your Ground
-	6 Procession Master
-	6 Ostentatious Centerpiece
-	2 All Pass Under the Sea
-	2 General Kameshiro of the Tengu
-	2 August Prince Jin
-	12 Prophetic Prism
 [wildcard(1)]
-	6 Summons To The Sea Palace
-	6 Scheming Shadebinder
-	15 Bored Soultaxer
-	15 Indentured Prefect
-	7 Weaver Of Winter Sun
-	7 Queen Mother Tomoko
-	6 Highest Peak Bladedancer
-	6 Stricken Visitor
-	15 Namazu Cutthroat
-	6 Fainting Tragedian
-	15 Highest Peak Apostate
-	6 Puppet-String Denial
-	6 Tree Of Pestilence
-	6 Soul-Feeding Basker
-	6 Beligerent Horo-sha
-	6 Sea Palace Retainer
-	6 Ningyo Recluse
-	6 Feasting Jikininki
-	6 Shallows Survivor
-	7 Kamatsu, Ningyo Champion
-	6 Yamamba Spinner
-	6 Beckon Asea
-	7 Highest Peak Funeralist
-	6 Bad Influence
-	15 Shrill Abductor
-	6 Namazu Trader
-	6 Onamazu
-	6 Claw Hammer
-	6 Namazu Leeguide
-	7 Hisa, Between Land And Sea
-	6 Visited Upon The Child
-	6 Gigantize
-	6 Belly of the Beast
-	6 Rimewater Squall
-	7 Corruptive Kyubi
-	6 Petulant Nurikabe
-	15 Patient Ascetic
-	15 Tanuki Trufflesnout
-	6 Monstrous Parley
-	15 Tama, Reluctantly Helping
-	6 Kabuki For Your Life!
-	6 Lavish Parade
-	7 The Yokai King
-	7 Peace Talks
-	15 Nizua Town
-	15 Highest Peak
-	6 Tomb Trawler
-	15 The Sea Palace
-	15 The City of Yokai
-	15 The Heavenly Palace
-	6 Thriving Isle
-	6 Thriving Moor
-	6 Thriving Grove
-	6 Thriving Bluff
-	6 Thriving Heath
-	6 Make A Donation
-	6 Mitakusa Marvel
-	6 Tolling Dial
-	15 Raze The Roof
-	15 Subtle Tailstroke
-	6 Highest Peak Forcemage
-	6 Laughing Pathlighters
-	6 Solemn Judgement
-	6 Compound Fracture
-	6 Assault of Shadows
-	6 Niggling Thought
-	6 Wee Headcarver
-	15 Bridal Couture
-	15 Sea Palace Beheader
-	15 Whitelattice Warrior
-	7 Wanderers In Dream
-	7 Misato, Chief Prosecutor
-	6 Pearl-Diving Kappa
-	6 Laughing Lanterns
-	6 Cousin of the Worldsoul
-	15 Swordcraft Master
-	15 Mikayoshi and Toru
-	7 Maskwright
-	7 Tender of The True Flower
-	7 Shikigami Nihilist
-	15 Blighted Inkwell
-	7 Junko of the Puppet Theater
-	15 Brined Innocents
-	15 Coastal Trade
-	7 Lost Sea-Taken
-	15 Guardian Fetchling
-	6 Needling Poet
-	6 Courtyard Clowns
-	15 Herb Sages
-	6 River Racketeer
-	15 Vulpine Auspice
-	7 Swamproots Rallier
-	7 Parasitc Growth
-	7 Tora Shapethirster
-	7 Spirited Scrollery
-	7 Turbulent Clanger
-	7 Her Dutiful Vessel
-	7 Auspicous Butterflox
-	7 Tomoko's Majesty
-	7 Yokai Night Market
-	7 Wu
-	7 Estuary Wretch
-	7 She Who Roils The Seas
-	15 Tora Mask
-	15 Brobdignagian Swat
-	15 Decimilipede
-	15 Marshal of the Night Parade
-	15 Join For A Dip
-	15 Outskirts Vigilante
-	15 Gashadokuro's Malice
-	15 Worldsoul's Venom
-	15 Enmity's Shadow
-	15 Drown Out
-	15 Bake-Kujira
-	15 Scrollroom Instructor
-	15 Midautumn Koi Viewing
-	15 Dragon Regalia
-	15 Splitskin Doll
-	15 Famine Architect
-	15 Dorotabo Drudge
-	15 Buyer's Market
-	15 Cast To The Isopods
-	6 Ataraxic Angler
-	6 Tengu Bladework
-	6 Enclose In Characters
-	6 Agglomerated Ghouls
-	6 Parade of the Dead
-	6 Scarce Tsuchinoko
-	6 Surfaceside Enforcer
-	6 Stand Your Ground
-	15 Procession Master
-	15 Ostentatious Centerpiece
-	7 All Pass Under the Sea
-	7 General Kameshiro of the Tengu
-	7 August Prince Jin
-	6 Prophetic Prism
+	8 Summons To The Sea Palace
+	8 Scheming Shadebinder
+	8 Highest Peak Bladedancer
+	8 Stricken Visitor
+	8 Fainting Tragedian
+	8 Puppet-String Denial
+	8 Tree Of Pestilence
+	8 Soul-Feeding Basker
+	8 Beligerent Horo-sha
+	8 Sea Palace Retainer
+	8 Ningyo Recluse
+	8 Feasting Jikininki
+	8 Shallows Survivor
+	8 Yamamba Spinner
+	8 Beckon Asea
+	8 Bad Influence
+	8 Namazu Trader
+	8 Onamazu
+	8 Claw Hammer
+	8 Namazu Leeguide
+	8 Visited Upon The Child
+	8 Gigantize
+	8 Belly of the Beast
+	8 Rimewater Squall
+	8 Petulant Nurikabe
+	8 Monstrous Parley
+	8 Kabuki For Your Life!
+	8 Lavish Parade
+	8 Tomb Trawler
+	8 Thriving Isle
+	8 Thriving Moor
+	8 Thriving Grove
+	8 Thriving Bluff
+	8 Thriving Heath
+	8 Make A Donation
+	8 Mitakusa Marvel
+	8 Tolling Dial
+	8 Highest Peak Forcemage
+	8 Laughing Pathlighters
+	8 Solemn Judgement
+	8 Compound Fracture
+	8 Assault of Shadows
+	8 Niggling Thought
+	8 Wee Headcarver
+	8 Pearl-Diving Kappa
+	8 Laughing Lanterns
+	8 Cousin of the Worldsoul
+	8 Needling Poet
+	8 Courtyard Clowns
+	8 River Racketeer
+	8 Ataraxic Angler
+	8 Tengu Bladework
+	8 Enclose In Characters
+	8 Agglomerated Ghouls
+	8 Parade of the Dead
+	8 Scarce Tsuchinoko
+	8 Surfaceside Enforcer
+	8 Stand Your Ground
+	8 Prophetic Prism
+	8 Plains (MST) 137
+	8 Plains (MST) 138
+	8 Island (MST) 139
+	8 Island (MST) 140
+	8 Swamp (MST) 141
+	8 Swamp (MST) 142
+	8 Mountain (MST) 143
+	8 Mountain (MST) 144
+	8 Forest (MST) 145
+	8 Forest (MST) 146
