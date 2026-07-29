@@ -1681,7 +1681,7 @@
 	4 Cast To The Isopods
 	4 Procession Master
 	4 Ostentatious Centerpiece
-[common(5)]
+[common(6)]
 	8 Summons To The Sea Palace
 	8 Scheming Shadebinder
 	8 Highest Peak Bladedancer
@@ -1741,73 +1741,3 @@
 	8 Surfaceside Enforcer
 	8 Stand Your Ground
 	8 Prophetic Prism
-[wildcard(1)]
-	8 Summons To The Sea Palace
-	8 Scheming Shadebinder
-	8 Highest Peak Bladedancer
-	8 Stricken Visitor
-	8 Fainting Tragedian
-	8 Puppet-String Denial
-	8 Tree Of Pestilence
-	8 Soul-Feeding Basker
-	8 Beligerent Horo-sha
-	8 Sea Palace Retainer
-	8 Ningyo Recluse
-	8 Feasting Jikininki
-	8 Shallows Survivor
-	8 Yamamba Spinner
-	8 Beckon Asea
-	8 Bad Influence
-	8 Namazu Trader
-	8 Onamazu
-	8 Claw Hammer
-	8 Namazu Leeguide
-	8 Visited Upon The Child
-	8 Gigantize
-	8 Belly of the Beast
-	8 Rimewater Squall
-	8 Petulant Nurikabe
-	8 Monstrous Parley
-	8 Kabuki For Your Life!
-	8 Lavish Parade
-	8 Tomb Trawler
-	8 Thriving Isle
-	8 Thriving Moor
-	8 Thriving Grove
-	8 Thriving Bluff
-	8 Thriving Heath
-	8 Make A Donation
-	8 Mitakusa Marvel
-	8 Tolling Dial
-	8 Highest Peak Forcemage
-	8 Laughing Pathlighters
-	8 Solemn Judgement
-	8 Compound Fracture
-	8 Assault of Shadows
-	8 Niggling Thought
-	8 Wee Headcarver
-	8 Pearl-Diving Kappa
-	8 Laughing Lanterns
-	8 Cousin of the Worldsoul
-	8 Needling Poet
-	8 Courtyard Clowns
-	8 River Racketeer
-	8 Ataraxic Angler
-	8 Tengu Bladework
-	8 Enclose In Characters
-	8 Agglomerated Ghouls
-	8 Parade of the Dead
-	8 Scarce Tsuchinoko
-	8 Surfaceside Enforcer
-	8 Stand Your Ground
-	8 Prophetic Prism
-	31 Thriving Isle
-	31 Thriving Moor
-	31 Thriving Grove
-	31 Thriving Bluff
-	31 Thriving Heath
-	31 Nizua Town
-	31 Highest Peak
-	31 The Sea Palace
-	31 The City of Yokai
-	31 The Heavenly Palace
