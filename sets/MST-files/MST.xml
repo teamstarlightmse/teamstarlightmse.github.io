@@ -315,7 +315,7 @@ Return target instant or sorcery card or card with an Omen or Adventure from you
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
-				<type>Creature — Merfolk Nightmare // Sorcery — Omern</type>
+				<type>Creature — Merfolk Nightmare // Sorcery — Omen</type>
 				<maintype>Creature</maintype>
 				<manacost>1U // U</manacost>
 				<cmc>2</cmc>
@@ -1941,8 +1941,8 @@ When Decimilipede dies, at the beginning of your next end step, return it from y
 				<side>front</side>
 				<type>Creature — Nightmare</type>
 				<maintype>Creature</maintype>
-				<manacost>R</manacost>
-				<cmc>1</cmc>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 				<pt>2/2</pt>

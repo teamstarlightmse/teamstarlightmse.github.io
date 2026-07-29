@@ -1,4 +1,15 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+
+
+Ningyo Recluse
+
+Marshal of the Night Parade
+cost: {R} => {1}{R}
+
+
+VERSION 2 CHANGELOG
 ====================
 
 No changes.

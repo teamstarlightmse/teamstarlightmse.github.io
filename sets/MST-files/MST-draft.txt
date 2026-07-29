@@ -1801,13 +1801,13 @@
 	8 Surfaceside Enforcer
 	8 Stand Your Ground
 	8 Prophetic Prism
-	8 Thriving Isle
-	8 Thriving Moor
-	8 Thriving Grove
-	8 Thriving Bluff
-	8 Thriving Heath
-	8 Nizua Town
-	8 Highest Peak
-	8 The Sea Palace
-	8 The City of Yokai
-	8 The Heavenly Palace
+	31 Thriving Isle
+	31 Thriving Moor
+	31 Thriving Grove
+	31 Thriving Bluff
+	31 Thriving Heath
+	31 Nizua Town
+	31 Highest Peak
+	31 The Sea Palace
+	31 The City of Yokai
+	31 The Heavenly Palace
