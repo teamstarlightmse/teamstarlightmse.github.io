@@ -1801,13 +1801,13 @@
 	8 Surfaceside Enforcer
 	8 Stand Your Ground
 	8 Prophetic Prism
-	8 Plains (MST) 137
-	8 Plains (MST) 138
-	8 Island (MST) 139
-	8 Island (MST) 140
-	8 Swamp (MST) 141
-	8 Swamp (MST) 142
-	8 Mountain (MST) 143
-	8 Mountain (MST) 144
-	8 Forest (MST) 145
-	8 Forest (MST) 146
+	8 Thriving Isle
+	8 Thriving Moor
+	8 Thriving Grove
+	8 Thriving Bluff
+	8 Thriving Heath
+	8 Nizua Town
+	8 Highest Peak
+	8 The Sea Palace
+	8 The City of Yokai
+	8 The Heavenly Palace
