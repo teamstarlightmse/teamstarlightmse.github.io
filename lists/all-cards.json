@@ -4909,7 +4909,7 @@
             "number": 18,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Lifelink\nEach player can't cast more than one spell each turn.\nCreatures you control get +1/+1.",
+            "rules_text": "Lifelink\nEach player can't cast more than one spell each turn.\nOther creatures you control get +1/+1.",
             "flavor_text": "[i]Every thousand years, she returns from her wanderings ashore and thrashes the world upside-down, returning the dead to life with only a fraction of their memories.[/i]",
             "pt": "3/4",
             "special_text": "",

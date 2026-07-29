@@ -1864,7 +1864,7 @@ At the beginning of your end step, sacrifice Tomoko&apos;s Majesty.</text>
 			<name>She Who Roils The Seas</name>
 			<text>Lifelink
 Each player can&apos;t cast more than one spell each turn.
-Creatures you control get +1/+1.</text>
+Other creatures you control get +1/+1.</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/102.png" num="18">MST</set>
 			<prop>
 				<layout>normal</layout>

@@ -1,4 +1,17 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+She Who Roils The Seas
+rules_text: Lifelink
+Each player can't cast more than one spell each turn.
+Creatures you control get +1/+1. => Lifelink
+Each player can't cast more than one spell each turn.
+Other creatures you control get +1/+1.
+
+
+VERSION 3 CHANGELOG
 ====================
 
 

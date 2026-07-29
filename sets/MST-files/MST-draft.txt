@@ -1063,7 +1063,7 @@
 		{
 			"name": "Marshal of the Night Parade",
 			"rarity": "uncommon",
-			"mana_cost": "{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Creature — Nightmare",
 			"collector_number": "78",
 			"image_uris": {
