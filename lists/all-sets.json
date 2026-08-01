@@ -1,9 +1,9 @@
-﻿{
+{
     "sets": [
         {
             "set_code": "HNZ",
             "set_name": "Hunzikure",
-            "formats": ""
+            "formats": "microsets"
         },
         {
             "set_code": "MST",

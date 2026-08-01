@@ -1,4 +1,4 @@
-﻿[CustomCards]
+[CustomCards]
 	[
 		{
 			"name": "Rooftop Raider",
@@ -777,7 +777,7 @@
 			"type": "Token Land",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/13_Reflecting Pool.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/12t_Reflecting Pool.png"
 			}
 		},
 		{
@@ -787,7 +787,7 @@
 			"type": "Token Creature — Spirit",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/4_Spirit.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/4t_Spirit.png"
 			}
 		},
 		{
@@ -797,7 +797,7 @@
 			"type": "Token Artifact Creature — Robot",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/12_Robot.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/11t_Robot.png"
 			}
 		},
 		{
@@ -807,7 +807,7 @@
 			"type": "Token Creature — Bird",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/2_Bird.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/2t_Bird.png"
 			}
 		},
 		{
@@ -817,7 +817,7 @@
 			"type": "Token Creature — Tentacle",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/6_Tentacle.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/5t_Tentacle.png"
 			}
 		},
 		{
@@ -827,7 +827,7 @@
 			"type": "Token Creature — Soldier",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/3_Soldier.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/3t_Soldier.png"
 			}
 		},
 		{
@@ -837,7 +837,7 @@
 			"type": "Token Creature",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/1_Copy.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/1t_Copy.png"
 			}
 		},
 		{
@@ -847,7 +847,7 @@
 			"type": "Token Creature — Plant",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/10_Plant.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/9t_Plant.png"
 			}
 		},
 		{
@@ -857,7 +857,7 @@
 			"type": "Token Creature — Rogue",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/9_Rogue.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/8t_Rogue.png"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 			"type": "Token Creature — Wurm",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/11_Wurm.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/10t_Wurm.png"
 			}
 		},
 		{
@@ -877,7 +877,7 @@
 			"type": "Token Creature — Fist",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/8_Fist.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/7t_Fist.png"
 			}
 		},
 		{
@@ -887,7 +887,7 @@
 			"type": "Token Creature — Horror",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/7_Horror.png"
+				"en": "https://teamstarlightmse.github.io/sets/HNZ-files/img/6t_Horror.png"
 			}
 		},
 		{
@@ -1188,4 +1188,3 @@
 	1 Skulking Dissolver
 	1 Unrelenting Platoon
 	1 Aftermarket Light Frame
-	1 Prophetic Prism
