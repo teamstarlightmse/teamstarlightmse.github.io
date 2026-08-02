@@ -1,4 +1,184 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Enfilading Censure added.
+
+Gashadokuro's Malice removed.
+
+Assault of Shadows
+
+Niggling Thought
+
+Wee Headcarver
+
+Bridal Couture
+
+Sea Palace Beheader
+
+Whitelattice Warrior
+
+Wanderers In Dream
+
+Misato, Chief Prosecutor
+
+Pearl-Diving Kappa
+
+Laughing Lanterns
+
+Cousin of the Worldsoul
+
+Swordcraft Master
+
+Mikayoshi and Toru
+
+Maskwright
+
+Tender of The True Flower
+
+Shikigami Nihilist
+
+Blighted Inkwell
+
+Junko of the Puppet Theater
+
+Brined Innocents
+
+Coastal Trade
+
+Lost Sea-Taken
+
+Guardian Fetchling
+
+Needling Poet
+
+Courtyard Clowns
+
+Herb Sages
+
+River Racketeer
+
+Vulpine Auspice
+
+Swamproots Rallier
+
+Parasitc Growth
+
+Tora Shapethirster
+
+Spirited Scrollery
+
+Turbulent Clanger
+
+Her Dutiful Vessel
+
+Auspicous Butterflox
+
+Tomoko's Majesty
+
+Yokai Night Market
+
+Wu
+
+Estuary Wretch
+
+She Who Roils The Seas
+
+Tora Mask
+
+Brobdignagian Swat
+
+Decimilipede
+
+Marshal of the Night Parade
+
+Join For A Dip
+
+Outskirts Vigilante
+
+Worldsoul's Venom
+
+Enmity's Shadow
+
+Drown Out
+
+Bake-Kujira
+
+Scrollroom Instructor
+
+Midautumn Koi Viewing
+
+Dragon Regalia
+
+Splitskin Doll
+
+Famine Architect
+
+Dorotabo Drudge
+
+Buyer's Market
+
+Cast To The Isopods
+
+Ataraxic Angler
+
+Tengu Bladework
+
+Enclose In Characters
+
+Agglomerated Ghouls
+
+Parade of the Dead
+
+Scarce Tsuchinoko
+
+Surfaceside Enforcer
+
+Stand Your Ground
+
+Procession Master
+
+Ostentatious Centerpiece
+
+All Pass Under the Sea
+
+General Kameshiro of the Tengu
+
+August Prince Jin
+
+Prophetic Prism
+
+Nightmare
+
+Fish
+
+Nightmare
+
+Merfolk
+
+Fist
+
+Spirit
+
+Insect
+
+Treasure
+
+Book
+
+Glorious Anthem
+
+Ghost Lantern
+
+Aura
+
+Toy
+
+Everywhere
+
+Compound Fracture
+
+
+VERSION 4 CHANGELOG
 ====================
 
 

@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Rural Dwellings, In Seafoam Mist</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-29</releasedate>
+			<releasedate>2026-08-02</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1154,25 +1154,9 @@ Destroy target creature.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Compound Fracture</name>
-			<text>Target creature gets -1/-1 until end of turn. It gets an additional -1/-1 until end of turn for each card named Compound Fracture in your graveyard.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/63.png" num="46">MST</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>B</manacost>
-				<cmc>1</cmc>
-				<colors>B</colors>
-				<coloridentity>B</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
-		</card>
-		<card>
 			<name>Assault of Shadows</name>
 			<text>You may return target creature you control to its owner&apos;s hand. Create a token that&apos;s a copy of it, except it has haste. Sacrifice it at the beginning of your next end step.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/64.png" num="67">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/63.png" num="67">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1189,7 +1173,7 @@ Destroy target creature.</text>
 			<name>Niggling Thought</name>
 			<text>Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 You draw a card and lose 2 life.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/65.png" num="57">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/64.png" num="57">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1206,7 +1190,7 @@ You draw a card and lose 2 life.</text>
 			<name>Wee Headcarver</name>
 			<text>When Wee Headcarver enters, create a tapped Treasure token.
 {R}, Sacrifice an artifact: Mill a card. You may play it this turn.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/66.png" num="88">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/65.png" num="88">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1225,7 +1209,7 @@ You draw a card and lose 2 life.</text>
 			<text>Enchant creature
 Whenever enchanted creature attacks, create a 1/1 blue Fish creature token with flying.
 You may cast Bridal Couture from your graveyard.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/67.png" num="26">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/66.png" num="26">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1241,7 +1225,7 @@ You may cast Bridal Couture from your graveyard.</text>
 		<card>
 			<name>Sea Palace Beheader</name>
 			<text>When Sea Palace Beheader enters, create a 0/0 green Nightmare creature token and put X +1/+1 counters on it, where X is ten minus the number of cards in your library.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/68.png" num="117">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/67.png" num="117">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1259,7 +1243,7 @@ You may cast Bridal Couture from your graveyard.</text>
 			<name>Whitelattice Warrior</name>
 			<text>Kicker—{3}, Shuffle three cards from your graveyard into your library. (You may pay an additional {3} and shuffle three cards from your graveyard into your library as you cast this spell.)
 When Whitelattice Warrior enters, if it was kicked, return target creature card from your graveyard to the battlefield. It enters as a 4/4 Nightmare.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/69.png" num="119">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/68.png" num="119">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1277,7 +1261,7 @@ When Whitelattice Warrior enters, if it was kicked, return target creature card 
 			<name>Wanderers In Dream</name>
 			<text>Whenever one or more cards leave your graveyard, create a 0/0 green Nightmare creature token.
 Other creatures you control get +1/+1.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/70.png" num="110">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/69.png" num="110">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1297,7 +1281,7 @@ Other creatures you control get +1/+1.</text>
 Flying
 When Misato, Chief Prosecutor enters, exile target spell. For as long as it remains exiled, its owner may cast it. 
 At the beginning of each end step, shuffle each card exiled with Misato, Chief Prosecutor into its owner&apos;s library.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/71.png" num="16">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/70.png" num="16">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1315,7 +1299,7 @@ At the beginning of each end step, shuffle each card exiled with Misato, Chief P
 			<name>Pearl-Diving Kappa</name>
 			<text>Whenever you cast a noncreature spell, surveil 2.
 Sacrifice Pearl-Diving Kappa: If it isn&apos;t combat, you may cast a copy of an instant or sorcery card in your graveyard. You may cast Omen and Adventure spells this way.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/72.png" num="33">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/71.png" num="33">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1334,7 +1318,7 @@ Sacrifice Pearl-Diving Kappa: If it isn&apos;t combat, you may cast a copy of an
 			<text>Flying
 Reprieve (As this permanent enters, you may return a creature you control without reprieve to its owner&apos;s hand.) 
 When Laughing Lanterns grants reprieve, put a +1/+1 counter on it.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/73.png" num="15">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/72.png" num="15">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1352,7 +1336,7 @@ When Laughing Lanterns grants reprieve, put a +1/+1 counter on it.</text>
 			<name>Cousin of the Worldsoul</name>
 			<text>Kicker—{B}, Shuffle three cards from your graveyard into your library (You may pay an additional {B} and shuffle three cards from your graveyard into your library as you cast this spell.)
 When Cousin of the Worldsoul enters, destroy target creature if it has mana value 2 or less or Cousin of the Worldsoul was kicked.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/74.png" num="48">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/73.png" num="48">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1370,7 +1354,7 @@ When Cousin of the Worldsoul enters, destroy target creature if it has mana valu
 			<name>Swordcraft Master</name>
 			<text>Reprieve (As this permanent enters, you may return a creature you control without reprieve to its owner&apos;s hand.) 
 As long as Swordcraft Master granted reprieve this turn, abilities you control trigger an additional time. (Triggered abilities use &quot;when&quot;, &quot;whenever&quot;, or &quot;at&quot;)</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/75.png" num="118">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/74.png" num="118">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1388,7 +1372,7 @@ As long as Swordcraft Master granted reprieve this turn, abilities you control t
 			<name>Mikayoshi and Toru</name>
 			<text>You may cast copies of creature cards in your graveyard with mana value 1 or greater that died this turn.
 Whenever a token you control dies, each opponent loses 2 life.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/76.png" num="115">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/75.png" num="115">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1409,7 +1393,7 @@ Whenever a token you control dies, each opponent loses 2 life.</text>
 ---
 
 Create a token that&apos;s a copy of target creature. (Then shuffle this card into its owner&apos;s library.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/77.png" num="30">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/76.png" num="30">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1429,7 +1413,7 @@ Create a token that&apos;s a copy of target creature. (Then shuffle this card in
 Tender of The True Flower enters with a lotus counter if it was kicked.
 {T}: Add {G}.
 Whenever you tap a creature or artifact for mana, if Tender of The True Flower has a lotus counter on it, add two mana of any color that permanent produced.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/78.png" num="104">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/77.png" num="104">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1448,7 +1432,7 @@ Whenever you tap a creature or artifact for mana, if Tender of The True Flower h
 			<text>Menace
 Whenever a nonland card leaves your graveyard, create a copy of it in exile.
 You may cast spells exiled with Shikigami Nihilist by sacrificing a creature in addition to paying their other costs.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/79.png" num="60">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/78.png" num="60">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1466,7 +1450,7 @@ You may cast spells exiled with Shikigami Nihilist by sacrificing a creature in 
 			<name>Blighted Inkwell</name>
 			<text>Creatures you control have haste.
 {X}, {T}: Create a 0/0 green Nightmare creature token and put X +1/+1 counters on it. Sacrifice Blighted Inkwell at the beginning of the next end step.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/80.png" num="121">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/79.png" num="121">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1481,7 +1465,7 @@ You may cast spells exiled with Shikigami Nihilist by sacrificing a creature in 
 			<name>Junko of the Puppet Theater</name>
 			<text>Whenever you cast an instant or sorcery spell, create a 1/1 Toy artifact creature token.
 {5}: Toys you control become copies of target creature until end of turn.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/81.png" num="29">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/80.png" num="29">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1498,7 +1482,7 @@ You may cast spells exiled with Shikigami Nihilist by sacrificing a creature in 
 		<card>
 			<name>Brined Innocents</name>
 			<text>Whenever Brined Innocents attacks, if your library has ten or fewer cards in it, create a 1/1 blue Fish creature token with flying that&apos;s tapped and attacking.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/82.png" num="27">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/81.png" num="27">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1515,7 +1499,7 @@ You may cast spells exiled with Shikigami Nihilist by sacrificing a creature in 
 		<card>
 			<name>Coastal Trade</name>
 			<text>Whenever a creature you control deals combat damage to a player, you may cast a permanent card from your graveyard. It enters with a finality counter. (If it would die, exile it.)</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/83.png" num="6">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/82.png" num="6">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1532,7 +1516,7 @@ You may cast spells exiled with Shikigami Nihilist by sacrificing a creature in 
 			<name>Lost Sea-Taken</name>
 			<text>Lost Sea-Taken can&apos;t block.
 You may cast Lost Sea-Taken from your graveyard as long as a card left your graveyard this turn.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/84.png" num="54">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/83.png" num="54">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1553,7 +1537,7 @@ You may cast Lost Sea-Taken from your graveyard as long as a card left your grav
 ---
 
 Read the Riot Act deals 5 damage to target opponent unless they have you create two 2/1 red Fist creature tokens. (Then shuffle this card into its owner&apos;s library.)</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/85.png" num="72">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/84.png" num="72">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1571,7 +1555,7 @@ Read the Riot Act deals 5 damage to target opponent unless they have you create 
 			<name>Needling Poet</name>
 			<text>When Needling Poet enters, create a white enchantment token named Glorious Anthem with &quot;Creatures you control get +1/+1.&quot;
 At the beginning of your end step, sacrifice an enchantment.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/86.png" num="17">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/85.png" num="17">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1589,7 +1573,7 @@ At the beginning of your end step, sacrifice an enchantment.</text>
 			<name>Courtyard Clowns</name>
 			<text>When Courtyard Clowns enters, return target creature card from your graveyard to your hand.
 {W}, Sacrifice Courtyard Clowns: Create a 1/1 blue Fish creature token with flying.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/87.png" num="7">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/86.png" num="7">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1606,7 +1590,7 @@ At the beginning of your end step, sacrifice an enchantment.</text>
 		<card>
 			<name>Herb Sages</name>
 			<text>{T}: Untap up to two target permanents not named Herb Sages that don&apos;t share a card type.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/88.png" num="93">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/87.png" num="93">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1627,7 +1611,7 @@ At the beginning of your end step, sacrifice an enchantment.</text>
 ---
 
 Return target nonland permanent to its owner&apos;s hand. (Then shuffle this card into its owner&apos;s library.)</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/89.png" num="37">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/88.png" num="37">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1645,7 +1629,7 @@ Return target nonland permanent to its owner&apos;s hand. (Then shuffle this car
 			<name>Vulpine Auspice</name>
 			<text>Kicker—{G}, Shuffle three cards from your graveyard into your library. (You may pay an additional {G} and shuffle three cards from your graveyard into your library as you cast this spell.)
 Search your library for a basic land card, put it into your hand, then shuffle. If Vulpine Auspice was kicked, instead put that card onto the battlefield tapped.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/90.png" num="109">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/89.png" num="109">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1666,7 +1650,7 @@ When Swamproots Rallier enters, put a +1/+1 counter on each other creature you c
 ---
 
 Create a 3/2 green Merfolk creature token. (Then shuffle this card into its owner&apos;s library.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/91.png" num="101">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/90.png" num="101">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1685,7 +1669,7 @@ Create a 3/2 green Merfolk creature token. (Then shuffle this card into its owne
 			<text>Reprieve (As this permanent enters, you may return a creature you control without reprieve to its owner&apos;s hand.)
 You may play land cards from your graveyard.
 Once during each of your turns, if a creature you control left the battlefield this turn, you may play a creature card from your graveyard. It enters with a finality counter. (If it would die, exile it.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/92.png" num="97">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/91.png" num="97">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1701,7 +1685,7 @@ Once during each of your turns, if a creature you control left the battlefield t
 		<card>
 			<name>Tora Shapethirster</name>
 			<text>At the beginning of combat on your turn, Tora Shapethirster becomes a copy of a creature with the greatest power among creatures you control until end of turn.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/93.png" num="106">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/92.png" num="106">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1718,7 +1702,7 @@ Once during each of your turns, if a creature you control left the battlefield t
 		<card>
 			<name>Spirited Scrollery</name>
 			<text>Whenever Spirited Scrollery attacks, discard a card and create a Book artifact token with &quot;{T}, Tap three untapped permanents you control, Sacrifice this artifact: Draw a card.&quot;</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/94.png" num="85">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/93.png" num="85">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1741,7 +1725,7 @@ Spells you cast can&apos;t be countered.
 
 This spell can&apos;t be countered.
 Neverending Bells deals 5 damage to target creature.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/95.png" num="86">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/94.png" num="86">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1759,7 +1743,7 @@ Neverending Bells deals 5 damage to target creature.</text>
 			<name>Her Dutiful Vessel</name>
 			<text>Menace, haste 
 Whenever Her Dutiful Vessel attacks, look at the top card of defending player&apos;s library and exile it face down. You may play that card for as long as it remains exiled. Mana of any type can be spent to cast a spell this way.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/96.png" num="51">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/95.png" num="51">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1777,7 +1761,7 @@ Whenever Her Dutiful Vessel attacks, look at the top card of defending player&ap
 			<name>Auspicous Butterflox</name>
 			<text>Flying, ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)
 Whenever a card leaves your library, put a +1/+1 counter on this creature. Then if your library has no cards in it, put a card from your graveyard on top of your library.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/97.png" num="23">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/96.png" num="23">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1795,7 +1779,7 @@ Whenever a card leaves your library, put a +1/+1 counter on this creature. Then 
 			<name>Tomoko&apos;s Majesty</name>
 			<text>Return a creature you control to its owner&apos;s hand: Return target creature to its owner&apos;s hand.
 At the beginning of your end step, sacrifice Tomoko&apos;s Majesty.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/98.png" num="44">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/97.png" num="44">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1814,7 +1798,7 @@ At the beginning of your end step, sacrifice Tomoko&apos;s Majesty.</text>
 • Create a Treasure token. You lose 1 life.
 • You draw a card and lose 2 life.
 • Create a 3/2 black Nightmare creature token with haste. You lose 4 life.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/99.png" num="66">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/98.png" num="66">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1830,7 +1814,7 @@ At the beginning of your end step, sacrifice Tomoko&apos;s Majesty.</text>
 		<card>
 			<name>Wu</name>
 			<text>Exile all creatures, then create a 0/0 green Nightmare token and put X +1/+1 counters on it.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/100.png" num="21">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/99.png" num="21">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1846,7 +1830,7 @@ At the beginning of your end step, sacrifice Tomoko&apos;s Majesty.</text>
 		<card>
 			<name>Estuary Wretch</name>
 			<text>Whenever you attack, you may pay {W}. When you do, exile up to two cards from graveyards. Put a +1/+1 counter on Estuary Wretch for each creature card exiled this way.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/101.png" num="11">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/100.png" num="11">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1865,7 +1849,7 @@ At the beginning of your end step, sacrifice Tomoko&apos;s Majesty.</text>
 			<text>Lifelink
 Each player can&apos;t cast more than one spell each turn.
 Other creatures you control get +1/+1.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/102.png" num="18">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/101.png" num="18">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1885,7 +1869,7 @@ Other creatures you control get +1/+1.</text>
 When Tora Mask enters, if it granted reprieve, attach it to target creature you control.
 Equipped creature gets +2/+2 and has trample.
 Equip {3}</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/103.png" num="105">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/102.png" num="105">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1901,7 +1885,7 @@ Equip {3}</text>
 		<card>
 			<name>Brobdignagian Swat</name>
 			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. If a card would enter its controller&apos;s graveyard this turn, exile it instead.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/104.png" num="90">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/103.png" num="90">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1918,7 +1902,7 @@ Equip {3}</text>
 			<name>Decimilipede</name>
 			<text>When Decimilipede enters, if it was cast, create two 1/1 red Insect creature tokens.
 When Decimilipede dies, at the beginning of your next end step, return it from your graveyard to the battlefield if you control an Insect token.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/105.png" num="70">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/104.png" num="70">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1935,7 +1919,7 @@ When Decimilipede dies, at the beginning of your next end step, return it from y
 		<card>
 			<name>Marshal of the Night Parade</name>
 			<text>Whenever you cast an instant or sorcery spell, this creature deals 1 damage to each opponent. If that spell was an Adventure or Omen, this creature deals 3 damage to each opponent instead.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/106.png" num="78">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/105.png" num="78">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1952,7 +1936,7 @@ When Decimilipede dies, at the beginning of your next end step, return it from y
 		<card>
 			<name>Join For A Dip</name>
 			<text>Join For A Dip deals X damage to target creature. If excess damage is dealt this way, exile that creature and that many cards from its controller&apos;s graveyard.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/107.png" num="75">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/106.png" num="75">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1969,7 +1953,7 @@ When Decimilipede dies, at the beginning of your next end step, return it from y
 			<name>Outskirts Vigilante</name>
 			<text>Haste
 When Outskirts Vigilante enters, it gets +X/+0 until end of turn, where X is the number of Mountains you control.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/108.png" num="81">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/107.png" num="81">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1984,10 +1968,10 @@ When Outskirts Vigilante enters, it gets +X/+0 until end of turn, where X is the
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Gashadokuro&apos;s Malice</name>
+			<name>Enfilading Censure</name>
 			<text>Target creature gets -3/-3 until end of turn. If that creature would die this turn, instead exile it.
 Exile up to two target cards from graveyards.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/109.png" num="50">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/108.png" num="49">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2003,7 +1987,7 @@ Exile up to two target cards from graveyards.</text>
 		<card>
 			<name>Worldsoul&apos;s Venom</name>
 			<text>Each opponent exiles a creature they control with the greatest power among creatures they control.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/110.png" num="65">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/109.png" num="65">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2023,7 +2007,7 @@ Exile up to two target cards from graveyards.</text>
 ---
 
 You draw three cards and lose 3 life. (Then shuffle this card into its owner&apos;s library.)</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/111.png" num="49">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/110.png" num="50">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -2040,7 +2024,7 @@ You draw three cards and lose 3 life. (Then shuffle this card into its owner&apo
 		<card>
 			<name>Drown Out</name>
 			<text>Counter target spell. Its controller creates a 1/1 blue Fish creature token with flying unless you have ten or less cards in your library.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/112.png" num="28">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/111.png" num="28">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2058,7 +2042,7 @@ You draw three cards and lose 3 life. (Then shuffle this card into its owner&apo
 			<text>Flash; flying
 Reprieve (As this permanent enters, you may return a creature you control without reprieve to its owner&apos;s hand.)
 When Bake-Kujira enters, if it granted reprieve, return target creature an opponent controls to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/113.png" num="24">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/112.png" num="24">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2075,7 +2059,7 @@ When Bake-Kujira enters, if it granted reprieve, return target creature an oppon
 		<card>
 			<name>Scrollroom Instructor</name>
 			<text>When Scrollroom Instructor enters, create a Book artifact token with &quot;{T}, Tap three untapped permanents you control, Sacrifice this artifact: Draw a card.&quot;</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/114.png" num="39">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/113.png" num="39">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2093,7 +2077,7 @@ When Bake-Kujira enters, if it granted reprieve, return target creature an oppon
 			<name>Midautumn Koi Viewing</name>
 			<text>Kicker—Shuffle three cards from your graveyard into your library. (You may shuffle three cards from your graveyard into your library in addition to any other costs as you cast this spell.)
 Draw three cards. Then discard two cards unless this spell was kicked.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/115.png" num="31">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/114.png" num="31">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2112,7 +2096,7 @@ Draw three cards. Then discard two cards unless this spell was kicked.</text>
 When Dragon Regalia enters, if it granted reprieve, attach it to target creature you control.
 Equipped creature gets +1/+1 and has flying.
 Equip {3}</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/116.png" num="9">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/115.png" num="9">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2128,7 +2112,7 @@ Equip {3}</text>
 		<card>
 			<name>Splitskin Doll</name>
 			<text>When Splitskin Doll enters, draw a card. Then discard a card unless you control another creature with power 2 or less.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/117.png" num="19">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/116.png" num="19">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2147,7 +2131,7 @@ Equip {3}</text>
 			<text>---
 
 Create three 1/1 blue Fish creature tokens with flying. (Then shuffle this card into its owner&apos;s library.)</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/118.png" num="12">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/117.png" num="12">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -2165,7 +2149,7 @@ Create three 1/1 blue Fish creature tokens with flying. (Then shuffle this card 
 			<name>Dorotabo Drudge</name>
 			<text>Vigilance
 When Dorotabo Drudge deals combat damage to a player, you may play a creature or Plains card from your graveyard this turn. It enters with a finality counter.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/119.png" num="8">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/118.png" num="8">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2182,7 +2166,7 @@ When Dorotabo Drudge deals combat damage to a player, you may play a creature or
 		<card>
 			<name>Buyer&apos;s Market</name>
 			<text>Look at the top six cards of your library. You may reveal two permanent cards each with mana value 3 or less from among them and put them into your hand. Put the rest on the bottom of your library in a random order.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/120.png" num="4">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/119.png" num="4">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2198,7 +2182,7 @@ When Dorotabo Drudge deals combat damage to a player, you may play a creature or
 		<card>
 			<name>Cast To The Isopods</name>
 			<text>Exile target nonland permanent. Its controller creates a 1/1 red Insect creature token.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/121.png" num="5">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/120.png" num="5">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2219,7 +2203,7 @@ Ataraxic Angler has double strike during your turn.
 ---
 
 Destroy target artifact or enchantment. (Then shuffle this card into its owner&apos;s library.)</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/122.png" num="2">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/121.png" num="2">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -2237,7 +2221,7 @@ Destroy target artifact or enchantment. (Then shuffle this card into its owner&a
 			<name>Tengu Bladework</name>
 			<text>Kicker—{W}, Shuffle two cards from your graveiard into your library. (You may pay an additional {W} and shuffle two cards from your graveiard into your library as you cast this spell.)
 Target creature gains hexproof and indestructible until end of turn. If Tengu Bladework was kicked, put two +1/+1 counters on that creature.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/123.png" num="20">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/122.png" num="20">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2254,7 +2238,7 @@ Target creature gains hexproof and indestructible until end of turn. If Tengu Bl
 			<name>Enclose In Characters</name>
 			<text>Return target permanent you control to its owner&apos;s hand.
 Create a Book artifact token with &quot;{T}, Tap three untapped permanents you control, Sacrifice this artifact: Draw a card.&quot;</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/124.png" num="10">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/123.png" num="10">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2271,7 +2255,7 @@ Create a Book artifact token with &quot;{T}, Tap three untapped permanents you c
 			<name>Agglomerated Ghouls</name>
 			<text>Vigilance
 When Agglomerated Ghouls leaves the battlefield, return up to two target creature cards with total mana value 3 or less from your graveyard to the battlefield tapped.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/125.png" num="1">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/124.png" num="1">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2290,7 +2274,7 @@ When Agglomerated Ghouls leaves the battlefield, return up to two target creatur
 			<text>Surveil 2. When you do, choose one—
 • Return target creature card from your graveyard to your hand.
 • Return target creature card with mana value 3 or less from your graveyard to the battlefield.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/126.png" num="58">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/125.png" num="58">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2306,7 +2290,7 @@ When Agglomerated Ghouls leaves the battlefield, return up to two target creatur
 		<card>
 			<name>Scarce Tsuchinoko</name>
 			<text>Whenever you draw your second card each turn, put a +1/+1 counter on Scarce Tsuchinoko if it&apos;s tapped.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/127.png" num="38">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/126.png" num="38">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2324,7 +2308,7 @@ When Agglomerated Ghouls leaves the battlefield, return up to two target creatur
 			<name>Surfaceside Enforcer</name>
 			<text>Flying
 When Surfaceside Enforcer leaves the battlefield, create a 1/1 blue Fish creature token with flying.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/128.png" num="43">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/127.png" num="43">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2341,7 +2325,7 @@ When Surfaceside Enforcer leaves the battlefield, create a 1/1 blue Fish creatur
 		<card>
 			<name>Stand Your Ground</name>
 			<text>Return up to one target nonland permanent you control and up to one other target nonland permanent (any player controls) to their owners&apos; hands.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/129.png" num="41">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/128.png" num="41">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2362,7 +2346,7 @@ Whenever you cast a noncreature spell, create a 1/1 blue Fish creature token wit
 ---
 
 Discard a card, then draw two cards. (Then shuffle this card into its owner&apos;s library.)</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/130.png" num="116">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/129.png" num="116">MST</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -2379,7 +2363,7 @@ Discard a card, then draw two cards. (Then shuffle this card into its owner&apos
 		<card>
 			<name>Ostentatious Centerpiece</name>
 			<text>{1}, {T}: Draw a card, then discard a card.</text>
-			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/131.png" num="123">MST</set>
+			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/130.png" num="123">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2393,7 +2377,7 @@ Discard a card, then draw two cards. (Then shuffle this card into its owner&apos
 		<card>
 			<name>All Pass Under the Sea</name>
 			<text>At the beginning of your upkeep, you may shuffle three cards from your graveyard into your library. If you do, create a token that&apos;s a copy of a creature card from among those cards.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/132.png" num="111">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/131.png" num="111">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2410,7 +2394,7 @@ Discard a card, then draw two cards. (Then shuffle this card into its owner&apos
 			<name>General Kameshiro of the Tengu</name>
 			<text>Flying, vigilance
 Whenever General Kameshiro of the Tengu attacks, defending player separates the creatures they control into two piles. You chooser how creatures in a pile of your choice block this turn.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/133.png" num="113">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/132.png" num="113">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2428,7 +2412,7 @@ Whenever General Kameshiro of the Tengu attacks, defending player separates the 
 			<name>August Prince Jin</name>
 			<text>Trample, menace
 When August Prince Jin enters, mill three cards, then you may cast cards with total mana value X or less from your graveyard without paying their mana costs, where X is ten minus the number of cards in your library.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/134.png" num="112">MST</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/133.png" num="112">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2445,7 +2429,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Plains</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/135.png" num="137">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/134.png" num="137">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2460,7 +2444,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Swamp</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/136.png" num="141">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/135.png" num="141">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2475,7 +2459,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Mountain</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/137.png" num="143">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/136.png" num="143">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2490,7 +2474,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Forest</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/138.png" num="146">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/137.png" num="145">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2499,6 +2483,21 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/138.png" num="140">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
@@ -2518,24 +2517,9 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Island</name>
-			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/140.png" num="140">MST</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Basic Land — Island</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>U</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
 			<name>Forest</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/141.png" num="145">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/140.png" num="146">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2550,7 +2534,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Swamp</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/142.png" num="142">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/141.png" num="142">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2565,7 +2549,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Mountain</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/143.png" num="144">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/142.png" num="144">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2580,7 +2564,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Plains</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/144.png" num="138">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/143.png" num="138">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2596,7 +2580,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 			<name>Prophetic Prism</name>
 			<text>When Prophetic Prism enters, draw a card
 {1}, {T}: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/145.png" num="124">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/144.png" num="124">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2610,7 +2594,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Nightmare MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/146.png" num="9">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/145.png" num="9">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2628,7 +2612,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Fish MST</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/147.png" num="2">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/146.png" num="2">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2646,7 +2630,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Nightmare MST</name>
 			<text>Haste</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/148.png" num="4">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/147.png" num="4">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2664,7 +2648,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Merfolk MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/149.png" num="8">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/148.png" num="8">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2682,7 +2666,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Fist MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/150.png" num="6">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/149.png" num="6">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2700,7 +2684,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Spirit MST</name>
 			<text>Menace</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/151.png" num="5">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/150.png" num="5">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2718,7 +2702,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Insect MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/152.png" num="7">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/151.png" num="7">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2735,7 +2719,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Treasure MST</name>
 			<text>{T}, Sacrifice this token: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/153.png" num="13">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/152.png" num="13">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2750,7 +2734,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Book MST</name>
 			<text>{T}, Tap three untapped permanents you control, Sacrifice this artifact: Draw a card.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/154.png" num="10">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/153.png" num="10">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2765,7 +2749,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Glorious Anthem MST</name>
 			<text>Creatures you control get +1/+1.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/155.png" num="1">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/154.png" num="1">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2782,7 +2766,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Ghost Lantern MST</name>
 			<text>{2}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner&apos;s control.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/156.png" num="11">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/155.png" num="11">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2797,7 +2781,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Aura MST</name>
 			<text>When this Aura leaves the battlefield, create a 3/2 black Nightmare creature token with haste.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/157.png" num="3">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/156.png" num="3">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2814,7 +2798,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Toy MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/158.png" num="12">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/157.png" num="12">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2830,7 +2814,7 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 		<card>
 			<name>Everywhere MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/159.png" num="14">MST</set>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/158.png" num="14">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2842,6 +2826,22 @@ When August Prince Jin enters, mill three cards, then you may cast cards with to
 			</prop>
 			<tablerow>0</tablerow>
 			<token>1</token>
+		</card>
+		<card>
+			<name>Compound Fracture</name>
+			<text>Target creature gets -1/-1 until end of turn. It gets an additional -1/-1 until end of turn for each card named Compound Fracture in your graveyard.</text>
+			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/159.png" num="46">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
