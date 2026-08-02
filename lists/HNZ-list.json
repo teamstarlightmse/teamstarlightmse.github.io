@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "card_name": "Allnet Diagnostician",
         "number": 6,
@@ -703,7 +703,7 @@
     {
         "card_name": "Schedule-1 Printer",
         "number": 87,
-        "shape": "adventure",
+        "shape": "normal",
         "set": "HNZ",
         "rotated": false,
         "position": ""
@@ -712,7 +712,9 @@
         "card_name": "Universal Solver",
         "number": 88,
         "shape": "adventure",
-        "set": "HNZ"
+        "set": "HNZ",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -931,7 +933,9 @@
         "card_name": "Wurm",
         "number": 11,
         "shape": "token",
-        "set": "HNZ"
+        "set": "HNZ",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"

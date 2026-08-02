@@ -5,7 +5,7 @@
 			<name>HNZ</name>
 			<longname>Hunzikure</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-29</releasedate>
+			<releasedate>2026-08-02</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -138,7 +138,7 @@ Return target creature card with mana value 4 or less from your graveyard to the
 		<card>
 			<name>Replicausal Phalanx</name>
 			<text>{T}: Another target creature gets +1/+1 until end of turn. Activate only during your turn.
-Exhaust — {4}{W}{W}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery.</text>
+Exhaust — {4}{W}{W}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/18_Replicausal Phalanx.png" num="18">HNZ</set>
 			<prop>
 				<layout>normal</layout>
@@ -415,7 +415,7 @@ If you would draw a card while your library has no cards in it, instead create a
 		<card>
 			<name>Replicausal Banshee</name>
 			<text>Whenever you cast a noncreature spell or activate a ninjutsu ability, this creature gets +1/+1 until end of turn.
-Exhaust — {4}{U}{U}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery.</text>
+Exhaust — {4}{U}{U}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/31_Replicausal Banshee.png" num="31">HNZ</set>
 			<prop>
 				<layout>normal</layout>
@@ -572,7 +572,7 @@ Whenever you attack, you may discard a card. If you do, return this creature fro
 		<card>
 			<name>Replicausal Leecher</name>
 			<text>Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.
-Exhaust — {4}{B}{B}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery.</text>
+Exhaust — {4}{B}{B}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/46_Replicausal Leecher.png" num="46">HNZ</set>
 			<prop>
 				<layout>normal</layout>
@@ -820,7 +820,7 @@ If a source you control would deal damage, instead it deals that much damage plu
 		<card>
 			<name>Replicausal Rampager</name>
 			<text>Attacking creatures you control get +1/+0.
-Exhaust — {4}{R}{R}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery.</text>
+Exhaust — {4}{R}{R}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/64_Replicausal Rampager.png" num="64">HNZ</set>
 			<prop>
 				<layout>normal</layout>
@@ -1040,7 +1040,7 @@ This creature can&apos;t be blocked by more than one creature.</text>
 		<card>
 			<name>Replicausal Grafter</name>
 			<text>At the beginning of combat on your turn, you may pay {1}. If you do, put a +1/+1 counter on target creature you control.
-Exhaust — {4}{G}{G}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery.</text>
+Exhaust — {4}{G}{G}: If this creature isn&apos;t a token, create two tokens that are copies of it. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/83_Replicausal Grafter.png" num="83">HNZ</set>
 			<prop>
 				<layout>normal</layout>
@@ -1196,7 +1196,7 @@ When this creature enters, create a tapped Reflecting Pool token. (It&apos;s a l
 		<card>
 			<name>Schedule-1 Printer</name>
 			<text>Whenever you attack, create a 1/1 Robot artifact creature token that&apos;s tapped and attacking.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/86_Schedule-1 Printer.png" num="86">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/87_Schedule-1 Printer.png" num="87">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1215,7 +1215,7 @@ When this creature enters, create a tapped Reflecting Pool token. (It&apos;s a l
 
 This spell costs {3} less if it targets a permanent with mana value 3 or less.
 Destroy target nonland permanent. (Then exile this card. You may cast the creature later from exile.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/87_Universal Solver.png" num="87">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/88_Universal Solver.png" num="88">HNZ</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1251,7 +1251,7 @@ At the beginning of each combat, you may pay {5}. If you do, no more than one cr
 ---
 
 Exile target creature. Return it to the battlefield tapped at the beginning of the end step of the next turn. (Then exile this card. You may play the land later from exile.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/92_Moonlit Maze.png" num="92">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/93_Moonlit Maze.png" num="93">HNZ</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1271,7 +1271,7 @@ Exile target creature. Return it to the battlefield tapped at the beginning of t
 ---
 
 Create a token that&apos;s a copy of target creature. (Then exile this card. You may play the land later from exile.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/88_Allnet Service Hub.png" num="88">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/89_Allnet Service Hub.png" num="89">HNZ</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1291,7 +1291,7 @@ Create a token that&apos;s a copy of target creature. (Then exile this card. You
 ---
 
 Target player mills two cards. Return a creature card from your graveyard to your hand. (Then exile this card. You may play the land later from exile.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/95_Undernet Distributory.png" num="95">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/96_Undernet Distributory.png" num="96">HNZ</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1307,7 +1307,7 @@ Target player mills two cards. Return a creature card from your graveyard to you
 			<name>Corrupt Kernel</name>
 			<text>{T}: Add {C}.
 {T}, Sacrifice a nonland permanent: Put a corruption counter on this land. Then if there are three or more corruption counters on this land, sacrifice it and create a 4/4 tapped black Horror creature token.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/90_Corrupt Kernel.png" num="90">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/91_Corrupt Kernel.png" num="91">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1323,7 +1323,7 @@ Target player mills two cards. Return a creature card from your graveyard to you
 			<text>Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this land.
 {T}: Add {C}.
 {2}: Until end of turn, this land becomes a 0/0 Horror creature with menace. It&apos;s still a land.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/93_Paradoxical Core.png" num="93">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/94_Paradoxical Core.png" num="94">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1342,7 +1342,7 @@ Target player mills two cards. Return a creature card from your graveyard to you
 ---
 
 Create a 1/1 red Rogue creature token with menace and haste. (Then exile this card. You may play the land later from exile.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/91_Grand Colosseum.png" num="91">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/92_Grand Colosseum.png" num="92">HNZ</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1362,7 +1362,7 @@ Create a 1/1 red Rogue creature token with menace and haste. (Then exile this ca
 ---
 
 Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exile this card. You may play the land later from exile.)</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/94_Printmat Refectory.png" num="94">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/95_Printmat Refectory.png" num="95">HNZ</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1378,7 +1378,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 			<name>Between-Lanes</name>
 			<text>{T}: Add {C}.
 {T}, Pay 1 life: Add one mana of any color. This mana can&apos;t be spent to cast spells from your hand.</text>
-			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/89_Between-Lanes.png" num="89">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/90_Between-Lanes.png" num="90">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1392,7 +1392,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Reflecting Pool HNZ</name>
 			<text>{T}: Add one mana of any type that a land you control could produce.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/12t_Reflecting Pool.png" num="12">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/13t_Reflecting Pool.png" num="13">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1407,7 +1407,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Spirit HNZ</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/4t_Spirit.png" num="4">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/4t_Spirit.png" num="4">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1422,12 +1422,11 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 			<tablerow>2</tablerow>
 			<token>1</token>
 			<reverse-related>Allnet Diagnostician</reverse-related>
-			<reverse-related> Replicausal Banshee</reverse-related>
 		</card>
 		<card>
 			<name>Robot HNZ</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/11t_Robot.png" num="11">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/12t_Robot.png" num="12">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1447,7 +1446,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Bird HNZ</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/2t_Bird.png" num="2">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/2t_Bird.png" num="2">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1466,7 +1465,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Tentacle HNZ</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/5t_Tentacle.png" num="5">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/6t_Tentacle.png" num="6">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1485,7 +1484,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Soldier HNZ</name>
 			<text>Reach</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/3t_Soldier.png" num="3">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/3t_Soldier.png" num="3">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1505,7 +1504,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Copy HNZ</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/1t_Copy.png" num="1">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/1t_Copy.png" num="1">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1523,7 +1522,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Plant HNZ</name>
 			<text>This token gets +1/+1 for each permanent you control.</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/9t_Plant.png" num="9">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/10t_Plant.png" num="10">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1542,7 +1541,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Rogue HNZ</name>
 			<text>Haste, menace</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/8t_Rogue.png" num="8">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/9t_Rogue.png" num="9">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1561,7 +1560,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Wurm HNZ</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/10t_Wurm.png" num="10">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/11t_Wurm.png" num="11">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1580,7 +1579,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Fist HNZ</name>
 			<text>Haste</text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/7t_Fist.png" num="7">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/8t_Fist.png" num="8">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1599,7 +1598,7 @@ Create a 3/3 white Soldier creature token with reach. You gain 4 life. (Then exi
 		<card>
 			<name>Horror HNZ</name>
 			<text></text>
-			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/6t_Horror.png" num="6">HNZ</set>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/7t_Horror.png" num="7">HNZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1939,6 +1938,40 @@ When this creature enters, target creature gets +2/+0 until end of turn.</text>
 				<pt>1/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prophetic Prism</name>
+			<text>When this artifact enters, draw a card.
+{1}, {T}: Add one mana of any color.</text>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/86_Prophetic Prism.png" num="86">HNZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Illusion HNZ</name>
+			<text></text>
+			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/HNZ-files/img/5t_Illusion.png" num="5">HNZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>X/X</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse-related>Exogene Memory</reverse-related>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
