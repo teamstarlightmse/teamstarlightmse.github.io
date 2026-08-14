@@ -2384,8 +2384,11 @@
             "loyalty": "",
             "artist": "HeartBeat Plu",
             "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Scheming Shadebinder",
@@ -2404,6 +2407,7 @@
             "loyalty": "",
             "artist": "Jelena Kevic Djurdjevic",
             "alias": "",
+            "position": "1",
             "card_name2": "Devlish Deal",
             "color2": "B",
             "type2": "Sorcery \u2013 Omen",
@@ -2415,8 +2419,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bored Soultaxer",
@@ -2435,8 +2442,11 @@
             "loyalty": "",
             "artist": "\u753b\u753b\u7684\u67f4\u53ea",
             "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Indentured Prefect",
@@ -2455,8 +2465,11 @@
             "loyalty": "",
             "artist": "Dota 2",
             "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Weaver Of Winter Sun",
@@ -2475,8 +2488,11 @@
             "loyalty": "",
             "artist": "aroushthekween",
             "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Queen Mother Tomoko",
@@ -2495,8 +2511,11 @@
             "loyalty": "",
             "artist": "Ghost Blows Out the Light 3D",
             "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Highest Peak Bladedancer",
@@ -2515,8 +2534,11 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Stricken Visitor",
@@ -2535,8 +2557,11 @@
             "loyalty": "",
             "artist": "Identity V",
             "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Namazu Cutthroat",
@@ -2555,8 +2580,11 @@
             "loyalty": "",
             "artist": "Huyy Nguyen",
             "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fainting Tragedian",
@@ -2575,8 +2603,11 @@
             "loyalty": "",
             "artist": "Paper Bride",
             "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Highest Peak Apostate",
@@ -2595,8 +2626,11 @@
             "loyalty": "",
             "artist": "Mankind",
             "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Puppet-String Denial",
@@ -2615,8 +2649,11 @@
             "loyalty": "",
             "artist": "Exla",
             "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": "!tag Junko",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tree Of Pestilence",
@@ -2635,8 +2672,11 @@
             "loyalty": "",
             "artist": "Bachzim",
             "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Soul-Feeding Basker",
@@ -2655,8 +2695,11 @@
             "loyalty": "",
             "artist": "Bachzim",
             "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Beligerent Horo-sha",
@@ -2675,6 +2718,7 @@
             "loyalty": "",
             "artist": "Some_Danish_person",
             "alias": "",
+            "position": "14",
             "card_name2": "Wide Chop",
             "color2": "G",
             "type2": "Sorcery \u2013 Omen",
@@ -2686,8 +2730,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Sea Palace Retainer",
@@ -2706,8 +2753,11 @@
             "loyalty": "",
             "artist": "Lv Huanyu",
             "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ningyo Recluse",
@@ -2726,6 +2776,7 @@
             "loyalty": "",
             "artist": "Tanya Serhiienko",
             "alias": "",
+            "position": "16",
             "card_name2": "Hadal Treasure",
             "color2": "U",
             "type2": "Sorcery \u2013 Omen",
@@ -2737,8 +2788,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Feasting Jikininki",
@@ -2757,8 +2811,11 @@
             "loyalty": "",
             "artist": "Carlos Uelfi",
             "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Shallows Survivor",
@@ -2777,6 +2834,7 @@
             "loyalty": "",
             "artist": "Kar; Haag",
             "alias": "",
+            "position": "18",
             "card_name2": "Bare Teeth",
             "color2": "R",
             "type2": "Instant \u2013 Omen",
@@ -2788,8 +2846,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Kamatsu, Ningyo Champion",
@@ -2808,8 +2869,11 @@
             "loyalty": "",
             "artist": "look_itschloe",
             "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Yamamba Spinner",
@@ -2828,6 +2892,7 @@
             "loyalty": "",
             "artist": "Napon Suzuki",
             "alias": "",
+            "position": "20",
             "card_name2": "Warped Weft",
             "color2": "W",
             "type2": "Instant \u2013 Omen",
@@ -2839,8 +2904,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Beckon Asea",
@@ -2859,8 +2927,11 @@
             "loyalty": "",
             "artist": "Honovy",
             "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Highest Peak Funeralist",
@@ -2879,8 +2950,11 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bad Influence",
@@ -2899,6 +2973,7 @@
             "loyalty": "",
             "artist": "Woodorl Kim",
             "alias": "",
+            "position": "23",
             "card_name2": "Fey Mood",
             "color2": "R",
             "type2": "Sorcery \u2013 Omen",
@@ -2910,8 +2985,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Shrill Abductor",
@@ -2930,8 +3008,11 @@
             "loyalty": "",
             "artist": "\u7231\u5403\u9999\u83dc\u548c\u6298\u8033\u6839",
             "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Namazu Trader",
@@ -2950,8 +3031,11 @@
             "loyalty": "",
             "artist": "changyu Q, Artur Sadlos",
             "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Onamazu",
@@ -2970,8 +3054,11 @@
             "loyalty": "",
             "artist": "South Of Midnight",
             "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Claw Hammer",
@@ -2990,8 +3077,11 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Namazu Leeguide",
@@ -3010,8 +3100,11 @@
             "loyalty": "",
             "artist": "Henrik Rosenborg, Nathan Chen",
             "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Hisa, Between Land And Sea",
@@ -3030,8 +3123,11 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": "!tag hisa",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Visited Upon The Child",
@@ -3050,8 +3146,11 @@
             "loyalty": "",
             "artist": "Artut Saflos",
             "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": "!tag hisa",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Gigantize",
@@ -3070,8 +3169,11 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": "!tag jin",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Belly of the Beast",
@@ -3090,8 +3192,11 @@
             "loyalty": "",
             "artist": "artur Sadlos",
             "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": "!tag hisa\n!tag jin",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Rimewater Squall",
@@ -3110,8 +3215,11 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": "!tag hisa\n!tag jin",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Corruptive Kyubi",
@@ -3130,8 +3238,11 @@
             "loyalty": "",
             "artist": "Shin Jun Su",
             "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Petulant Nurikabe",
@@ -3150,8 +3261,11 @@
             "loyalty": "",
             "artist": "SUGA\u826f\u4ec1",
             "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Patient Ascetic",
@@ -3170,8 +3284,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tanuki Trufflesnout",
@@ -3190,6 +3307,7 @@
             "loyalty": "",
             "artist": "SUGA\u826f\u4ec1",
             "alias": "",
+            "position": "37",
             "card_name2": "Snorf Up",
             "color2": "G",
             "type2": "Sorcery \u2013 Omen",
@@ -3201,8 +3319,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Monstrous Parley",
@@ -3221,8 +3342,11 @@
             "loyalty": "",
             "artist": "Yangyang Soi",
             "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tama, Reluctantly Helping",
@@ -3241,8 +3365,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "!tag tama",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Kabuki For Your Life!",
@@ -3261,8 +3388,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": "!tag tama\n!tag hisa",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Lavish Parade",
@@ -3281,8 +3411,11 @@
             "loyalty": "",
             "artist": "Yangyang",
             "alias": "",
+            "position": "41",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "The Yokai King",
@@ -3301,8 +3434,11 @@
             "loyalty": "",
             "artist": "Yangang Sui",
             "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": "!tag hisa\n!tag tama\n!tag yokai-king",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Peace Talks",
@@ -3321,8 +3457,11 @@
             "loyalty": "",
             "artist": "Tangyang Sui",
             "alias": "",
+            "position": "43",
+            "rotated": false,
             "notes": "!tag hisa\n!tag yokai-king\n!tag tama",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Nizua Town",
@@ -3341,6 +3480,7 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "44",
             "card_name2": "Sweet Normalcy",
             "color2": "U",
             "type2": "Instant \u2013 Omen",
@@ -3352,8 +3492,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Highest Peak",
@@ -3372,6 +3515,7 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "45",
             "card_name2": "Quiet Meditation",
             "color2": "W",
             "type2": "Instant \u2013 Omen",
@@ -3383,8 +3527,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tomb Trawler",
@@ -3403,8 +3550,11 @@
             "loyalty": "",
             "artist": "Yangyang Su",
             "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "The Sea Palace",
@@ -3423,6 +3573,7 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
+            "position": "47",
             "card_name2": "Deadliest Catch",
             "color2": "B",
             "type2": "Sorcery \u2013 Omen",
@@ -3434,8 +3585,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "The City of Yokai",
@@ -3454,6 +3608,7 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "48",
             "card_name2": "The World For Sale",
             "color2": "R",
             "type2": "Instant \u2013 Omen",
@@ -3465,8 +3620,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "The Heavenly Palace",
@@ -3485,6 +3643,7 @@
             "loyalty": "",
             "artist": "Rongrong Wang",
             "alias": "",
+            "position": "49",
             "card_name2": "Grand Paradise",
             "color2": "G",
             "type2": "Sorcery \u2013 Omen",
@@ -3496,8 +3655,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Thriving Isle",
@@ -3516,8 +3678,11 @@
             "loyalty": "",
             "artist": "Rongrong Wang",
             "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Thriving Moor",
@@ -3536,8 +3701,11 @@
             "loyalty": "",
             "artist": "Yatzenty",
             "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Thriving Grove",
@@ -3556,8 +3724,11 @@
             "loyalty": "",
             "artist": "James Lilich",
             "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Thriving Bluff",
@@ -3576,8 +3747,11 @@
             "loyalty": "",
             "artist": "Nele Diel",
             "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Thriving Heath",
@@ -3596,8 +3770,11 @@
             "loyalty": "",
             "artist": "Tigor Boraspati",
             "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Make A Donation",
@@ -3616,8 +3793,11 @@
             "loyalty": "",
             "artist": "Yangyanf Sui",
             "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mitakusa Marvel",
@@ -3636,8 +3816,11 @@
             "loyalty": "",
             "artist": "Greg Knight",
             "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tolling Dial",
@@ -3656,8 +3839,11 @@
             "loyalty": "",
             "artist": "Yangang Sui",
             "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Raze The Roof",
@@ -3676,8 +3862,11 @@
             "loyalty": "",
             "artist": "Anna Tabalan",
             "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Subtle Tailstroke",
@@ -3696,6 +3885,7 @@
             "loyalty": "",
             "artist": "StopDropRollDie",
             "alias": "",
+            "position": "59",
             "card_name2": "Fox's Promise",
             "color2": "B",
             "type2": "Instant \u2013 Omen",
@@ -3707,8 +3897,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Highest Peak Forcemage",
@@ -3727,6 +3920,7 @@
             "loyalty": "",
             "artist": "BlueEyees",
             "alias": "",
+            "position": "60",
             "card_name2": "Peal Of Thunder",
             "color2": "R",
             "type2": "Instant \u2013 Omen",
@@ -3738,8 +3932,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Laughing Pathlighters",
@@ -3758,8 +3955,11 @@
             "loyalty": "",
             "artist": "Meowtricia_",
             "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Solemn Judgement",
@@ -3778,8 +3978,11 @@
             "loyalty": "",
             "artist": "Onihime",
             "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Assault of Shadows",
@@ -3798,8 +4001,11 @@
             "loyalty": "",
             "artist": "yjcayz",
             "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Niggling Thought",
@@ -3818,8 +4024,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Wee Headcarver",
@@ -3838,8 +4047,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": "!tag tama",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bridal Couture",
@@ -3858,8 +4070,11 @@
             "loyalty": "",
             "artist": "cytoken94",
             "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": "!tag hisa",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Sea Palace Beheader",
@@ -3878,8 +4093,11 @@
             "loyalty": "",
             "artist": "Allssandro Gironi",
             "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Whitelattice Warrior",
@@ -3898,8 +4116,11 @@
             "loyalty": "",
             "artist": "Onihime",
             "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Wanderers In Dream",
@@ -3918,8 +4139,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Misato, Chief Prosecutor",
@@ -3938,8 +4162,11 @@
             "loyalty": "",
             "artist": "Ruan Jia",
             "alias": "",
+            "position": "70",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Pearl-Diving Kappa",
@@ -3958,8 +4185,11 @@
             "loyalty": "",
             "artist": "Luisa Nanami",
             "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Laughing Lanterns",
@@ -3978,8 +4208,11 @@
             "loyalty": "",
             "artist": "Marie Podh\u016frsk\u00e1",
             "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Cousin of the Worldsoul",
@@ -3998,8 +4231,11 @@
             "loyalty": "",
             "artist": "Annik Cherton",
             "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Swordcraft Master",
@@ -4018,8 +4254,11 @@
             "loyalty": "",
             "artist": "0Q .",
             "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mikayoshi and Toru",
@@ -4038,8 +4277,11 @@
             "loyalty": "",
             "artist": "Xiaowan \u5c0f\u4e07\u200f",
             "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": "!tag yuri",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Maskwright",
@@ -4058,6 +4300,7 @@
             "loyalty": "",
             "artist": "Rohono",
             "alias": "",
+            "position": "76",
             "card_name2": "False Face",
             "color2": "U",
             "type2": "Sorcery \u2013 Omen",
@@ -4069,8 +4312,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tender of The True Flower",
@@ -4089,8 +4335,11 @@
             "loyalty": "",
             "artist": "Quyt'z",
             "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Shikigami Nihilist",
@@ -4109,8 +4358,11 @@
             "loyalty": "",
             "artist": "Tiago Da Silva",
             "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Blighted Inkwell",
@@ -4129,8 +4381,11 @@
             "loyalty": "",
             "artist": "Madalina Coman",
             "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Junko of the Puppet Theater",
@@ -4149,8 +4404,11 @@
             "loyalty": "",
             "artist": "Hou China",
             "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": "!tag junko",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Brined Innocents",
@@ -4169,8 +4427,11 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Coastal Trade",
@@ -4189,8 +4450,11 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Lost Sea-Taken",
@@ -4209,8 +4473,11 @@
             "loyalty": "",
             "artist": "Jeehuyng Lee",
             "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Guardian Fetchling",
@@ -4229,6 +4496,7 @@
             "loyalty": "",
             "artist": "Huyy Nguyen",
             "alias": "",
+            "position": "84",
             "card_name2": "Read the Riot Act",
             "color2": "R",
             "type2": "Instant \u2013 Omen",
@@ -4240,8 +4508,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Needling Poet",
@@ -4260,8 +4531,11 @@
             "loyalty": "",
             "artist": "Huyy Nguyen",
             "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Courtyard Clowns",
@@ -4280,8 +4554,11 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "!tag junko",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Herb Sages",
@@ -4300,8 +4577,11 @@
             "loyalty": "",
             "artist": "Dustin Panzimo",
             "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "River Racketeer",
@@ -4320,6 +4600,7 @@
             "loyalty": "",
             "artist": "cytoken94",
             "alias": "",
+            "position": "88",
             "card_name2": "Undertow",
             "color2": "U",
             "type2": "Instant \u2013 Omen",
@@ -4331,8 +4612,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Vulpine Auspice",
@@ -4351,8 +4635,11 @@
             "loyalty": "",
             "artist": "Bui Quang Thinh",
             "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Swamproots Rallier",
@@ -4371,6 +4658,7 @@
             "loyalty": "",
             "artist": "Vincent Coviello",
             "alias": "",
+            "position": "90",
             "card_name2": "From Every Shoal and Lake",
             "color2": "G",
             "type2": "Sorcery \u2013 Omen",
@@ -4382,8 +4670,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Parasitic Growth",
@@ -4402,8 +4693,11 @@
             "loyalty": "",
             "artist": "ScissorsRunner",
             "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tora Shapethirster",
@@ -4422,8 +4716,11 @@
             "loyalty": "",
             "artist": "oberon_blyat",
             "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Spirited Scrollery",
@@ -4442,8 +4739,11 @@
             "loyalty": "",
             "artist": "shermstan",
             "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Turbulent Clanger",
@@ -4462,6 +4762,7 @@
             "loyalty": "",
             "artist": "Corentin Asproni",
             "alias": "",
+            "position": "94",
             "card_name2": "Neverending Bells",
             "color2": "R",
             "type2": "Instant \u2013 Omen",
@@ -4473,8 +4774,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Her Dutiful Vessel",
@@ -4493,8 +4797,11 @@
             "loyalty": "",
             "artist": "Robin Hsu",
             "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": "!tag yuri",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Auspicous Butterflox",
@@ -4513,8 +4820,11 @@
             "loyalty": "",
             "artist": "bailongma",
             "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tomoko's Majesty",
@@ -4533,8 +4843,11 @@
             "loyalty": "",
             "artist": "shuangjin132129",
             "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Yokai Night Market",
@@ -4553,8 +4866,11 @@
             "loyalty": "",
             "artist": "yangyang sui",
             "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Wu",
@@ -4573,8 +4889,11 @@
             "loyalty": "",
             "artist": "Wu Guanzhong",
             "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Estuary Wretch",
@@ -4593,8 +4912,11 @@
             "loyalty": "",
             "artist": "Masae Seki",
             "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "She Who Roils The Seas",
@@ -4613,8 +4935,11 @@
             "loyalty": "",
             "artist": "Iqbal Rizudan",
             "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": "!tag yuri",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tora Mask",
@@ -4633,8 +4958,11 @@
             "loyalty": "",
             "artist": "Daniel Jimenez",
             "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Brobdignagian Swat",
@@ -4653,8 +4981,11 @@
             "loyalty": "",
             "artist": "Antonio De Luca",
             "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Decimilipede",
@@ -4673,8 +5004,11 @@
             "loyalty": "",
             "artist": "aleksa-drageljevic",
             "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Marshal of the Night Parade",
@@ -4693,8 +5027,11 @@
             "loyalty": "",
             "artist": "r4ryan",
             "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Join For A Dip",
@@ -4713,8 +5050,11 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": "!tag yuri",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Outskirts Vigilante",
@@ -4733,8 +5073,11 @@
             "loyalty": "",
             "artist": "Narahara sie",
             "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Enfilading Censure",
@@ -4753,8 +5096,11 @@
             "loyalty": "",
             "artist": "Ardika Priyata",
             "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Worldsoul's Venom",
@@ -4773,8 +5119,11 @@
             "loyalty": "",
             "artist": "Meng Xiangning",
             "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Enmity's Shadow",
@@ -4793,6 +5142,7 @@
             "loyalty": "",
             "artist": "illithi1",
             "alias": "",
+            "position": "110",
             "card_name2": "Nurtured Grudge",
             "color2": "B",
             "type2": "Sorcery \u2013 Omen",
@@ -4804,8 +5154,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Drown Out",
@@ -4824,8 +5177,11 @@
             "loyalty": "",
             "artist": "Dao Trong le",
             "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bake-Kujira",
@@ -4844,8 +5200,11 @@
             "loyalty": "",
             "artist": "Hua Lu",
             "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Scrollroom Instructor",
@@ -4864,8 +5223,11 @@
             "loyalty": "",
             "artist": "mist xg",
             "alias": "",
+            "position": "113",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Midautumn Koi Viewing",
@@ -4884,8 +5246,11 @@
             "loyalty": "",
             "artist": "Denis Loebner",
             "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dragon Regalia",
@@ -4904,8 +5269,11 @@
             "loyalty": "",
             "artist": "r4ryan",
             "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": "Return target permanent you control to its owner's hand.\nDraw a card.",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Splitskin Doll",
@@ -4924,8 +5292,11 @@
             "loyalty": "",
             "artist": "Adrien Gion",
             "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": "!tag junko",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Famine Architect",
@@ -4944,6 +5315,7 @@
             "loyalty": "",
             "artist": "Russel Jones",
             "alias": "",
+            "position": "117",
             "card_name2": "Overwhelming Surplus",
             "color2": "W",
             "type2": "Sorcery \u2013 Omen",
@@ -4955,8 +5327,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dorotabo Drudge",
@@ -4975,8 +5350,11 @@
             "loyalty": "",
             "artist": "Aleksa Drageljevic",
             "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Buyer's Market",
@@ -4995,8 +5373,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Cast To The Isopods",
@@ -5015,8 +5396,11 @@
             "loyalty": "",
             "artist": "Ethan Harris",
             "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ataraxic Angler",
@@ -5035,6 +5419,7 @@
             "loyalty": "",
             "artist": "Zuz \"Spikulec\" Gruzlewska",
             "alias": "",
+            "position": "121",
             "card_name2": "Catch A Boot",
             "color2": "W",
             "type2": "Sorcery \u2013 Omen",
@@ -5046,8 +5431,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tengu Bladework",
@@ -5066,8 +5454,11 @@
             "loyalty": "",
             "artist": "CristianAC",
             "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Enclose In Characters",
@@ -5086,8 +5477,11 @@
             "loyalty": "",
             "artist": "David Productiions",
             "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Agglomerated Ghouls",
@@ -5106,8 +5500,11 @@
             "loyalty": "",
             "artist": "Julien Cordebar",
             "alias": "",
+            "position": "124",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Parade of the Dead",
@@ -5126,8 +5523,11 @@
             "loyalty": "",
             "artist": "r4ryan",
             "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Scarce Tsuchinoko",
@@ -5146,8 +5546,11 @@
             "loyalty": "",
             "artist": "Iqbal Rizudan",
             "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Surfaceside Enforcer",
@@ -5166,8 +5569,11 @@
             "loyalty": "",
             "artist": "Daniel Landerman",
             "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Stand Your Ground",
@@ -5186,8 +5592,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": "!tag hisa",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Procession Master",
@@ -5206,6 +5615,7 @@
             "loyalty": "",
             "artist": "David Benzal",
             "alias": "",
+            "position": "129",
             "card_name2": "Lead To Water",
             "color2": "UR",
             "type2": "Sorcery \u2013 Omen",
@@ -5217,8 +5627,11 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ostentatious Centerpiece",
@@ -5237,8 +5650,11 @@
             "loyalty": "",
             "artist": "yangyang Sui",
             "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "All Pass Under the Sea",
@@ -5257,8 +5673,11 @@
             "loyalty": "",
             "artist": "Joey Leung",
             "alias": "",
+            "position": "131",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "General Kameshiro of the Tengu",
@@ -5277,8 +5696,11 @@
             "loyalty": "",
             "artist": "KOOka",
             "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "August Prince Jin",
@@ -5297,8 +5719,11 @@
             "loyalty": "",
             "artist": "ldxy",
             "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": "!tag jin",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Plains",
@@ -5317,8 +5742,11 @@
             "loyalty": "",
             "artist": "HOKUSAI KATSUSHIKA \u845b\u98fe\u5317\u658e",
             "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Swamp",
@@ -5337,8 +5765,11 @@
             "loyalty": "",
             "artist": "Utagawa HIROSHIGE",
             "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mountain",
@@ -5357,8 +5788,11 @@
             "loyalty": "",
             "artist": "Maeda MASAO",
             "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Forest",
@@ -5377,8 +5811,11 @@
             "loyalty": "",
             "artist": "MASAO IDO \u4e95\u5802\u96c5\u592b",
             "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Island",
@@ -5397,8 +5834,11 @@
             "loyalty": "",
             "artist": "YOSHIDA TSUKASA \u5409\u7530\u53f8",
             "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Island",
@@ -5417,8 +5857,11 @@
             "loyalty": "",
             "artist": "Umm Shaw",
             "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Forest",
@@ -5437,8 +5880,11 @@
             "loyalty": "",
             "artist": "Cze Peku",
             "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Swamp",
@@ -5457,8 +5903,11 @@
             "loyalty": "",
             "artist": "Chao Liu",
             "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mountain",
@@ -5477,8 +5926,11 @@
             "loyalty": "",
             "artist": "Xu Tao",
             "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Plains",
@@ -5497,8 +5949,11 @@
             "loyalty": "",
             "artist": "Kevin Jick",
             "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Prophetic Prism",
@@ -5517,8 +5972,11 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Nightmare",
@@ -5537,8 +5995,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": "!token Wanderers In Dream; Blighted Inkwell; Wu",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fish",
@@ -5557,8 +6018,11 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": "!token Famine Architect; Highest Peak Bladedancer; Bridal Couture; Surfaceside Enforcer; Courtyard Clowns",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Nightmare",
@@ -5577,8 +6041,11 @@
             "loyalty": "",
             "artist": "Zeen Chin",
             "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": "!token Highest Peak Apostate; Aura; Yokai Night Market",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Merfolk",
@@ -5597,8 +6064,11 @@
             "loyalty": "",
             "artist": "Vincent Coviello",
             "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "!token Swamproots Rallier",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fist",
@@ -5617,8 +6087,11 @@
             "loyalty": "",
             "artist": "Jason Pastrana",
             "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": "!token Guardian Fetchling",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Spirit",
@@ -5637,8 +6110,11 @@
             "loyalty": "",
             "artist": "Nate Artuz",
             "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": "!token Corruptive Kyubi",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Insect",
@@ -5657,8 +6133,11 @@
             "loyalty": "",
             "artist": "Tim Lecoq",
             "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": "!token Decimilipede; Cast To The Isopods",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Treasure",
@@ -5677,8 +6156,11 @@
             "loyalty": "",
             "artist": "Sara Joseph",
             "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": "!token Namazu Trader; Wee Headcarver; Yokai Night Market",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Book",
@@ -5697,8 +6179,11 @@
             "loyalty": "",
             "artist": "Joel Holtzman",
             "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": "!token Spirited Scrollery; Scrollroom Instructor; Enclose In Characters",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Glorious Anthem",
@@ -5717,8 +6202,11 @@
             "loyalty": "",
             "artist": "Zeradok",
             "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": "!token Needling Poet",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ghost Lantern",
@@ -5737,8 +6225,11 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": "!token Highest Peak Funeralist",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Aura",
@@ -5757,8 +6248,11 @@
             "loyalty": "",
             "artist": "Idenitty V",
             "alias": "",
+            "position": "156",
+            "rotated": false,
             "notes": "!token Stricken Visitor",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Toy",
@@ -5777,8 +6271,11 @@
             "loyalty": "",
             "artist": "Zeen Chin",
             "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": "!token Puppet-String Denial; Junko of the Puppet Theater",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Everywhere",
@@ -5797,8 +6294,11 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": "!token The Heavenly Palace",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Compound Fracture",
@@ -5817,8 +6317,11 @@
             "loyalty": "",
             "artist": "Ardika Priyata",
             "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         }
     ]
 }
