@@ -1,11 +1,10 @@
 ﻿{
     "name": "Rural Dwellings, In Seafoam Mist",
     "formats": "",
+    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "play booster",
-    "unpreviewed": "empty",
-    "image_name": "position",
-    "v_mana": "",
+    "unpreviewed": "card back",
     "cards": [
         {
             "card_name": "Summons To The Sea Palace",
@@ -24,8 +23,6 @@
             "loyalty": "",
             "artist": "HeartBeat Plu",
             "alias": "",
-            "position": "0",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -45,7 +42,6 @@
             "loyalty": "",
             "artist": "Jelena Kevic Djurdjevic",
             "alias": "",
-            "position": "1",
             "card_name2": "Devlish Deal",
             "color2": "B",
             "type2": "Sorcery \u2014 Omen",
@@ -57,8 +53,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -78,8 +72,6 @@
             "loyalty": "",
             "artist": "\u753b\u753b\u7684\u67f4\u53ea",
             "alias": "",
-            "position": "2",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -99,8 +91,6 @@
             "loyalty": "",
             "artist": "Dota 2",
             "alias": "",
-            "position": "3",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -120,8 +110,6 @@
             "loyalty": "",
             "artist": "aroushthekween",
             "alias": "",
-            "position": "4",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -141,8 +129,6 @@
             "loyalty": "",
             "artist": "Ghost Blows Out the Light 3D",
             "alias": "",
-            "position": "5",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -162,8 +148,6 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
-            "position": "6",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -183,8 +167,6 @@
             "loyalty": "",
             "artist": "Identity V",
             "alias": "",
-            "position": "7",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -204,8 +186,6 @@
             "loyalty": "",
             "artist": "Huyy Nguyen",
             "alias": "",
-            "position": "8",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -225,8 +205,6 @@
             "loyalty": "",
             "artist": "Paper Bride",
             "alias": "",
-            "position": "9",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -246,8 +224,6 @@
             "loyalty": "",
             "artist": "Mankind",
             "alias": "",
-            "position": "10",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -267,8 +243,6 @@
             "loyalty": "",
             "artist": "Exla",
             "alias": "",
-            "position": "11",
-            "rotated": false,
             "notes": "!tag Junko"
         },
         {
@@ -288,8 +262,6 @@
             "loyalty": "",
             "artist": "Bachzim",
             "alias": "",
-            "position": "12",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -309,8 +281,6 @@
             "loyalty": "",
             "artist": "Bachzim",
             "alias": "",
-            "position": "13",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -330,7 +300,6 @@
             "loyalty": "",
             "artist": "Some_Danish_person",
             "alias": "",
-            "position": "14",
             "card_name2": "Wide Chop",
             "color2": "G",
             "type2": "Sorcery \u2014 Omen",
@@ -342,8 +311,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -363,8 +330,6 @@
             "loyalty": "",
             "artist": "Lv Huanyu",
             "alias": "",
-            "position": "15",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -384,7 +349,6 @@
             "loyalty": "",
             "artist": "Tanya Serhiienko",
             "alias": "",
-            "position": "16",
             "card_name2": "Hadal Treasure",
             "color2": "U",
             "type2": "Sorcery \u2014 Omen",
@@ -396,8 +360,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -417,8 +379,6 @@
             "loyalty": "",
             "artist": "Carlos Uelfi",
             "alias": "",
-            "position": "17",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -438,7 +398,6 @@
             "loyalty": "",
             "artist": "Kar; Haag",
             "alias": "",
-            "position": "18",
             "card_name2": "Bare Teeth",
             "color2": "R",
             "type2": "Instant \u2014 Omen",
@@ -450,8 +409,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -471,8 +428,6 @@
             "loyalty": "",
             "artist": "look_itschloe",
             "alias": "",
-            "position": "19",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -492,7 +447,6 @@
             "loyalty": "",
             "artist": "Napon Suzuki",
             "alias": "",
-            "position": "20",
             "card_name2": "Warped Weft",
             "color2": "W",
             "type2": "Instant \u2014 Omen",
@@ -504,8 +458,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -525,8 +477,6 @@
             "loyalty": "",
             "artist": "Honovy",
             "alias": "",
-            "position": "21",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -546,8 +496,6 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
-            "position": "22",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -567,7 +515,6 @@
             "loyalty": "",
             "artist": "Woodorl Kim",
             "alias": "",
-            "position": "23",
             "card_name2": "Fey Mood",
             "color2": "R",
             "type2": "Sorcery \u2014 Omen",
@@ -579,8 +526,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -600,8 +545,6 @@
             "loyalty": "",
             "artist": "\u7231\u5403\u9999\u83dc\u548c\u6298\u8033\u6839",
             "alias": "",
-            "position": "24",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -621,8 +564,6 @@
             "loyalty": "",
             "artist": "changyu Q, Artur Sadlos",
             "alias": "",
-            "position": "25",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -642,8 +583,6 @@
             "loyalty": "",
             "artist": "South Of Midnight",
             "alias": "",
-            "position": "26",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -663,8 +602,6 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
-            "position": "27",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -684,8 +621,6 @@
             "loyalty": "",
             "artist": "Henrik Rosenborg, Nathan Chen",
             "alias": "",
-            "position": "28",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -705,8 +640,6 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
-            "position": "29",
-            "rotated": false,
             "notes": "!tag hisa"
         },
         {
@@ -726,8 +659,6 @@
             "loyalty": "",
             "artist": "Artut Saflos",
             "alias": "",
-            "position": "30",
-            "rotated": false,
             "notes": "!tag hisa"
         },
         {
@@ -747,8 +678,6 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
-            "position": "31",
-            "rotated": false,
             "notes": "!tag jin"
         },
         {
@@ -768,8 +697,6 @@
             "loyalty": "",
             "artist": "artur Sadlos",
             "alias": "",
-            "position": "32",
-            "rotated": false,
             "notes": "!tag hisa\n!tag jin"
         },
         {
@@ -789,8 +716,6 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
-            "position": "33",
-            "rotated": false,
             "notes": "!tag hisa\n!tag jin"
         },
         {
@@ -810,8 +735,6 @@
             "loyalty": "",
             "artist": "Shin Jun Su",
             "alias": "",
-            "position": "34",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -831,8 +754,6 @@
             "loyalty": "",
             "artist": "SUGA\u826f\u4ec1",
             "alias": "",
-            "position": "35",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -852,8 +773,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "36",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -873,7 +792,6 @@
             "loyalty": "",
             "artist": "SUGA\u826f\u4ec1",
             "alias": "",
-            "position": "37",
             "card_name2": "Snorf Up",
             "color2": "G",
             "type2": "Sorcery \u2014 Omen",
@@ -885,8 +803,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -906,8 +822,6 @@
             "loyalty": "",
             "artist": "Yangyang Soi",
             "alias": "",
-            "position": "38",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -927,8 +841,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "39",
-            "rotated": false,
             "notes": "!tag tama"
         },
         {
@@ -948,8 +860,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "40",
-            "rotated": false,
             "notes": "!tag tama\n!tag hisa"
         },
         {
@@ -960,7 +870,7 @@
             "number": 77,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Creatures you control get +1/+0 until end of turn.\nYou may cast a copy of an Omen or Adventure of a creature you control.",
+            "rules_text": "Creatures you control get +1/+0 until end of turn.\nYou may cast a copy of an Omen or Adventure of a creature you control. [i](You still pay its costs.)[/i]",
             "flavor_text": "[i]As creatures of spirit, the yokai felt compelled to honor Tomoko in her visit. As a haughty noblewoman, Tomoko compelled them to do whatever in her honor.[/i]",
             "pt": "",
             "special_text": "",
@@ -969,8 +879,6 @@
             "loyalty": "",
             "artist": "Yangyang",
             "alias": "",
-            "position": "41",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -990,8 +898,6 @@
             "loyalty": "",
             "artist": "Yangang Sui",
             "alias": "",
-            "position": "42",
-            "rotated": false,
             "notes": "!tag hisa\n!tag tama\n!tag yokai-king"
         },
         {
@@ -1011,8 +917,6 @@
             "loyalty": "",
             "artist": "Tangyang Sui",
             "alias": "",
-            "position": "43",
-            "rotated": false,
             "notes": "!tag hisa\n!tag yokai-king\n!tag tama"
         },
         {
@@ -1020,7 +924,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 131,
+            "number": 130,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Nizua Town enters tapped.\n{T}: Add {U}.",
@@ -1032,7 +936,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "44",
             "card_name2": "Sweet Normalcy",
             "color2": "U",
             "type2": "Instant \u2014 Omen",
@@ -1044,8 +947,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1053,7 +954,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 130,
+            "number": 129,
             "color_identity": "W",
             "cost": "",
             "rules_text": "Highest Peak enters tapped.\n{T}: Add {W}.",
@@ -1065,7 +966,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "45",
             "card_name2": "Quiet Meditation",
             "color2": "W",
             "type2": "Instant \u2014 Omen",
@@ -1077,8 +977,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1098,8 +996,6 @@
             "loyalty": "",
             "artist": "Yangyang Su",
             "alias": "",
-            "position": "46",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1107,7 +1003,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 127,
+            "number": 131,
             "color_identity": "B",
             "cost": "",
             "rules_text": "The Sea Palace enters tapped.\n{T}: Add {B}.",
@@ -1119,7 +1015,6 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
-            "position": "47",
             "card_name2": "Deadliest Catch",
             "color2": "B",
             "type2": "Sorcery \u2014 Omen",
@@ -1131,8 +1026,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1140,7 +1033,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 128,
+            "number": 127,
             "color_identity": "R",
             "cost": "",
             "rules_text": "The City of Yokai enters tapped.\n{T}: Add {R}.",
@@ -1152,7 +1045,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "48",
             "card_name2": "The World For Sale",
             "color2": "R",
             "type2": "Instant \u2014 Omen",
@@ -1164,8 +1056,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1173,7 +1063,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 129,
+            "number": 128,
             "color_identity": "G",
             "cost": "",
             "rules_text": "The Heavenly Palace enters tapped. \n{T}: Add {G}.",
@@ -1185,7 +1075,6 @@
             "loyalty": "",
             "artist": "Rongrong Wang",
             "alias": "",
-            "position": "49",
             "card_name2": "Grand Paradise",
             "color2": "G",
             "type2": "Sorcery \u2014 Omen",
@@ -1197,8 +1086,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1218,8 +1105,6 @@
             "loyalty": "",
             "artist": "Rongrong Wang",
             "alias": "",
-            "position": "50",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1239,8 +1124,6 @@
             "loyalty": "",
             "artist": "Yatzenty",
             "alias": "",
-            "position": "51",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1260,8 +1143,6 @@
             "loyalty": "",
             "artist": "James Lilich",
             "alias": "",
-            "position": "52",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1281,8 +1162,6 @@
             "loyalty": "",
             "artist": "Nele Diel",
             "alias": "",
-            "position": "53",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1302,8 +1181,6 @@
             "loyalty": "",
             "artist": "Tigor Boraspati",
             "alias": "",
-            "position": "54",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1323,8 +1200,6 @@
             "loyalty": "",
             "artist": "Yangyanf Sui",
             "alias": "",
-            "position": "55",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1344,8 +1219,6 @@
             "loyalty": "",
             "artist": "Greg Knight",
             "alias": "",
-            "position": "56",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1365,8 +1238,6 @@
             "loyalty": "",
             "artist": "Yangang Sui",
             "alias": "",
-            "position": "57",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1386,8 +1257,6 @@
             "loyalty": "",
             "artist": "Anna Tabalan",
             "alias": "",
-            "position": "58",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1407,7 +1276,6 @@
             "loyalty": "",
             "artist": "StopDropRollDie",
             "alias": "",
-            "position": "59",
             "card_name2": "Fox's Promise",
             "color2": "B",
             "type2": "Instant \u2014 Omen",
@@ -1419,8 +1287,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1440,7 +1306,6 @@
             "loyalty": "",
             "artist": "BlueEyees",
             "alias": "",
-            "position": "60",
             "card_name2": "Peal Of Thunder",
             "color2": "R",
             "type2": "Instant \u2014 Omen",
@@ -1452,8 +1317,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1473,8 +1336,6 @@
             "loyalty": "",
             "artist": "Meowtricia_",
             "alias": "",
-            "position": "61",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1494,8 +1355,6 @@
             "loyalty": "",
             "artist": "Onihime",
             "alias": "",
-            "position": "62",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1515,8 +1374,6 @@
             "loyalty": "",
             "artist": "yjcayz",
             "alias": "",
-            "position": "63",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1536,8 +1393,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "64",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1557,8 +1412,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "65",
-            "rotated": false,
             "notes": "!tag tama"
         },
         {
@@ -1578,8 +1431,6 @@
             "loyalty": "",
             "artist": "cytoken94",
             "alias": "",
-            "position": "66",
-            "rotated": false,
             "notes": "!tag hisa"
         },
         {
@@ -1599,8 +1450,6 @@
             "loyalty": "",
             "artist": "Allssandro Gironi",
             "alias": "",
-            "position": "67",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1620,8 +1469,6 @@
             "loyalty": "",
             "artist": "Onihime",
             "alias": "",
-            "position": "68",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1641,8 +1488,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "69",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1662,8 +1507,6 @@
             "loyalty": "",
             "artist": "Ruan Jia",
             "alias": "",
-            "position": "70",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1683,8 +1526,6 @@
             "loyalty": "",
             "artist": "Luisa Nanami",
             "alias": "",
-            "position": "71",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1704,8 +1545,6 @@
             "loyalty": "",
             "artist": "Marie Podh\u016frsk\u00e1",
             "alias": "",
-            "position": "72",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1725,8 +1564,6 @@
             "loyalty": "",
             "artist": "Annik Cherton",
             "alias": "",
-            "position": "73",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1746,8 +1583,6 @@
             "loyalty": "",
             "artist": "0Q .",
             "alias": "",
-            "position": "74",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1767,8 +1602,6 @@
             "loyalty": "",
             "artist": "Xiaowan \u5c0f\u4e07\u200f",
             "alias": "",
-            "position": "75",
-            "rotated": false,
             "notes": "!tag yuri"
         },
         {
@@ -1788,7 +1621,6 @@
             "loyalty": "",
             "artist": "Rohono",
             "alias": "",
-            "position": "76",
             "card_name2": "False Face",
             "color2": "U",
             "type2": "Sorcery \u2014 Omen",
@@ -1800,8 +1632,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1821,8 +1651,6 @@
             "loyalty": "",
             "artist": "Quyt'z",
             "alias": "",
-            "position": "77",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1842,8 +1670,6 @@
             "loyalty": "",
             "artist": "Tiago Da Silva",
             "alias": "",
-            "position": "78",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1863,8 +1689,6 @@
             "loyalty": "",
             "artist": "Madalina Coman",
             "alias": "",
-            "position": "79",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1884,8 +1708,6 @@
             "loyalty": "",
             "artist": "Hou China",
             "alias": "",
-            "position": "80",
-            "rotated": false,
             "notes": "!tag junko"
         },
         {
@@ -1905,8 +1727,6 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
-            "position": "81",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1926,8 +1746,6 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
-            "position": "82",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1947,8 +1765,6 @@
             "loyalty": "",
             "artist": "Jeehuyng Lee",
             "alias": "",
-            "position": "83",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -1968,7 +1784,6 @@
             "loyalty": "",
             "artist": "Huyy Nguyen",
             "alias": "",
-            "position": "84",
             "card_name2": "Read the Riot Act",
             "color2": "R",
             "type2": "Instant \u2014 Omen",
@@ -1980,8 +1795,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2001,8 +1814,6 @@
             "loyalty": "",
             "artist": "Huyy Nguyen",
             "alias": "",
-            "position": "85",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2022,8 +1833,6 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
-            "position": "86",
-            "rotated": false,
             "notes": "!tag junko"
         },
         {
@@ -2043,8 +1852,6 @@
             "loyalty": "",
             "artist": "Dustin Panzimo",
             "alias": "",
-            "position": "87",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2064,7 +1871,6 @@
             "loyalty": "",
             "artist": "cytoken94",
             "alias": "",
-            "position": "88",
             "card_name2": "Undertow",
             "color2": "U",
             "type2": "Instant \u2014 Omen",
@@ -2076,8 +1882,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2097,8 +1901,6 @@
             "loyalty": "",
             "artist": "Bui Quang Thinh",
             "alias": "",
-            "position": "89",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2118,7 +1920,6 @@
             "loyalty": "",
             "artist": "Vincent Coviello",
             "alias": "",
-            "position": "90",
             "card_name2": "From Every Shoal and Lake",
             "color2": "G",
             "type2": "Sorcery \u2014 Omen",
@@ -2130,12 +1931,10 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Parasitc Growth",
+            "card_name": "Parasitic Growth",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
@@ -2151,8 +1950,6 @@
             "loyalty": "",
             "artist": "ScissorsRunner",
             "alias": "",
-            "position": "91",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2172,8 +1969,6 @@
             "loyalty": "",
             "artist": "oberon_blyat",
             "alias": "",
-            "position": "92",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2193,8 +1988,6 @@
             "loyalty": "",
             "artist": "shermstan",
             "alias": "",
-            "position": "93",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2214,7 +2007,6 @@
             "loyalty": "",
             "artist": "Corentin Asproni",
             "alias": "",
-            "position": "94",
             "card_name2": "Neverending Bells",
             "color2": "R",
             "type2": "Instant \u2014 Omen",
@@ -2226,8 +2018,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2247,8 +2037,6 @@
             "loyalty": "",
             "artist": "Robin Hsu",
             "alias": "",
-            "position": "95",
-            "rotated": false,
             "notes": "!tag yuri"
         },
         {
@@ -2268,8 +2056,6 @@
             "loyalty": "",
             "artist": "bailongma",
             "alias": "",
-            "position": "96",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2289,8 +2075,6 @@
             "loyalty": "",
             "artist": "shuangjin132129",
             "alias": "",
-            "position": "97",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2310,8 +2094,6 @@
             "loyalty": "",
             "artist": "yangyang sui",
             "alias": "",
-            "position": "98",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2331,8 +2113,6 @@
             "loyalty": "",
             "artist": "Wu Guanzhong",
             "alias": "",
-            "position": "99",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2352,8 +2132,6 @@
             "loyalty": "",
             "artist": "Masae Seki",
             "alias": "",
-            "position": "100",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2373,8 +2151,6 @@
             "loyalty": "",
             "artist": "Iqbal Rizudan",
             "alias": "",
-            "position": "101",
-            "rotated": false,
             "notes": "!tag yuri"
         },
         {
@@ -2394,8 +2170,6 @@
             "loyalty": "",
             "artist": "Daniel Jimenez",
             "alias": "",
-            "position": "102",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2415,8 +2189,6 @@
             "loyalty": "",
             "artist": "Antonio De Luca",
             "alias": "",
-            "position": "103",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2436,8 +2208,6 @@
             "loyalty": "",
             "artist": "aleksa-drageljevic",
             "alias": "",
-            "position": "104",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2457,8 +2227,6 @@
             "loyalty": "",
             "artist": "r4ryan",
             "alias": "",
-            "position": "105",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2478,8 +2246,6 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
-            "position": "106",
-            "rotated": false,
             "notes": "!tag yuri"
         },
         {
@@ -2499,8 +2265,6 @@
             "loyalty": "",
             "artist": "Narahara sie",
             "alias": "",
-            "position": "107",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2520,8 +2284,6 @@
             "loyalty": "",
             "artist": "Ardika Priyata",
             "alias": "",
-            "position": "108",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2541,8 +2303,6 @@
             "loyalty": "",
             "artist": "Meng Xiangning",
             "alias": "",
-            "position": "109",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2562,7 +2322,6 @@
             "loyalty": "",
             "artist": "illithi1",
             "alias": "",
-            "position": "110",
             "card_name2": "Nurtured Grudge",
             "color2": "B",
             "type2": "Sorcery \u2014 Omen",
@@ -2574,8 +2333,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2595,8 +2352,6 @@
             "loyalty": "",
             "artist": "Dao Trong le",
             "alias": "",
-            "position": "111",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2616,8 +2371,6 @@
             "loyalty": "",
             "artist": "Hua Lu",
             "alias": "",
-            "position": "112",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2637,8 +2390,6 @@
             "loyalty": "",
             "artist": "mist xg",
             "alias": "",
-            "position": "113",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2658,8 +2409,6 @@
             "loyalty": "",
             "artist": "Denis Loebner",
             "alias": "",
-            "position": "114",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2679,8 +2428,6 @@
             "loyalty": "",
             "artist": "r4ryan",
             "alias": "",
-            "position": "115",
-            "rotated": false,
             "notes": "Return target permanent you control to its owner's hand.\nDraw a card."
         },
         {
@@ -2700,8 +2447,6 @@
             "loyalty": "",
             "artist": "Adrien Gion",
             "alias": "",
-            "position": "116",
-            "rotated": false,
             "notes": "!tag junko"
         },
         {
@@ -2721,7 +2466,6 @@
             "loyalty": "",
             "artist": "Russel Jones",
             "alias": "",
-            "position": "117",
             "card_name2": "Overwhelming Surplus",
             "color2": "W",
             "type2": "Sorcery \u2014 Omen",
@@ -2733,8 +2477,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2754,8 +2496,6 @@
             "loyalty": "",
             "artist": "Aleksa Drageljevic",
             "alias": "",
-            "position": "118",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2775,8 +2515,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "119",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2788,7 +2526,7 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Exile target nonland permanent. Its controller creates a 1/1 red Insect creature token.",
-            "flavor_text": "[i]Every soul the Sea Palace captures has a use, even if it's hosting its exotic pest.[/i]",
+            "flavor_text": "[i]Every soul the Sea Palace captures has a use, even if it's hosting its exotic pets.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -2796,8 +2534,6 @@
             "loyalty": "",
             "artist": "Ethan Harris",
             "alias": "",
-            "position": "120",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2817,7 +2553,6 @@
             "loyalty": "",
             "artist": "Zuz \"Spikulec\" Gruzlewska",
             "alias": "",
-            "position": "121",
             "card_name2": "Catch A Boot",
             "color2": "W",
             "type2": "Sorcery \u2014 Omen",
@@ -2829,8 +2564,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2850,8 +2583,6 @@
             "loyalty": "",
             "artist": "CristianAC",
             "alias": "",
-            "position": "122",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2871,8 +2602,6 @@
             "loyalty": "",
             "artist": "David Productiions",
             "alias": "",
-            "position": "123",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2892,8 +2621,6 @@
             "loyalty": "",
             "artist": "Julien Cordebar",
             "alias": "",
-            "position": "124",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2913,8 +2640,6 @@
             "loyalty": "",
             "artist": "r4ryan",
             "alias": "",
-            "position": "125",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2934,8 +2659,6 @@
             "loyalty": "",
             "artist": "Iqbal Rizudan",
             "alias": "",
-            "position": "126",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2955,8 +2678,6 @@
             "loyalty": "",
             "artist": "Daniel Landerman",
             "alias": "",
-            "position": "127",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -2976,8 +2697,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "128",
-            "rotated": false,
             "notes": "!tag hisa"
         },
         {
@@ -2997,7 +2716,6 @@
             "loyalty": "",
             "artist": "David Benzal",
             "alias": "",
-            "position": "129",
             "card_name2": "Lead To Water",
             "color2": "UR",
             "type2": "Sorcery \u2014 Omen",
@@ -3009,8 +2727,6 @@
             "loyalty2": "",
             "artist2": "",
             "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3030,8 +2746,6 @@
             "loyalty": "",
             "artist": "yangyang Sui",
             "alias": "",
-            "position": "130",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3051,8 +2765,6 @@
             "loyalty": "",
             "artist": "Joey Leung",
             "alias": "",
-            "position": "131",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3072,8 +2784,6 @@
             "loyalty": "",
             "artist": "KOOka",
             "alias": "",
-            "position": "132",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3093,8 +2803,6 @@
             "loyalty": "",
             "artist": "ldxy",
             "alias": "",
-            "position": "133",
-            "rotated": false,
             "notes": "!tag jin"
         },
         {
@@ -3114,8 +2822,6 @@
             "loyalty": "",
             "artist": "HOKUSAI KATSUSHIKA \u845b\u98fe\u5317\u658e",
             "alias": "",
-            "position": "134",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3135,8 +2841,6 @@
             "loyalty": "",
             "artist": "Utagawa HIROSHIGE",
             "alias": "",
-            "position": "135",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3156,8 +2860,6 @@
             "loyalty": "",
             "artist": "Maeda MASAO",
             "alias": "",
-            "position": "136",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3177,8 +2879,6 @@
             "loyalty": "",
             "artist": "MASAO IDO \u4e95\u5802\u96c5\u592b",
             "alias": "",
-            "position": "137",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3198,8 +2898,6 @@
             "loyalty": "",
             "artist": "YOSHIDA TSUKASA \u5409\u7530\u53f8",
             "alias": "",
-            "position": "138",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3219,8 +2917,6 @@
             "loyalty": "",
             "artist": "Umm Shaw",
             "alias": "",
-            "position": "139",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3240,8 +2936,6 @@
             "loyalty": "",
             "artist": "Cze Peku",
             "alias": "",
-            "position": "140",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3261,8 +2955,6 @@
             "loyalty": "",
             "artist": "Chao Liu",
             "alias": "",
-            "position": "141",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3282,8 +2974,6 @@
             "loyalty": "",
             "artist": "Xu Tao",
             "alias": "",
-            "position": "142",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3303,8 +2993,6 @@
             "loyalty": "",
             "artist": "Kevin Jick",
             "alias": "",
-            "position": "143",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3324,8 +3012,6 @@
             "loyalty": "",
             "artist": "Artur Sadlos",
             "alias": "",
-            "position": "144",
-            "rotated": false,
             "notes": ""
         },
         {
@@ -3345,8 +3031,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "145",
-            "rotated": false,
             "notes": "!token Wanderers In Dream; Blighted Inkwell; Wu"
         },
         {
@@ -3366,8 +3050,6 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
-            "position": "146",
-            "rotated": false,
             "notes": "!token Famine Architect; Highest Peak Bladedancer; Bridal Couture; Surfaceside Enforcer; Courtyard Clowns"
         },
         {
@@ -3387,8 +3069,6 @@
             "loyalty": "",
             "artist": "Zeen Chin",
             "alias": "",
-            "position": "147",
-            "rotated": false,
             "notes": "!token Highest Peak Apostate; Aura; Yokai Night Market"
         },
         {
@@ -3408,8 +3088,6 @@
             "loyalty": "",
             "artist": "Vincent Coviello",
             "alias": "",
-            "position": "148",
-            "rotated": false,
             "notes": "!token Swamproots Rallier"
         },
         {
@@ -3429,8 +3107,6 @@
             "loyalty": "",
             "artist": "Jason Pastrana",
             "alias": "",
-            "position": "149",
-            "rotated": false,
             "notes": "!token Guardian Fetchling"
         },
         {
@@ -3450,8 +3126,6 @@
             "loyalty": "",
             "artist": "Nate Artuz",
             "alias": "",
-            "position": "150",
-            "rotated": false,
             "notes": "!token Corruptive Kyubi"
         },
         {
@@ -3471,8 +3145,6 @@
             "loyalty": "",
             "artist": "Tim Lecoq",
             "alias": "",
-            "position": "151",
-            "rotated": false,
             "notes": "!token Decimilipede; Cast To The Isopods"
         },
         {
@@ -3492,8 +3164,6 @@
             "loyalty": "",
             "artist": "Sara Joseph",
             "alias": "",
-            "position": "152",
-            "rotated": false,
             "notes": "!token Namazu Trader; Wee Headcarver; Yokai Night Market"
         },
         {
@@ -3513,8 +3183,6 @@
             "loyalty": "",
             "artist": "Joel Holtzman",
             "alias": "",
-            "position": "153",
-            "rotated": false,
             "notes": "!token Spirited Scrollery; Scrollroom Instructor; Enclose In Characters"
         },
         {
@@ -3534,8 +3202,6 @@
             "loyalty": "",
             "artist": "Zeradok",
             "alias": "",
-            "position": "154",
-            "rotated": false,
             "notes": "!token Needling Poet"
         },
         {
@@ -3555,8 +3221,6 @@
             "loyalty": "",
             "artist": "Dustin Panzino",
             "alias": "",
-            "position": "155",
-            "rotated": false,
             "notes": "!token Highest Peak Funeralist"
         },
         {
@@ -3576,8 +3240,6 @@
             "loyalty": "",
             "artist": "Idenitty V",
             "alias": "",
-            "position": "156",
-            "rotated": false,
             "notes": "!token Stricken Visitor"
         },
         {
@@ -3597,8 +3259,6 @@
             "loyalty": "",
             "artist": "Zeen Chin",
             "alias": "",
-            "position": "157",
-            "rotated": false,
             "notes": "!token Puppet-String Denial; Junko of the Puppet Theater"
         },
         {
@@ -3618,8 +3278,6 @@
             "loyalty": "",
             "artist": "Yangyang Sui",
             "alias": "",
-            "position": "158",
-            "rotated": false,
             "notes": "!token The Heavenly Palace"
         },
         {
@@ -3639,10 +3297,8 @@
             "loyalty": "",
             "artist": "Ardika Priyata",
             "alias": "",
-            "position": "159",
-            "rotated": false,
             "notes": ""
         }
     ],
-    "version": 5
+    "version": 2
 }

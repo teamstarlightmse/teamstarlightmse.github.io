@@ -1,3 +1,120 @@
+﻿VERSION 2 CHANGELOG
+====================
+
+Parasitic Growth added.
+Enfilading Censure added.
+
+Parasitc Growth removed.
+Gashadokuro's Malice removed.
+
+Scheming Shadebinder
+
+Highest Peak Apostate
+rules_text: Kicker—{1}{R}, Shuffle four cards from your graveyard into your library [i](You may pay an additional {1}{R} and shuffle four cards from your graveyard into your library as you cast this spell.)[/i]
+When Highest Peak Apostate enters, create a 3/2 black Nightmare creature token with haste. Sacrifice it at the beginning of the next end step unless it was kicked. => Kicker—{1}{R}, Shuffle four cards from your graveyard into your library. [i](You may pay an additional {1}{R} and shuffle four cards from your graveyard into your library as you cast this spell.)[/i]
+When Highest Peak Apostate enters, create a 3/2 black Nightmare creature token with haste. Sacrifice it at the beginning of the next end step unless it was kicked.
+
+Tree Of Pestilence
+rules_text: Trample; reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+{2}, Sacrifice a nonland permanent: Put a +1/+1 counter on Tree Of Pestilence. If it granted reprieve this turn, this ability costs {2} less to activate. => Trample
+Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+{2}, Sacrifice a nonland permanent: Put a +1/+1 counter on Tree Of Pestilence. If it granted reprieve this turn, this ability costs {2} less to activate.
+
+Beligerent Horo-sha
+
+Ningyo Recluse
+
+Shallows Survivor
+
+Yamamba Spinner
+
+Claw Hammer
+rules_text: Kicker—{1}{R}, Shuffle four cards from your graveyard into your library [i](You may pay an additional {1}{R} and shuffle four cards from your graveyard into your library as you cast this spell.)[/i]
+Claw Hammer deals 2 damage to target creature. If it was kicked, it deals 5 damage to that creature instead. => Kicker—{1}{R}, Shuffle four cards from your graveyard into your library. [i](You may pay an additional {1}{R} and shuffle four cards from your graveyard into your library as you cast this spell.)[/i]
+Claw Hammer deals 2 damage to target creature. If it was kicked, it deals 5 damage to that creature instead.
+
+Tanuki Trufflesnout
+
+Lavish Parade
+rules_text: Creatures you control get +1/+0 until end of turn.
+You may cast a copy of an Omen or Adventure of a creature you control. => Creatures you control get +1/+0 until end of turn.
+You may cast a copy of an Omen or Adventure of a creature you control. [i](You still pay its costs.)[/i]
+
+Nizua Town
+
+Highest Peak
+
+The Sea Palace
+
+The City of Yokai
+
+The Heavenly Palace
+
+Subtle Tailstroke
+
+Highest Peak Forcemage
+
+Bridal Couture
+rules_text: You may cast Bridal Couture from your graveyard.
+Enchant creature
+Whenever enchanted creature attacks, create a 1/1 blue Fish creature token with flying. => Enchant creature
+Whenever enchanted creature attacks, create a 1/1 blue Fish creature token with flying.
+You may cast Bridal Couture from your graveyard.
+
+Laughing Lanterns
+rules_text: Flying; reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i] 
+When Laughing Lanterns grants reprieve, put a +1/+1 counter on it. => Flying
+Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i] 
+When Laughing Lanterns grants reprieve, put a +1/+1 counter on it.
+
+Swordcraft Master
+type: Creature => Creature — Spirit Soldier
+
+Maskwright
+
+Guardian Fetchling
+
+River Racketeer
+
+Vulpine Auspice
+rules_text: Kicker—{G}, Shuffle three cards from your graveyard into your library [i](You may pay an additional {G} and shuffle three cards from your graveyard into your library as you cast this spell.)[/i]
+Search your library for a basic land card, put it into your hand, then shuffle. If Vulpine Auspice was kicked, instead put that card onto the battlefield tapped. => Kicker—{G}, Shuffle three cards from your graveyard into your library. [i](You may pay an additional {G} and shuffle three cards from your graveyard into your library as you cast this spell.)[/i]
+Search your library for a basic land card, put it into your hand, then shuffle. If Vulpine Auspice was kicked, instead put that card onto the battlefield tapped.
+
+Swamproots Rallier
+
+Turbulent Clanger
+
+She Who Roils The Seas
+rules_text: Lifelink
+Each player can't cast more than one spell each turn.
+Creatures you control get +1/+1. => Lifelink
+Each player can't cast more than one spell each turn.
+Other creatures you control get +1/+1.
+
+Marshal of the Night Parade
+cost: {R} => {1}{R}
+
+Outskirts Vigilante
+
+Enmity's Shadow
+
+Famine Architect
+
+Cast To The Isopods
+
+Ataraxic Angler
+
+Tengu Bladework
+rules_text: Kicker—{W}, Shuffle two cards from your graveiard into your library [i](You may pay an additional {W} and shuffle two cards from your graveiard into your library as you cast this spell.)[/i]
+Target creature gains hexproof and indestructible until end of turn. If Tengu Bladework was kicked, put two +1/+1 counters on that creature. => Kicker—{W}, Shuffle two cards from your graveiard into your library. [i](You may pay an additional {W} and shuffle two cards from your graveiard into your library as you cast this spell.)[/i]
+Target creature gains hexproof and indestructible until end of turn. If Tengu Bladework was kicked, put two +1/+1 counters on that creature.
+
+Procession Master
+
+Compound Fracture
+
+
 VERSION 5 CHANGELOG
 ====================
 
