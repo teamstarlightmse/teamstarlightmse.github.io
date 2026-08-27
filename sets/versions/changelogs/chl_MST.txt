@@ -1,4 +1,29 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Nizua Town
+
+Highest Peak
+
+The Sea Palace
+
+The City of Yokai
+
+The Heavenly Palace
+
+
+VERSION 4 CHANGELOG
+====================
+
+
+
+Highest Peak Forcemage
+rules_text: Whenever you cast an instant or sorcery spell, Highest Peak Forcemage gets +2/+0 until end of turn. => Prowess
+
+
+VERSION 3 CHANGELOG
 ====================
 
 

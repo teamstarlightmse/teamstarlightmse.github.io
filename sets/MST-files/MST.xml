@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Rural Dwellings, In Seafoam Mist</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-14</releasedate>
+			<releasedate>2026-08-27</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -828,7 +828,7 @@ Counter target spell. (Then shuffle this card into its owner&apos;s library.)</t
 				<side>front</side>
 				<type>Land // Instant — Omen</type>
 				<maintype>Land</maintype>
-				<manacost> // 1UU</manacost>
+				<manacost> // 2UU</manacost>
 				<cmc>0</cmc>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -848,7 +848,7 @@ Exile target creature you control, then return it to the battlefield under its o
 				<side>front</side>
 				<type>Land // Instant — Omen</type>
 				<maintype>Land</maintype>
-				<manacost> // W</manacost>
+				<manacost> // 1W</manacost>
 				<cmc>0</cmc>
 				<coloridentity>W</coloridentity>
 			</prop>
@@ -883,7 +883,7 @@ Return target creature card from your graveyard to your hand. (Then shuffle this
 				<side>front</side>
 				<type>Land // Sorcery — Omen</type>
 				<maintype>Land</maintype>
-				<manacost> // B</manacost>
+				<manacost> // 1B</manacost>
 				<cmc>0</cmc>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -903,7 +903,7 @@ Target creature gets +1/+0 and gains double strike until end of turn. (Then shuf
 				<side>front</side>
 				<type>Land // Instant — Omen</type>
 				<maintype>Land</maintype>
-				<manacost> // 1R</manacost>
+				<manacost> // 2R</manacost>
 				<cmc>0</cmc>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -923,7 +923,7 @@ Create a tapped land token named Everywhere that&apos;s every basic land type. (
 				<side>front</side>
 				<type>Land // Sorcery — Omen</type>
 				<maintype>Land</maintype>
-				<manacost> // 2G</manacost>
+				<manacost> // 3G</manacost>
 				<cmc>0</cmc>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -1097,7 +1097,7 @@ When target creature dies this turn, create two tokens that are copies of it, ex
 		</card>
 		<card>
 			<name>Highest Peak Forcemage // Peal Of Thunder</name>
-			<text>Whenever you cast an instant or sorcery spell, Highest Peak Forcemage gets +2/+0 until end of turn.
+			<text>Prowess
 
 ---
 
