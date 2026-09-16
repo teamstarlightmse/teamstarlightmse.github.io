@@ -1,4 +1,356 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Summons To The Sea Palace
+
+Bored Soultaxer
+
+Indentured Prefect
+
+Weaver Of Winter Sun
+
+Queen Mother Tomoko
+
+Highest Peak Bladedancer
+
+Stricken Visitor
+
+Namazu Cutthroat
+
+Fainting Tragedian
+
+Highest Peak Apostate
+
+Puppet-String Denial
+
+Tree Of Pestilence
+
+Soul-Feeding Basker
+
+Sea Palace Retainer
+
+Feasting Jikininki
+
+Kamatsu, Ningyo Champion
+
+Beckon Asea
+rules_text: Return target creature card from your graveyard to you hand. You may cast a copy of it. => Return target creature card from your graveyard to your hand. Copy it. You may cast the copy. [i](You still pay its costs.)[/i]
+
+Highest Peak Funeralist
+rules_text: Lifelink
+Whenever a creature you control dies, exile it and create an artifact token named Ghost Lantern with “{2}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner's control.” => Lifelink
+Whenever a creature you control dies, exile it from your graveyard and create an artifact token named Ghost Lantern with “{2}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner's control.”
+
+Shrill Abductor
+
+Namazu Trader
+
+Onamazu
+
+Claw Hammer
+
+Namazu Leeguide
+
+Hisa, Between Land And Sea
+rules_text: Spells you cast have “Kicker—{UR}, Shuffle two cards from your graveyard into your library” and “Kicker—{1}{U}{R}, Shuffle four cards from your graveyard into your library.”
+Whenever you cast an instant or sorcery spell, copy it for each time it was kicked. => Spells you cast have “Kicker—{UR}, Shuffle two cards from your graveyard into your library” and “Kicker—{1}{U}{R}, Shuffle four cards from your graveyard into your library.”
+Whenever you cast an instant or sorcery spell, copy it for each time it was kicked. You may choose new targets for the copies.
+
+Visited Upon The Child
+
+Gigantize
+
+Belly of the Beast
+rules_text: Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i] 
+When Belly of the Beast enters, exile target creature until Belly of the Beast leaves the battlefield. If reprieve was granted, exile three cards from its controller's graveyard. => Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i] 
+When Belly of the Beast enters, exile target creature until Belly of the Beast leaves the battlefield. If it granted reprieve, exile three cards from its controller's graveyard.
+
+Rimewater Squall
+rules_text: Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Rimewater Squall enters, tap target creature and put a stun counter on it, then put an additional stun counter on it if reprieve was granted.
+{2}, Sacrifice Rimewater Squall: Draw a card. => Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Rimewater Squall enters, tap target creature and put a stun counter on it, then put an additional stun counter on it if Rimewater Squall granted reprieve.
+{2}, Sacrifice Rimewater Squall: Draw a card.
+
+Corruptive Kyubi
+
+Petulant Nurikabe
+
+Patient Ascetic
+
+Monstrous Parley
+rules_text: Exile the top three cards of your library. You may play them this turn. At the beginning of your end step, shuffle each card still exiled into your library. When you do, it deals 1 damage to you. => Exile the top three cards of your library. You may play them this turn. At the beginning of your end step, shuffle each card still exiled into your library. Monstrous Parley deals 1 damage to you for each of those cards.
+
+Tama, Reluctantly Helping
+
+Kabuki For Your Life!
+
+Lavish Parade
+
+The Yokai King
+
+Peace Talks
+
+Tomb Trawler
+
+Thriving Isle
+
+Thriving Moor
+
+Thriving Grove
+
+Thriving Bluff
+
+Thriving Heath
+
+Make A Donation
+
+Mitakusa Marvel
+
+Tolling Dial
+
+Raze The Roof
+
+Laughing Pathlighters
+rules_text: Flying
+When Laughing Pathlighters enters, choose one:
+• Each player sacrifices a creature.
+• Sacrifice a creature. When you do, draw two cards. => Flying
+When Laughing Pathlighters enters, choose one—
+• Each player sacrifices a creature.
+• Sacrifice a creature. When you do, draw two cards.
+
+Solemn Judgement
+
+Assault of Shadows
+
+Niggling Thought
+
+Wee Headcarver
+
+Bridal Couture
+
+Sea Palace Beheader
+
+Whitelattice Warrior
+
+Wanderers In Dream
+
+Misato, Chief Prosecutor
+
+Pearl-Diving Kappa
+
+Laughing Lanterns
+rules_text: Flying
+Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i] 
+When Laughing Lanterns grants reprieve, put a +1/+1 counter on it. => Flying
+Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i] 
+When Laughing Lanterns enters, if it granted reprieve, put a +1/+1 counter on it.
+
+Cousin of the Worldsoul
+
+Swordcraft Master
+
+Mikayoshi and Toru
+
+Tender of The True Flower
+rules_text: Kicker—{G}{G}, Shuffle five cards from your graveyard into your library.
+Tender of The True Flower enters with a lotus counter if it was kicked.
+{T}: Add {G}.
+Whenever you tap a creature or artifact for mana, if Tender of The True Flower has a lotus counter on it, add two mana of any color that permanent produced. => Kicker—{G}{G}, Shuffle five cards from your graveyard into your library.
+When Tender of The True Flower enters, if it was kicked, create two tokens that are copies of it.
+Tender of The True Flower can't block.
+{T}: Add {G}.
+
+Shikigami Nihilist
+
+Blighted Inkwell
+
+Junko of the Puppet Theater
+
+Brined Innocents
+
+Coastal Trade
+
+Lost Sea-Taken
+
+Needling Poet
+
+Courtyard Clowns
+
+Herb Sages
+
+Vulpine Auspice
+
+Parasitic Growth
+
+Tora Shapethirster
+
+Spirited Scrollery
+
+Her Dutiful Vessel
+
+Auspicous Butterflox
+
+Tomoko's Majesty
+
+Yokai Night Market
+rules_text: At the beginning of your upkeep, choose up to three. You may choose the same mode more than once.
+• Create a Treasure token. You lose 1 life.
+• You draw a card and lose 2 life.
+• Create a 3/2 black Nightmare creature token with haste. You lose 4 life. => At the beginning of your upkeep, choose one or more—
+• Surveil 1. Create a Treasure token. You lose 1 life.
+• You draw a card and lose 2 life.
+• Return a creature card with mana value 3 or less from your graveyard to the battlefield. You lose 3 life.
+
+Wu
+
+Estuary Wretch
+
+She Who Roils The Seas
+
+Tora Mask
+
+Brobdignagian Swat
+
+Decimilipede
+
+Marshal of the Night Parade
+
+Join For A Dip
+
+Outskirts Vigilante
+
+Enfilading Censure
+
+Worldsoul's Venom
+
+Drown Out
+
+Bake-Kujira
+
+Scrollroom Instructor
+
+Midautumn Koi Viewing
+
+Dragon Regalia
+
+Splitskin Doll
+
+Dorotabo Drudge
+
+Buyer's Market
+
+Cast To The Isopods
+
+Tengu Bladework
+
+Enclose In Characters
+
+Agglomerated Ghouls
+
+Parade of the Dead
+
+Scarce Tsuchinoko
+
+Surfaceside Enforcer
+
+Stand Your Ground
+
+Ostentatious Centerpiece
+
+All Pass Under the Sea
+
+General Kameshiro of the Tengu
+
+August Prince Jin
+
+Prophetic Prism
+
+Compound Fracture
+
+Scheming Shadebinder
+
+Beligerent Horo-sha
+
+Ningyo Recluse
+
+Shallows Survivor
+
+Yamamba Spinner
+
+Bad Influence
+
+Tanuki Trufflesnout
+
+Nizua Town
+
+Highest Peak
+
+The Sea Palace
+
+The City of Yokai
+
+The Heavenly Palace
+
+Subtle Tailstroke
+
+Highest Peak Forcemage
+
+Maskwright
+
+Guardian Fetchling
+
+River Racketeer
+rules_text: River Racketeer can't be blocked as long as there are ten or less cards in your library. => River Racketeer can't be blocked as long as there are ten or fewer cards in your library.
+
+Swamproots Rallier
+
+Turbulent Clanger
+
+Enmity's Shadow
+
+Famine Architect
+
+Ataraxic Angler
+rules_text: Vigilance
+Ataraxic Angler has double strike during your turn. => Vigilance
+During your turn, Ataraxic Angler has double strike.
+
+Procession Master
+
+Nightmare
+
+Fish
+
+Nightmare
+
+Merfolk
+
+Fist
+
+Spirit
+
+Insect
+
+Treasure
+
+Book
+
+Glorious Anthem
+
+Ghost Lantern
+
+Aura
+
+Toy
+
+Everywhere
+
+
+VERSION 5 CHANGELOG
 ====================
 
 
