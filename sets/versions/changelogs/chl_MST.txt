@@ -1,4 +1,15 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+
+
+Queen Mother Tomoko
+rules_text: You have three additional libraries. [i](As long as you control Tomoko, those libraries don't cease to exist from having no cards.)[/i]
+Shuffle two nonland permanents you own into your library: Counter target spell if it targets you or a permanent you control or if Queen Mother Tomoko is attacking. => You have three additional libraries. [i](As long as you control Tomoko, those libraries don't cease to exist from having no cards.)[/i]
+Shuffle two nonland permanents you own into your library: Draw two cards from your main library. Activate only once each turn. [i](You choose which library to shuffle those permanents into.)[/i]
+
+
+VERSION 6 CHANGELOG
 ====================
 
 

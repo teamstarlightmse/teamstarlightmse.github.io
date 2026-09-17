@@ -85,7 +85,7 @@ If you would draw a card while your library has no cards in it, you may instead 
 		<card>
 			<name>Queen Mother Tomoko</name>
 			<text>You have three additional libraries. (As long as you control Tomoko, those libraries don&apos;t cease to exist from having no cards.)
-Shuffle two nonland permanents you own into your library: Counter target spell if it targets you or a permanent you control or if Queen Mother Tomoko is attacking.</text>
+Shuffle two nonland permanents you own into your library: Draw two cards from your main library. Activate only once each turn. (You choose which library to shuffle those permanents into.)</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/4.png" num="35">MST</set>
 			<prop>
 				<layout>normal</layout>

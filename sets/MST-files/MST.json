@@ -99,7 +99,7 @@
             "number": 35,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "You have three additional libraries. [i](As long as you control Tomoko, those libraries don't cease to exist from having no cards.)[/i]\nShuffle two nonland permanents you own into your library: Counter target spell if it targets you or a permanent you control or if Queen Mother Tomoko is attacking.",
+            "rules_text": "You have three additional libraries. [i](As long as you control Tomoko, those libraries don't cease to exist from having no cards.)[/i]\nShuffle two nonland permanents you own into your library: Draw two cards from your main library. Activate only once each turn. [i](You choose which library to shuffle those permanents into.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -110,7 +110,7 @@
             "alias": "",
             "position": "4",
             "rotated": false,
-            "notes": "If you would shuffle one or more cards into your library, you may shuffle them into the top three cards of your library instead.\nOnce each turn, when you've spent WUBRG to cast noncreature spells this turn, draw two cards."
+            "notes": "If you would shuffle one or more cards into your library, you may shuffle them into the top three cards of your library instead.\nOnce each turn, when you've spent WUBRG to cast noncreature spells this turn, draw two cards. \n\nShuffle two nonland permanents you own into your library: Counter target spell if it targets you or a permanent you control or if Queen Mother Tomoko is attacking."
         },
         {
             "card_name": "Highest Peak Bladedancer",
@@ -3644,5 +3644,5 @@
             "notes": "!token The Heavenly Palace"
         }
     ],
-    "version": 6
+    "version": 7
 }
