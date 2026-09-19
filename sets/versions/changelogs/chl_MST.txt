@@ -1,4 +1,46 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+
+
+Highest Peak Bladedancer
+rules_text: Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+Whenever a nontoken creature you control leaves the battlefield, create a 1/1 blue Fish creature token with flying. => Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Highest Peak Bladedancer enters, if it granted reprieve, create a 1/1 blue Fish creature token with flying.
+Whenever Highest Peak Bladedancer or another nontoken creature you control leaves the battlefield, create a 1/1 blue Fish creature token with flying.
+
+Puppet-String Denial
+rules_text: Kicker—{1}{U}, Shuffle three cards from your graveyard into your library. [i](You may pay an additional {1}{U} and shuffle three cards from your graveyard into your library as you cast this spell.)[/i]
+Counter up to one target spell unless its controller pays {2}. If Puppet-String Denial was kicked, create two 1/1 Toy artifact creature tokens. => Kicker—{U}, Shuffle three cards from your graveyard into your library. [i](You may pay an additional {U} and shuffle three cards from your graveyard into your library as you cast this spell.)[/i]
+Counter up to one target spell unless its controller pays {2}. If Puppet-String Denial was kicked, instead counter that spell.
+
+Sea Palace Retainer
+rules_text: When Sea Palace Retainer enters, mill two cards, then return target creature card with mana value 3 or less from your graveyard to the battlefield. It enters as a 1/1 Zombie. => When Sea Palace Retainer enters, mill two cards. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield. It enters as a 1/1 Zombie.
+
+Bridal Couture
+cost: {U} => {2}{U}
+rules_text: Enchant creature
+Whenever enchanted creature attacks, create a 1/1 blue Fish creature token with flying.
+You may cast Bridal Couture from your graveyard. => Enchant creature
+Whenever enchanted creature attacks, create a 1/1 blue Fish creature token with flying.
+{2}{U}: Return Bridal Couture from your graveyard to your hand.
+
+Her Dutiful Vessel
+rules_text: Menace, haste 
+Whenever Her Dutiful Vessel attacks, look at the top card of defending player's library and exile it face down. You may play that card for as long as it remains exiled. Mana of any type can be spent to cast a spell this way. => Menace
+Ward—Pay 3 life, Shuffle three cards from your graveyard into your library
+Whenever Her Dutiful Vessel attacks, look at the top card of defending player's library and exile it face down. You may play that card for as long as it remains exiled. Mana of any type can be spent to cast a spell this way.
+
+Midautumn Koi Viewing
+rules_text: Kicker—Shuffle three cards from your graveyard into your library. [i](You may shuffle three cards from your graveyard into your library in addition to any other costs as you cast this spell.)[/i]
+Draw three cards. Then discard two cards unless this spell was kicked. => Kicker—{U}, Shuffle three cards from your graveyard into your library. [i](You may pay an additional {U} and shuffle three cards from your graveyard into your library as you cast this spell.)[/i]
+Draw three cards, then discard two cards. If this spell was kicked, instead draw four cards, then discard a card.
+
+Buyer's Market
+rules_text: Look at the top six cards of your library. You may reveal two permanent cards each with mana value 3 or less from among them and put them into your hand. Put the rest on the bottom of your library in a random order. => Look at the top six cards of your library. You may reveal up to two nonland permanent cards each with mana value 3 or less from among them and put them into your hand. Put the rest on the bottom of your library in a random order.
+
+
+VERSION 7 CHANGELOG
 ====================
 
 

@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Rural Dwellings, In Seafoam Mist</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-17</releasedate>
+			<releasedate>2026-09-19</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -103,7 +103,8 @@ Shuffle two nonland permanents you own into your library: Draw two cards from yo
 		<card>
 			<name>Highest Peak Bladedancer</name>
 			<text>Reprieve (As this permanent enters, you may return a creature you control without reprieve to its owner&apos;s hand.)
-Whenever a nontoken creature you control leaves the battlefield, create a 1/1 blue Fish creature token with flying.</text>
+When Highest Peak Bladedancer enters, if it granted reprieve, create a 1/1 blue Fish creature token with flying.
+Whenever Highest Peak Bladedancer or another nontoken creature you control leaves the battlefield, create a 1/1 blue Fish creature token with flying.</text>
 			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/5.png" num="13">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -191,8 +192,8 @@ When Highest Peak Apostate enters, create a 3/2 black Nightmare creature token w
 		</card>
 		<card>
 			<name>Puppet-String Denial</name>
-			<text>Kicker—{1}{U}, Shuffle three cards from your graveyard into your library. (You may pay an additional {1}{U} and shuffle three cards from your graveyard into your library as you cast this spell.)
-Counter up to one target spell unless its controller pays {2}. If Puppet-String Denial was kicked, create two 1/1 Toy artifact creature tokens.</text>
+			<text>Kicker—{U}, Shuffle three cards from your graveyard into your library. (You may pay an additional {U} and shuffle three cards from your graveyard into your library as you cast this spell.)
+Counter up to one target spell unless its controller pays {2}. If Puppet-String Denial was kicked, instead counter that spell.</text>
 			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/10.png" num="34">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -245,7 +246,7 @@ Soul-Feeding Basker can&apos;t be blocked except by three or more creatures or a
 		</card>
 		<card>
 			<name>Sea Palace Retainer</name>
-			<text>When Sea Palace Retainer enters, mill two cards, then return target creature card with mana value 3 or less from your graveyard to the battlefield. It enters as a 1/1 Zombie.</text>
+			<text>When Sea Palace Retainer enters, mill two cards. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield. It enters as a 1/1 Zombie.</text>
 			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/13.png" num="100">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -916,15 +917,15 @@ You draw a card and lose 2 life.</text>
 			<name>Bridal Couture</name>
 			<text>Enchant creature
 Whenever enchanted creature attacks, create a 1/1 blue Fish creature token with flying.
-You may cast Bridal Couture from your graveyard.</text>
+{2}{U}: Return Bridal Couture from your graveyard to your hand.</text>
 			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/52.png" num="26">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment — Aura</type>
 				<maintype>Enchantment</maintype>
-				<manacost>U</manacost>
-				<cmc>1</cmc>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -1340,7 +1341,8 @@ Once during each of your turns, if a creature you control left the battlefield t
 		</card>
 		<card>
 			<name>Her Dutiful Vessel</name>
-			<text>Menace, haste 
+			<text>Menace
+Ward—Pay 3 life, Shuffle three cards from your graveyard into your library
 Whenever Her Dutiful Vessel attacks, look at the top card of defending player&apos;s library and exile it face down. You may play that card for as long as it remains exiled. Mana of any type can be spent to cast a spell this way.</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/76.png" num="51">MST</set>
 			<prop>
@@ -1653,8 +1655,8 @@ When Bake-Kujira enters, if it granted reprieve, return target creature an oppon
 		</card>
 		<card>
 			<name>Midautumn Koi Viewing</name>
-			<text>Kicker—Shuffle three cards from your graveyard into your library. (You may shuffle three cards from your graveyard into your library in addition to any other costs as you cast this spell.)
-Draw three cards. Then discard two cards unless this spell was kicked.</text>
+			<text>Kicker—{U}, Shuffle three cards from your graveyard into your library. (You may pay an additional {U} and shuffle three cards from your graveyard into your library as you cast this spell.)
+Draw three cards, then discard two cards. If this spell was kicked, instead draw four cards, then discard a card.</text>
 			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/94.png" num="31">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1724,7 +1726,7 @@ When Dorotabo Drudge deals combat damage to a player, you may play a creature or
 		</card>
 		<card>
 			<name>Buyer&apos;s Market</name>
-			<text>Look at the top six cards of your library. You may reveal two permanent cards each with mana value 3 or less from among them and put them into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<text>Look at the top six cards of your library. You may reveal up to two nonland permanent cards each with mana value 3 or less from among them and put them into your hand. Put the rest on the bottom of your library in a random order.</text>
 			<set rarity="uncommon" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/98.png" num="4">MST</set>
 			<prop>
 				<layout>normal</layout>
