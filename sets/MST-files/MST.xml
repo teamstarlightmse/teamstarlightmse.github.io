@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Rural Dwellings, In Seafoam Mist</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-19</releasedate>
+			<releasedate>2026-09-22</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -103,8 +103,7 @@ Shuffle two nonland permanents you own into your library: Draw two cards from yo
 		<card>
 			<name>Highest Peak Bladedancer</name>
 			<text>Reprieve (As this permanent enters, you may return a creature you control without reprieve to its owner&apos;s hand.)
-When Highest Peak Bladedancer enters, if it granted reprieve, create a 1/1 blue Fish creature token with flying.
-Whenever Highest Peak Bladedancer or another nontoken creature you control leaves the battlefield, create a 1/1 blue Fish creature token with flying.</text>
+At the beginning of your end step, if a creature left the battlefield, create a 1/1 blue Fish creature token with flying.</text>
 			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/5.png" num="13">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -132,7 +131,7 @@ Whenever Highest Peak Bladedancer or another nontoken creature you control leave
 				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>2/1</pt>
+				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -246,7 +245,7 @@ Soul-Feeding Basker can&apos;t be blocked except by three or more creatures or a
 		</card>
 		<card>
 			<name>Sea Palace Retainer</name>
-			<text>When Sea Palace Retainer enters, mill two cards. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield. It enters as a 1/1 Zombie.</text>
+			<text>When Sea Palace Retainer enters, mill three cards. You may put a land card from among the cards milled this way into your hand. If you don&apos;t, put a +1/+1 counter on this creature.</text>
 			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/13.png" num="100">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -257,7 +256,7 @@ Soul-Feeding Basker can&apos;t be blocked except by three or more creatures or a
 				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>3/2</pt>
+				<pt>3/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -316,7 +315,7 @@ Whenever a nontoken creature you control dies, create two tokens that are copies
 		<card>
 			<name>Highest Peak Funeralist</name>
 			<text>Lifelink
-Whenever another creature you control dies, exile it from your graveyard and create an artifact token named Ghost Lantern with &quot;{2}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner&apos;s control.&quot;</text>
+Whenever another creature you control dies, exile it from your graveyard and create an artifact token named Ghost Lantern with &quot;{3}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner&apos;s control.&quot;</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/17.png" num="14">MST</set>
 			<prop>
 				<layout>normal</layout>

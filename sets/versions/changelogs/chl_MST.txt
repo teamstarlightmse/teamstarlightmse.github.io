@@ -1,4 +1,30 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+
+
+Highest Peak Bladedancer
+rules_text: Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Highest Peak Bladedancer enters, if it granted reprieve, create a 1/1 blue Fish creature token with flying.
+Whenever Highest Peak Bladedancer or another nontoken creature you control leaves the battlefield, create a 1/1 blue Fish creature token with flying. => Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+At the beginning of your end step, if a creature left the battlefield, create a 1/1 blue Fish creature token with flying.
+
+Stricken Visitor
+pt: 2/1 => 1/1
+
+Puppet-String Denial
+
+Sea Palace Retainer
+rules_text: When Sea Palace Retainer enters, mill two cards. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield. It enters as a 1/1 Zombie. => When Sea Palace Retainer enters, mill three cards. You may put a land card from among the cards milled this way into your hand. If you don't, put a +1/+1 counter on this creature.
+pt: 3/2 => 3/1
+
+Highest Peak Funeralist
+rules_text: Lifelink
+Whenever another creature you control dies, exile it from your graveyard and create an artifact token named Ghost Lantern with “{2}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner's control.” => Lifelink
+Whenever another creature you control dies, exile it from your graveyard and create an artifact token named Ghost Lantern with “{3}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner's control.”
+
+
+VERSION 8 CHANGELOG
 ====================
 
 

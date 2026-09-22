@@ -120,7 +120,7 @@
             "number": 13,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]\nWhen Highest Peak Bladedancer enters, if it granted reprieve, create a 1/1 blue Fish creature token with flying.\nWhenever Highest Peak Bladedancer or another nontoken creature you control leaves the battlefield, create a 1/1 blue Fish creature token with flying.",
+            "rules_text": "Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]\nAt the beginning of your end step, if a creature left the battlefield, create a 1/1 blue Fish creature token with flying.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -143,7 +143,7 @@
             "cost": "{1}{B}",
             "rules_text": "When Stricken Visitor enters, create a black Aura enchantment token attached to it with \u201cWhen this Aura leaves the battlefield, create a 3/2 black Nightmare creature token with haste.\u201d",
             "flavor_text": "[i][/i]",
-            "pt": "2/1",
+            "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
@@ -152,7 +152,7 @@
             "alias": "",
             "position": "6",
             "rotated": false,
-            "notes": "!tag aggro-threat"
+            "notes": ""
         },
         {
             "card_name": "Namazu Cutthroat",
@@ -236,7 +236,7 @@
             "alias": "",
             "position": "10",
             "rotated": false,
-            "notes": "!tag Junko\n\n"
+            "notes": "!tag Junko\n"
         },
         {
             "card_name": "Tree Of Pestilence",
@@ -288,9 +288,9 @@
             "number": 100,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "When Sea Palace Retainer enters, mill two cards. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield. It enters as a 1/1 Zombie.",
+            "rules_text": "When Sea Palace Retainer enters, mill three cards. You may put a land card from among the cards milled this way into your hand. If you don't, put a +1/+1 counter on this creature.",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
@@ -372,7 +372,7 @@
             "number": 14,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "Lifelink\nWhenever another creature you control dies, exile it from your graveyard and create an artifact token named Ghost Lantern with \u201c{2}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner's control.\u201d",
+            "rules_text": "Lifelink\nWhenever another creature you control dies, exile it from your graveyard and create an artifact token named Ghost Lantern with \u201c{3}, {T}: Sacrifice Ghost Lantern: Return the exiled card to the battlefield under its owner's control.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
