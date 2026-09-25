@@ -1,4 +1,25 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+
+
+Summons To The Sea Palace
+rules_text: Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+Enchant creature
+When Summons To The Sea Palace enters, if it granted reprieve, create a 1/1 blue Fish creature token with flying.
+Enchanted creature loses all abilities and is a 1/1 Zombie. => Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+Enchant creature
+Enchanted creature loses all abilities and is a 1/1 Zombie.
+
+Puppet-String Denial
+
+Hisa, Between Land And Sea
+rules_text: Spells you cast have “Kicker—{UR}, Shuffle two cards from your graveyard into your library” and “Kicker—{1}{U}{R}, Shuffle four cards from your graveyard into your library.”
+Whenever you cast an instant or sorcery spell, copy it for each time it was kicked. You may choose new targets for the copies. => Spells you cast have “Kicker—{UR}, Shuffle two cards from your graveyard into your library” and “Kicker—{1}{U}{R}, Shuffle four cards from your graveyard into your library.” [i](These don't activate the card's original kicker effects.)[/i]
+Whenever you cast an instant or sorcery spell, copy it for each time it was kicked. You may choose new targets for the copies.
+
+
+VERSION 9 CHANGELOG
 ====================
 
 

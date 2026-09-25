@@ -15,7 +15,7 @@
             "number": 42,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]\nEnchant creature\nWhen Summons To The Sea Palace enters, if it granted reprieve, create a 1/1 blue Fish creature token with flying.\nEnchanted creature loses all abilities and is a 1/1 Zombie.",
+            "rules_text": "Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]\nEnchant creature\nEnchanted creature loses all abilities and is a 1/1 Zombie.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -236,7 +236,7 @@
             "alias": "",
             "position": "10",
             "rotated": false,
-            "notes": "!tag Junko\n"
+            "notes": "!tag Junko"
         },
         {
             "card_name": "Tree Of Pestilence",
@@ -498,7 +498,7 @@
             "number": 114,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "Spells you cast have \u201cKicker\u2014{UR}, Shuffle two cards from your graveyard into your library\u201d and \u201cKicker\u2014{1}{U}{R}, Shuffle four cards from your graveyard into your library.\u201d\nWhenever you cast an instant or sorcery spell, copy it for each time it was kicked. You may choose new targets for the copies.",
+            "rules_text": "Spells you cast have \u201cKicker\u2014{UR}, Shuffle two cards from your graveyard into your library\u201d and \u201cKicker\u2014{1}{U}{R}, Shuffle four cards from your graveyard into your library.\u201d [i](These don't activate the card's original kicker effects.)[/i]\nWhenever you cast an instant or sorcery spell, copy it for each time it was kicked. You may choose new targets for the copies.",
             "flavor_text": "[i]For Kamatsu's revolt to succeed, he would have to acknowledge the daughter of his wild years ashore.[/i]",
             "pt": "3/1",
             "special_text": "",
@@ -509,7 +509,7 @@
             "alias": "",
             "position": "23",
             "rotated": false,
-            "notes": "!tag hisa"
+            "notes": "!tag hisa\n\nSpells you cast have \u201cKicker\u2014U/R, Shuffle two cards from your graveyard into your library\u201d and \u201cKicker\u20141UR, Shuffle four cards from your graveyard into your library.\u201d\nWhenever you cast an instant or sorcery spell, copy it for each time it was kicked. You may choose new targets for the copies."
         },
         {
             "card_name": "Visited Upon The Child",

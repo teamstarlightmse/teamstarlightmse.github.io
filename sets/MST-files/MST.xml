@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Rural Dwellings, In Seafoam Mist</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-22</releasedate>
+			<releasedate>2026-09-25</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -13,7 +13,6 @@
 			<name>Summons To The Sea Palace</name>
 			<text>Reprieve (As this permanent enters, you may return a creature you control without reprieve to its owner&apos;s hand.)
 Enchant creature
-When Summons To The Sea Palace enters, if it granted reprieve, create a 1/1 blue Fish creature token with flying.
 Enchanted creature loses all abilities and is a 1/1 Zombie.</text>
 			<set rarity="common" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/0.png" num="42">MST</set>
 			<prop>
@@ -422,7 +421,7 @@ When Namazu Leeguide leaves the battlefield, put its counters on target creature
 		</card>
 		<card>
 			<name>Hisa, Between Land And Sea</name>
-			<text>Spells you cast have &quot;Kicker—{UR}, Shuffle two cards from your graveyard into your library&quot; and &quot;Kicker—{1}{U}{R}, Shuffle four cards from your graveyard into your library.&quot;
+			<text>Spells you cast have &quot;Kicker—{UR}, Shuffle two cards from your graveyard into your library&quot; and &quot;Kicker—{1}{U}{R}, Shuffle four cards from your graveyard into your library.&quot; (These don&apos;t activate the card&apos;s original kicker effects.)
 Whenever you cast an instant or sorcery spell, copy it for each time it was kicked. You may choose new targets for the copies.</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/MST-files/img/23.png" num="114">MST</set>
 			<prop>
