@@ -3485,7 +3485,7 @@
             "cost": "",
             "rules_text": "",
             "flavor_text": "[i][/i]",
-            "pt": "",
+            "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "MST",
@@ -3644,5 +3644,5 @@
             "notes": "!token The Heavenly Palace"
         }
     ],
-    "version": 10
+    "version": 11
 }

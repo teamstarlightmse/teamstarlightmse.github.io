@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Rural Dwellings, In Seafoam Mist</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-25</releasedate>
+			<releasedate>2026-09-26</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -2728,6 +2728,7 @@ Discard a card, then draw two cards. (Then shuffle this card into its owner&apos
 				<cmc>0</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
