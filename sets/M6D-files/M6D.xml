@@ -5,7 +5,7 @@
 			<name>M6D</name>
 			<longname>Mysticism of the Sixth Day</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-27</releasedate>
+			<releasedate>2026-09-28</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -4001,8 +4001,8 @@ When this creature dies, create a 0/0 black Demon creature token and put its cou
 		<card>
 			<name>The Orchard</name>
 			<text>This land enters with two depletion counters and enters tapped unless you pay 2 life.
-{T}: Add {U}.
-{T}, Remove a depletion counter from this land: Add {R} or {G}.</text>
+{T}: Add {G}.
+{T}, Remove a depletion counter from this land: Add {U} or {R}.</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/M6D-files/img/230.png" num="228">M6D</set>
 			<prop>
 				<layout>normal</layout>
@@ -4018,8 +4018,8 @@ When this creature dies, create a 0/0 black Demon creature token and put its cou
 		<card>
 			<name>The Study Hall</name>
 			<text>This land enters with two depletion counters and enters tapped unless you pay 2 life.
-{T}: Add {G}.
-{T}, Remove a depletion counter from this land: Add {W} or {U}.</text>
+{T}: Add {U}.
+{T}, Remove a depletion counter from this land: Add {G} or {W}.</text>
 			<set rarity="rare" picurl="https://teamstarlightmse.github.io/sets/M6D-files/img/231.png" num="232">M6D</set>
 			<prop>
 				<layout>normal</layout>

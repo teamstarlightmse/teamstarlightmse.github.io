@@ -1,4 +1,32 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+The Orchard
+rules_text: This land enters with two depletion counters and enters tapped unless you pay 2 life.
+{T}: Add {U}.
+{T}, Remove a depletion counter from this land: Add {R} or {G}. => This land enters with two depletion counters and enters tapped unless you pay 2 life.
+{T}: Add {G}.
+{T}, Remove a depletion counter from this land: Add {U} or {R}.
+
+The Study Hall
+rules_text: This land enters with two depletion counters and enters tapped unless you pay 2 life.
+{T}: Add {G}.
+{T}, Remove a depletion counter from this land: Add {W} or {U}. => This land enters with two depletion counters and enters tapped unless you pay 2 life.
+{T}: Add {U}.
+{T}, Remove a depletion counter from this land: Add {G} or {W}.
+
+
+type: Artifact — Book => Token Creature
+cost: {1}{W} => 
+rules_text: When this artifact enters, exile target creature with mana value 3 or less until this artifact leaves the battlefield.
+{1}{W}: Exile target creature you control until this artifact leaves the battlefield.
+{3}{W}: Exile this artifact, then return it to the battlefield under your control. => 
+pt:  => 2/2
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
