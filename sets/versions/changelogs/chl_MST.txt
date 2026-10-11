@@ -1,4 +1,52 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 13 CHANGELOG
+====================
+
+
+
+Herb Sages
+rules_text: {T}: Untap up to two target permanents not named Herb Sages that don't share a card type. Activate only once each turn. => {T}: Untap up to two target permanents that don't share a card type. Activate only once each turn.
+
+
+VERSION 12 CHANGELOG
+====================
+
+
+
+Onamazu
+rules_text: Reach
+When Onamazu enters, draw four cards.
+Whenever you cast a spell, discard a card. => Reach
+When Onamazu enters, draw three cards.
+Whenever you cast a spell, discard a card.
+
+Misato, Chief Prosecutor
+rules_text: Flash
+When Misato enters, exile target spell. For as long as it remains exiled, its owner may cast it. 
+Players can't cast spells from exile. => Flash
+When Misato enters, return target noncreature spell to its owner's hand.
+Noncreature spells cost {1} more to cast.
+pt: 3/1 => 2/2
+
+Mikayoshi and Toru
+rules_text: You may cast copies of creature cards in your graveyard with mana value 1 or greater that died this turn.
+Whenever a token you control dies, each opponent loses 2 life. => You may cast copies of creature cards in your graveyard with mana value 1 or greater that died this turn. [i](A copy of a permanent spell becomes a token.)[/i]
+
+Herb Sages
+rules_text: {T}: Untap up to two target permanents not named Herb Sages that don't share a card type. => {T}: Untap up to two target permanents not named Herb Sages that don't share a card type. Activate only once each turn.
+
+Yokai Night Market
+rules_text: At the beginning of your upkeep, choose one or more—
+• Surveil 1. Create a Treasure token. You lose 1 life.
+• You draw a card and lose 2 life.
+• Return a creature card with mana value 3 or less from your graveyard to the battlefield. You lose 3 life. => At the beginning of your upkeep, put one or two deal counters on Yokai Night Market, then choose X, where X is the number of deal counters on it. You may choose the same mode more than once.
+• Surveil 1. Create a Treasure token. You lose 1 life.
+• You draw a card and lose 2 life.
+• Return a creature card with mana value 3 or less from your graveyard to the battlefield. You lose 3 life.
+
+Highest Peak
+
+
+VERSION 11 CHANGELOG
 ====================
 
 
