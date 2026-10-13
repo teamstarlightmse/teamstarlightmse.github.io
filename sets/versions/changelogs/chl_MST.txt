@@ -1,4 +1,14 @@
-﻿VERSION 13 CHANGELOG
+﻿VERSION 14 CHANGELOG
+====================
+
+
+
+Courtyard Clowns
+cost: {1}{W} => {3}{W}
+pt: 1/1 => 2/2
+
+
+VERSION 13 CHANGELOG
 ====================
 
 
